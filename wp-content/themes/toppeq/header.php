@@ -46,7 +46,7 @@
 					<a class="nav-link" href="#">Contact Us</a>
 				</li>
 			</ul>
-			<button class="btn-reset menu-close-btn f-35">X</button>
+			<button class="btn-reset menu-close-btn f-35"><img class="" width="35" src="<?php echo get_template_directory_uri(); ?>/images/x-close-icon-white.png"></button>
 		</div>
 	</nav>
 	
