@@ -50,4 +50,4 @@
 		</div>
 	</nav>
 	
-	<div class="site-wrapper">
+	<div id="content">

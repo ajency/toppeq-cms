@@ -32,6 +32,53 @@ $(document).ready(function () {
 		    }
 		  ]
 	});
+	var animateHTML = function() {
+	var elems, elemTop,
+	windowHeight
+
+	var init = function() {
+		elems = document.getElementsByClassName("hidden");
+	 	elemTop = document.getElementsByClassName("hidden_block");
+		windowHeight = window.innerHeight;
+		_addEventHandlers();
+	}
+
+	var _addEventHandlers = function() {
+		window.addEventListener("scroll", _checkPosition);
+		window.addEventListener("resize", init)
+	}
+	var _checkPosition = function() {
+	for ( var i = 0; i < elems.length; i++ ) {
+		var posFromTop = elems[i].getBoundingClientRect().top;
+		if ( posFromTop - windowHeight <= 0) { 
+			elems[i].className = elems[i].className.replace( "hidden", "in-left" );
+		}
+	}    
+	for ( var i = 0; i < elemTop.length; i++ ) {
+		var posFromTop = elemTop[i].getBoundingClientRect().top;
+		if ( posFromTop - windowHeight <= 0) { 
+			elemTop[i].className = elemTop[i].className.replace( "hidden_block", "in-top" );
+		}
+	}   
+}
+
+  return {
+    init: init
+  }
+}
+
+animateHTML().init();
+
+	$('.homeSlider').slick({
+		dots: true,
+		infinite: true,
+		speed: 500,
+		slidesToShow:1,
+		slidesToScroll: 1,
+		arrows: true,
+		prevArrow:'<button type="button" class="slick-prev"><i class="fa fa-angle-left"></i></button>',
+		nextArrow:'<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
+	});
 
     $(".hamburger-menu").click(function(e) {
 		e.preventDefault();

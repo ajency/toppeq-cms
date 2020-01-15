@@ -1,3 +1,4 @@
+</div>
 <footer>
     <div class="container mt-2 py-2 w-980">
     	<div class="row align-items-center">

@@ -26,7 +26,7 @@ if (have_posts()) :
                     <picture>
                         <source media="(orientation: landscape)" srcset="<?php echo get_template_directory_uri(); ?>/images/Slider_2.png">
                         <source media="(orientation: portrait)" srcset="<?php echo get_template_directory_uri(); ?>/images/MobileSlider2.png">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/Slider_2.png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/Sider_1.png">
                     </picture>
                     <div class="item-text">
                         <h1>SMARTLY TRACK <br >YOUR MONEY.</h1>
@@ -42,22 +42,22 @@ if (have_posts()) :
             <section class="why-toppeq mt-5 mb-3" id="why-toppeq-section">
                 <div class="container">
                     <div class="content w-980">
-                        <div class="heading">
+                        <div class="heading hidden">
                             <h2 class="item-heading py-2 font-weight-bold"> Why TOPPEQ</h2>
-                            <p class="sub-text f-22"> Toppeq helps investors and startups keep track of their money. Our machine learning algorithms and decision support systems provide investors with both the big picture and the nitty gritty , and enable startups to find  out what they are spending their money on and what it is doing for them.</p>
+                            <p class="sub-text hidden f-22"> Toppeq helps investors and startups keep track of their money. Our machine learning algorithms and decision support systems provide investors with both the big picture and the nitty gritty , and enable startups to find  out what they are spending their money on and what it is doing for them.</p>
                         </div>
                         <div class="row justify-content-left">
-                            <div class="col-md-5 col-sm-12 text-block mr-2">
+                            <div class="col-md-5 col-sm-12 hidden text-block mr-2" data-position="left">
                                 <h3 class="item-heading py-2 font-weight-bold"> For Investors </h3>
                                 <p class=""> Toppeq's platform helps venture capitalists, private equity firms, and angel investors go granular on both their investment portfolio and use our dynamically generated sector-specific metrics to glean rapidly actionable insights</p>
                             </div>
-                            <div class="col-md-5 col-sm-12 text-block">
+                            <div class="col-md-5 col-sm-12 hidden text-block">
                                 <h3 class="item-heading py-2 font-weight-bold"> For Startups </h3>
                                 <p class=""> We use pattern recognition to dissect thousands of shareholder agreements and employ big data to red flag contractual trapdoors and ensure parity between all parties.</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-10 col-12 text-block  pr-2">
+                            <div class="col-lg-10 col-12 hidden text-block pr-2">
                                 <h3 class="item-heading py-2 font-weight-bold"> For Law and Accounting Firms </h3>
                                 <p class=""> The constantly and consistently updated data at our disposal- from shareholder agreements to cap tables -enables law and accounting firms to deliver the right and promt advice to their clients</p>
                             </div>
@@ -70,7 +70,7 @@ if (have_posts()) :
             <section class="container mb-8">
                 <h2 class="text-center my-3 font-weight-bold"> Our Services </h2>
                 <div class="pageSlider w-980 my-4">
-                    <div class="item">
+                    <div class="item hidden_block">
                         <div class="thumb">
                             <picture>
                                 <source media="(orientation: landscape)" srcset="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
@@ -85,7 +85,7 @@ if (have_posts()) :
                             </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item hidden_block">
                         <div class="thumb">
                             <picture>
                                 <source media="(orientation: landscape)" srcset="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
@@ -100,7 +100,7 @@ if (have_posts()) :
                             </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item hidden_block">
                         <div class="thumb">
                             <picture>
                                 <source media="(orientation: landscape)" srcset="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
@@ -115,7 +115,7 @@ if (have_posts()) :
                             </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item hidden_block">
                         <div class="thumb">
                             <picture>
                                 <source media="(orientation: landscape)" srcset="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
@@ -134,7 +134,7 @@ if (have_posts()) :
             </section>
 
             <section class="container w-980">
-                <div class="form my-6">
+                <div class="form my-6 hidden_block">
                     <div class="row">
                         <div class="col-md-6 p-md-4 form-block">
                             <h2 class="py-md-2 py-1 mb-0 font-weight-bold"> What about the Pricing? </h2>
