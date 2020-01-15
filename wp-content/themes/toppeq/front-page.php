@@ -13,11 +13,11 @@ if (have_posts()) :
                         <source media="(orientation: portrait)" srcset="<?php echo get_template_directory_uri(); ?>/images/MobileSlider1.png">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/Sider_1.png">
                     </picture>
-                    <div class="item-text">
+                    <div class="item-text in-left">
                         <h1 class="">BRINGING CLARITY <br>TO EQUITY.</h1>
                         <a href="#why-toppeq-section">Learn More</a>
                     </div>
-                    <div class="item-count">
+                    <div class="item-count in-bottom">
                         <hr></hr>
                         <h1 class="slide-count">01</h1>
                     </div>
@@ -28,11 +28,11 @@ if (have_posts()) :
                         <source media="(orientation: portrait)" srcset="<?php echo get_template_directory_uri(); ?>/images/MobileSlider2.png">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/Sider_1.png">
                     </picture>
-                    <div class="item-text">
+                    <div class="item-text in-left">
                         <h1>SMARTLY TRACK <br >YOUR MONEY.</h1>
                         <a href="#why-toppeq-section">Learn More</a>
                     </div>
-                    <div class="item-count">
+                    <div class="item-count in-bottom">
                         <hr></hr>
                         <h1 class="slide-count">02</h1>
                     </div>

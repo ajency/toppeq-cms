@@ -162,3 +162,5 @@ function cc_customize_register($wp_customize) {
 }
 
 add_action("customize_register", "cc_customize_register");
+
+show_admin_bar(false);

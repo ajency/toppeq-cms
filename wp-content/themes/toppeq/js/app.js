@@ -3,9 +3,22 @@ $(document).ready(function () {
     $('.mainSlider').slick({
         slidesToScroll: 1,
         arrows: false,
-        dots: true        
-    });
-    
+		dots: true,
+		// draggable: false,
+		swipe: false        
+	});
+	
+	$(".mainSlider").on("beforeChange", function() {
+		$('.item-text').removeClass('in-left');
+		$('.item-count').removeClass('in-bottom');
+		$('.item picture').removeClass('in');
+		setTimeout(function() {
+			$('.item-text').addClass('in-left');
+			$('.item-count').addClass('in-bottom');
+			$('.item picture').addClass('in');
+		}, 10);
+	});
+	
 	$('.pageSlider').slick({
 		dots: true,
 		infinite: true,
@@ -72,7 +85,7 @@ animateHTML().init();
 	$('.homeSlider').slick({
 		dots: true,
 		infinite: true,
-		speed: 500,
+		speed: 1000,
 		slidesToShow:1,
 		slidesToScroll: 1,
 		arrows: true,
