@@ -261,7 +261,7 @@ hr.line-separator{
         opacity:1;
     }
 }
-.hidden , .hidden_block {
+.hidden , .hidden_block , .hidden_right {
   opacity: 0;
 }
 
@@ -270,50 +270,50 @@ hr.line-separator{
     animation-name: fadeInLeft;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-animation-duration: 0.6s;
-    animation-duration: 0.6s;
-    -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
 }
 .in-right {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-animation-duration: 0.6s;
-    animation-duration: 0.6s;
-    -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
 }
 .in-top {
     -webkit-animation-name: fadeInTop;
     animation-name: fadeInTop;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-animation-duration: 0.6s;
-    animation-duration: 0.6s;
-    -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
 }
 .in-bottom {
     -webkit-animation-name: fadeInBottom;
     animation-name: fadeInBottom;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-animation-duration: 0.6s;
-    animation-duration: 0.6s;
-    -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
 }
 .in{
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-animation-duration: 0.6s;
-    animation-duration: 0.6s;
-    -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
 }
 .why-toppeq{
     background: url('../images/why-toppeq.png') no-repeat;
@@ -407,10 +407,11 @@ hr.line-separator{
         left: 0;
         h2{
             text-align: left;
-            margin: 0 20px;
+            margin-left: 70px;
             font-size: 32px;
             @media (max-width: 991px){
-                font-size: 25px;
+                margin-left: 0;
+                font-size: 24px;
             }
             @media (max-width: 767px){
                 margin: 0 0;
@@ -421,7 +422,7 @@ hr.line-separator{
             border-radius: 0px 30px 30px 0px;
             border: 1px solid black;
             border-left: 0;
-            padding: 15px 40px;
+            padding: 15px 30px 15px 88px;
             font-size: 16px;
             .circle{
                 border: 1px solid $dark;
@@ -430,7 +431,7 @@ hr.line-separator{
                 margin-left: 15px;
             }
             @media (max-width: 991px){
-                margin: 20px 0 40px;
+                margin: 10px 0 40px;
                 padding: 10px 20px;
                 font-size: 14px;
             } 
@@ -508,8 +509,11 @@ hr.line-separator{
                     display: block;
                     clear: both;
                 }
-                @media (max-width: 575px){
-                    height: 275px;
+                @media (min-width: 1024px){
+                    height: 600px;
+                }
+                @media (max-width: 475px){
+                    height: 330px;
                 }
                 &.first{
                     @media (max-width: 767px){

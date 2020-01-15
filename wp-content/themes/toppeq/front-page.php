@@ -6,9 +6,10 @@ if (have_posts()) :
     while (have_posts()) :
         the_post();
         ?>
-			<div class="mainSlider">
+			
+            <div class="mainSlider">
                 <div class="item a">
-                    <picture>
+                    <picture class="in">
                         <source media="(orientation: landscape)" srcset="<?php echo get_template_directory_uri(); ?>/images/Sider_1.png">
                         <source media="(orientation: portrait)" srcset="<?php echo get_template_directory_uri(); ?>/images/MobileSlider1.png">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/Sider_1.png">
@@ -23,10 +24,10 @@ if (have_posts()) :
                     </div>
                 </div>
                 <div class="item b">
-                    <picture>
+                    <picture class="in">
                         <source media="(orientation: landscape)" srcset="<?php echo get_template_directory_uri(); ?>/images/Slider_2.png">
                         <source media="(orientation: portrait)" srcset="<?php echo get_template_directory_uri(); ?>/images/MobileSlider2.png">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/Sider_1.png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/Slider_2.png">
                     </picture>
                     <div class="item-text in-left">
                         <h1>SMARTLY TRACK <br >YOUR MONEY.</h1>
@@ -68,7 +69,7 @@ if (have_posts()) :
 
             <hr class="seperator container my-4">
             <section class="container mb-8">
-                <h2 class="text-center my-3 font-weight-bold"> Our Services </h2>
+                <h2 class="text-center my-3 font-weight-bold hidden_block"> Our Services </h2>
                 <div class="pageSlider w-980 my-4">
                     <?php
                         $args = array(
@@ -87,7 +88,7 @@ if (have_posts()) :
                                         <picture>
                                             <source media="(orientation: landscape)" srcset="<?php the_post_thumbnail_url(''); ?>">
                                             <source media="(orientation: portrait)" srcset="<?php the_post_thumbnail_url(''); ?>">
-                                            <img src="">
+                                            <img src="<?php the_post_thumbnail_url(''); ?>" class="" alt="<?php the_title();?>">
                                         </picture>
                                         <div class="overlay">
                                             <a href="#">

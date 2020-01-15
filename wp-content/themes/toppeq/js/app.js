@@ -4,8 +4,12 @@ $(document).ready(function () {
         slidesToScroll: 1,
         arrows: false,
 		dots: true,
-		//draggable: false,
-		swipe: false        
+		infinite: true,
+		speed: 1000,
+		fade: true,
+		cssEase: 'linear',
+		// autoplay: true,
+		//swipe: false        
 	});
 	
 	$(".mainSlider").on("beforeChange", function() {
@@ -16,6 +20,14 @@ $(document).ready(function () {
 			$('.item-text').addClass('in-left');
 			$('.item-count').addClass('in-bottom');
 			$('.item picture').addClass('in');
+		}, 10);
+	});
+	$(".homeSlider").on("beforeChange", function() {
+		$('.block').removeClass('in-left');
+		$('img').removeClass('in-right');
+		setTimeout(function() {
+			$('.block').addClass('in-left');
+			$('img').addClass('in-right');
 		}, 10);
 	});
 	
@@ -46,12 +58,13 @@ $(document).ready(function () {
 		  ]
 	});
 	var animateHTML = function() {
-	var elems, elemTop,
+	var elems, elemTop,elemRight,
 	windowHeight
 
 	var init = function() {
 		elems = document.getElementsByClassName("hidden");
 	 	elemTop = document.getElementsByClassName("hidden_block");
+	 	elemRight = document.getElementsByClassName("hidden_right");
 		windowHeight = window.innerHeight;
 		_addEventHandlers();
 	}
@@ -71,6 +84,12 @@ $(document).ready(function () {
 		var posFromTop = elemTop[i].getBoundingClientRect().top;
 		if ( posFromTop - windowHeight <= 0) { 
 			elemTop[i].className = elemTop[i].className.replace( "hidden_block", "in-top" );
+		}
+	} 
+	for ( var i = 0; i < elemRight.length; i++ ) {
+		var posFromTop = elemRight[i].getBoundingClientRect().top;
+		if ( posFromTop - windowHeight <= 0) { 
+			elemRight[i].className = elemRight[i].className.replace( "hidden_right", "in-right" );
 		}
 	}   
 }
