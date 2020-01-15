@@ -70,66 +70,41 @@ if (have_posts()) :
             <section class="container mb-8">
                 <h2 class="text-center my-3 font-weight-bold"> Our Services </h2>
                 <div class="pageSlider w-980 my-4">
-                    <div class="item hidden_block">
-                        <div class="thumb">
-                            <picture>
-                                <source media="(orientation: landscape)" srcset="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
-                                <source media="(orientation: portrait)" srcset="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
-                            </picture>
-                            <div class="overlay">
-                                <a href="#">
-                                    <i class="flaticon-graph"></i>
-                                    <h4 class="f-18">Organized Cap Table Management</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item hidden_block">
-                        <div class="thumb">
-                            <picture>
-                                <source media="(orientation: landscape)" srcset="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
-                                <source media="(orientation: portrait)" srcset="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
-                            </picture>
-                            <div class="overlay">
-                                <a href="#">
-                                    <i class="flaticon-graph"></i>
-                                    <h4 class="f-18">Due Diligence And Valuations</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item hidden_block">
-                        <div class="thumb">
-                            <picture>
-                                <source media="(orientation: landscape)" srcset="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
-                                <source media="(orientation: portrait)" srcset="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
-                            </picture>
-                            <div class="overlay">
-                                <a href="#">
-                                    <i class="flaticon-graph"></i>
-                                    <h4 class="f-18">Working Capital Management</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item hidden_block">
-                        <div class="thumb">
-                            <picture>
-                                <source media="(orientation: landscape)" srcset="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
-                                <source media="(orientation: portrait)" srcset="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/slider-img.png">
-                            </picture>
-                            <div class="overlay">
-                                <a href="#">
-                                    <i class="flaticon-graph"></i>
-                                    <h4 class="f-18">Legal And Secretarial Services</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                        $args = array(
+                            'post_type' => 'services',
+                            'posts_per_page' => -1,
+		                    'post_status' => 'publish',
+                        );
+                        
+                        $services = new WP_Query( $args );
+                        if( $services->have_posts() ) {
+                            while( $services->have_posts() ) {
+                                $services->the_post();
+                                ?>
+                                <div class="item hidden_block">
+                                    <div class="thumb">
+                                        <picture>
+                                            <source media="(orientation: landscape)" srcset="<?php the_post_thumbnail_url(''); ?>">
+                                            <source media="(orientation: portrait)" srcset="<?php the_post_thumbnail_url(''); ?>">
+                                            <img src="">
+                                        </picture>
+                                        <div class="overlay">
+                                            <a href="#">
+                                                <i class="flaticon-graph"></i>
+                                                <h4 class="f-18"><?php the_title();?></h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <?php
+                            }
+                        }
+                        else {
+                            echo 'Oh ohm no services!';
+                        }
+                        wp_reset_query();
+                    ?>
                 </div>
             </section>
 
@@ -152,6 +127,7 @@ if (have_posts()) :
             </section>
         <?php
     endwhile;
+    wp_reset_query();
 endif;
 ?>
 

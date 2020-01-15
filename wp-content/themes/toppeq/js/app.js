@@ -4,7 +4,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         arrows: false,
 		dots: true,
-		// draggable: false,
+		//draggable: false,
 		swipe: false        
 	});
 	

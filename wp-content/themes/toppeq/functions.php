@@ -164,3 +164,20 @@ function cc_customize_register($wp_customize) {
 add_action("customize_register", "cc_customize_register");
 
 show_admin_bar(false);
+
+function create_posttype() { 
+  register_post_type( 'services',
+      array(
+          'labels' => array(
+              'name' => __( 'Services' ),
+              'singular_name' => __( 'Service' )
+          ),
+          'public' => true,
+          'has_archive' => true,
+          'supports'      => array( 'title', 'editor', 'thumbnail'),
+          'rewrite' => array('slug' => 'services'),
+      )
+  );
+}
+// Hooking up our function to theme setup
+add_action( 'init', 'create_posttype' );
