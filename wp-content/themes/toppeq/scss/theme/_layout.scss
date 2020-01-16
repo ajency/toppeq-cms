@@ -400,7 +400,8 @@ hr.line-separator{
 
 .homeSlider{   
     position: relative;
-    margin-bottom: 150px;
+    margin-top: 80px;
+    margin-bottom: 180px;
     .block{
         position: absolute;
         top: 36%;  
@@ -487,13 +488,13 @@ hr.line-separator{
         &-next{
             right: 4%;
             @media(max-width: 767px){
-                right: 20%;
+                right: 8%;
             }
         }
         &-prev{
             right: 12%;
             @media(max-width: 767px){
-                right: 40%;
+                right: 30%;
             }
         }
         &-slide{
@@ -503,17 +504,17 @@ hr.line-separator{
             img{
                 float: right;
                 max-width: 100% !important;
-                height: 400px;
+                height: 100vh;
                 &:after{
                     content: '';
                     display: block;
                     clear: both;
                 }
                 @media (min-width: 1024px){
-                    height: 600px;
+                    height: 60vh;
                 }
-                @media (max-width: 475px){
-                    height: 330px;
+                @media (max-width: 575px){
+                    height: 40vh;
                 }
                 &.first{
                     @media (max-width: 767px){
@@ -523,6 +524,10 @@ hr.line-separator{
                 }
             }
         }
+    }
+    @media (max-width: 767px){
+        margin-top: 50px;
+        margin-bottom: 150px;
     }
 }
 .block{
