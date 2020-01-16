@@ -5,62 +5,66 @@ get_header();
 if (have_posts()) :
     while (have_posts()) :
         the_post();
-        ?>
-			
-            <div class="mainSlider">
-                <div class="item a">
-                    <picture class="in">
-                        <source media="(orientation: landscape)" srcset="<?php echo get_template_directory_uri(); ?>/images/Sider_1.png">
-                        <source media="(orientation: portrait)" srcset="<?php echo get_template_directory_uri(); ?>/images/MobileSlider1.png">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/Sider_1.png">
-                    </picture>
-                    <div class="item-text in-left">
-                        <h1 class="">BRINGING CLARITY <br>TO EQUITY.</h1>
-                        <a href="#why-toppeq-section">Learn More</a>
-                    </div>
-                    <div class="item-count in-bottom">
-                        <hr></hr>
-                        <h1 class="slide-count">01</h1>
-                    </div>
+        ?>		
+            <?php if( have_rows('slider') ): ?>
+                <div class="mainSlider">
+                    <?php
+                        while ( have_rows('slider') ) : the_row();?>
+                            <?php 
+                                $class="";
+                                $row_index = get_row_index(); 
+                                if($row_index == 1) {
+                                    $class = "a";
+                                }
+                            ?>
+                            <div class="item <?php echo $class;?>">
+                                <picture class="in">
+                                    <source media="(orientation: landscape)" srcset="<?php the_sub_field('slide_image');?>">
+                                    <source media="(orientation: portrait)" srcset="<?php the_sub_field('slide_mobile_image');?>">
+                                    <img src="<?php the_sub_field('slide_image');?>">
+                                </picture>
+                                <div class="item-text in-left">
+                                    <h1 class=""><?php the_sub_field('slide_title');?></h1>
+                                    <a href="#why-toppeq-section"><?php the_sub_field('button_text');?></a>
+                                </div>
+                                <div class="item-count in-bottom">
+                                    <hr></hr>
+                                    <h1 class="slide-count"><?php the_sub_field('slide_number');?></h1>
+                                </div>
+                            </div>
+
+                            <?php
+                        endwhile;                    
+                    ?>
                 </div>
-                <div class="item b">
-                    <picture class="in">
-                        <source media="(orientation: landscape)" srcset="<?php echo get_template_directory_uri(); ?>/images/Slider_2.png">
-                        <source media="(orientation: portrait)" srcset="<?php echo get_template_directory_uri(); ?>/images/MobileSlider2.png">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/Slider_2.png">
-                    </picture>
-                    <div class="item-text in-left">
-                        <h1>SMARTLY TRACK <br >YOUR MONEY.</h1>
-                        <a href="#why-toppeq-section">Learn More</a>
-                    </div>
-                    <div class="item-count in-bottom">
-                        <hr></hr>
-                        <h1 class="slide-count">02</h1>
-                    </div>
-                </div>
-            </div>
+            <?php 
+                else :
+                endif; 
+            ?>
 
             <section class="why-toppeq mt-5 mb-3" id="why-toppeq-section">
                 <div class="container">
                     <div class="content w-980">
                         <div class="heading hidden_block">
-                            <h2 class="item-heading py-2 font-weight-bold"> Why TOPPEQ</h2>
-                            <p class="sub-text f-22"> Toppeq helps investors and startups keep track of their money. Our machine learning algorithms and decision support systems provide investors with both the big picture and the nitty gritty , and enable startups to find  out what they are spending their money on and what it is doing for them.</p>
+                            <h2 class="item-heading py-2 font-weight-bold"><?php the_field('section_title');?></h2>
+                            <div class="sub-text f-22">
+                                <?php the_field('section_description');?>
+                            </div>
                         </div>
                         <div class="row justify-content-left">
                             <div class="col-md-5 col-sm-12 hidden_block text-block mr-2" data-position="left">
-                                <h3 class="item-heading py-2 font-weight-bold"> For Investors </h3>
-                                <p class=""> Toppeq's platform helps venture capitalists, private equity firms, and angel investors go granular on both their investment portfolio and use our dynamically generated sector-specific metrics to glean rapidly actionable insights</p>
+                                <h3 class="item-heading py-2 font-weight-bold"><?php the_field('left_section_title');?></h3>
+                                <p class=""><?php the_field('left_section_description');?></p>
                             </div>
                             <div class="col-md-5 col-sm-12 hidden_block text-block">
-                                <h3 class="item-heading py-2 font-weight-bold"> For Startups </h3>
-                                <p class=""> We use pattern recognition to dissect thousands of shareholder agreements and employ big data to red flag contractual trapdoors and ensure parity between all parties.</p>
+                                <h3 class="item-heading py-2 font-weight-bold"><?php the_field('right_section_title');?></h3>
+                                <p class=""><?php the_field('right_section_description');?></p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-10 col-12 hidden_block text-block pr-2">
-                                <h3 class="item-heading py-2 font-weight-bold"> For Law and Accounting Firms </h3>
-                                <p class=""> The constantly and consistently updated data at our disposal- from shareholder agreements to cap tables -enables law and accounting firms to deliver the right and promt advice to their clients</p>
+                                <h3 class="item-heading py-2 font-weight-bold"><?php the_field('bottom_section_title');?></h3>
+                                <p class=""><?php the_field('bottom_section_description');?></p>
                             </div>
                         </div>
                     </div>
@@ -102,19 +106,28 @@ if (have_posts()) :
                             }
                         }
                         else {
-                            echo 'Oh ohm no services!';
+                            echo 'No services!';
                         }
                         wp_reset_query();
                     ?>
                 </div>
             </section>
+            
+            <?php 
+                $ptitle = get_field('p_section_title');
+                $pdesc = get_field('p_section_description');
+            ?>
 
             <section class="container w-980">
                 <div class="form my-6 hidden_block">
                     <div class="row">
                         <div class="col-md-6 p-md-4 form-block">
-                            <h2 class="py-md-2 py-1 mb-0 font-weight-bold"> What about the Pricing? </h2>
-                            <h4 class="pb-md-2 pb-1 font-weight-300"> Fill out the form and we will get back to you. </h4>
+                            <?php if($ptitle) { ?>
+                                <h2 class="py-md-2 py-1 mb-0 font-weight-bold"><?php echo $ptitle;?></h2>
+                            <?php } ?>
+                            <?php if($pdesc) { ?>
+                                <h4 class="pb-md-2 pb-1 font-weight-300"><?php echo $pdesc;?></h4>
+                            <?php } ?>
                         </div>
                         <div class="col-md-6 p-md-3 form-block">
                             <div class="form-field mb-0">
