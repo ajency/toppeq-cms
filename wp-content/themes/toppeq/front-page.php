@@ -135,7 +135,7 @@ if (have_posts()) :
             </section>
 
             <section class="in-news-section">
-                <div class="in-news my-6 py-6" style="background-image: url(<?php the_field('background_image'); ?>); background-repeat: no-repeat;" >
+                <div class="in-news my-6 py-6" style="background-image: url(<?php the_field('background_image'); ?>); background-repeat: no-repeat; background-size: cover;" >
                         <div class="news-block container w-980 text-center hidden_block">
                             <h2 class="pt-3 pb-2  mb-0 font-weight-bold text-white"><?php the_field('news_title');?> </h2>
                             <p class="pb-md-2 pb-1 font-weight-300 text-white w-780"><?php the_field('news_description');?> </p>
