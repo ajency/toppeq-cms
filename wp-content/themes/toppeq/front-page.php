@@ -71,15 +71,14 @@ if (have_posts()) :
                 </div>
             </section>
 
-            <hr class="seperator container my-4">
-            <section class="container mb-8">
-                <h2 class="text-center my-3 font-weight-bold hidden_block"> Our Services </h2>
-                <div class="pageSlider w-980 my-4">
+            <section>
+                <h2 class="item-heading text-uppercase px-2 py-2 font-weight-bold text-center hidden_block"> Our Services</h2>
+                <div class="homeSlider">
                     <?php
                         $args = array(
                             'post_type' => 'services',
                             'posts_per_page' => -1,
-		                    'post_status' => 'publish',
+                            'post_status' => 'publish',
                         );
                         
                         $services = new WP_Query( $args );
@@ -87,18 +86,20 @@ if (have_posts()) :
                             while( $services->have_posts() ) {
                                 $services->the_post();
                                 ?>
-                                <div class="item hidden_block">
-                                    <div class="thumb">
-                                        <picture>
-                                            <source media="(orientation: landscape)" srcset="<?php the_post_thumbnail_url(''); ?>">
-                                            <source media="(orientation: portrait)" srcset="<?php the_post_thumbnail_url(''); ?>">
-                                            <img src="<?php the_post_thumbnail_url(''); ?>" class="" alt="<?php the_title();?>">
-                                        </picture>
-                                        <div class="overlay">
-                                            <a href="#">
-                                                <i class="flaticon-graph"></i>
-                                                <h4 class="f-18"><?php the_title();?></h4>
-                                            </a>
+                                <div class="slider-element">
+                                    <div class="row mx-0">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 position-relative pl-sm-0 block-1">
+                                            <div class="block w-980 in-left">
+                                                <h2 class="item-heading text-uppercase px-2 py-2 font-weight-bold"> <?php the_field('serv_section_title');?></h2>
+                                                <button class="btn btn-outline action-btn"> <?php the_field('serv_section_btn');?> <span class="circle"><i class="fa fa-plus" aria-hidden="true"></i></span></button>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 block-2 in-right">
+                                            <picture>
+                                                <source media="(orientation: landscape)" srcset="<?php the_post_thumbnail_url(''); ?>">
+                                                <source media="(orientation: portrait)" srcset="<?php the_post_thumbnail_url(''); ?>">
+                                                <img src="<?php the_post_thumbnail_url(''); ?>" class="" alt="<?php the_title();?>">
+                                            </picture>
                                         </div>
                                     </div>
                                 </div>
