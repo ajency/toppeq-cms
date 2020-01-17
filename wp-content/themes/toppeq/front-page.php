@@ -113,6 +113,40 @@ if (have_posts()) :
                 </div>
             </section>
             
+
+            <section class="in-news-section">
+                <div class="in-news my-6 py-6" style="background-image: url(<?php the_field('background_image'); ?>); background-repeat: no-repeat;" >
+                        <div class="news-block container w-980 text-center hidden_block">
+                            <h2 class="pt-3 pb-2  mb-0 font-weight-bold text-white"><?php the_field('news_title');?> </h2>
+                            <p class="pb-md-2 pb-1 font-weight-300 text-white w-780"><?php the_field('news_description');?> </p>
+                        </div>
+                        <div class="our-partners container w-980 pt-3">
+                            <?php if( have_rows('logo') ): ?>
+                            <div class="row">
+                                <?php
+                                    while ( have_rows('logo') ) : the_row();?>
+                                        <?php 
+                                            $class="";
+                                            $row_index = get_row_index(); 
+                                            if($row_index == 1) {
+                                                $class = "c_l";
+                                            }
+                                        ?>
+                                    <div class="col-lg-2 col-6 hidden_block  <?php echo $class;?>">
+                                        <img src="<?php the_sub_field('client_logo');?>" class="p-1">
+                                    </div>
+                                <?php
+                                    endwhile;                    
+                                ?>
+                            </div>
+                        <?php 
+                            else :
+                            endif; 
+                        ?>
+                        </div>
+                    </div>
+            </section>
+
             <?php 
                 $ptitle = get_field('p_section_title');
                 $pdesc = get_field('p_section_description');

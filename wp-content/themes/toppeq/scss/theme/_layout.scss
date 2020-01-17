@@ -538,3 +538,27 @@ hr.line-separator{
         padding-right: 0;
     }
 }
+
+.in-news-section{
+    position: relative;
+    .c_l{
+        img{
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            display: block;
+            vertical-align: middle;
+        }
+    }
+    &:after{
+        content:'';
+        display: block;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        opacity: 0.32
+    }
+}
