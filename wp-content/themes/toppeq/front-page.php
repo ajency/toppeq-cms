@@ -42,7 +42,7 @@ if (have_posts()) :
                 endif; 
             ?>
 
-            <section class="why-toppeq mt-5 mb-3" id="why-toppeq-section">
+            <section class="why-toppeq my-5" id="why-toppeq-section">
                 <div class="container">
                     <div class="content w-980">
                         <div class="heading hidden_block">
@@ -73,7 +73,7 @@ if (have_posts()) :
 
             <section>
                 <h2 class="item-heading text-uppercase px-2 py-2 font-weight-bold text-center hidden_block"> Our Services</h2>
-                <div class="homeSlider">
+                <div class="homeSlider mt-1">
                     <?php
                         $args = array(
                             'post_type' => 'services',
@@ -89,13 +89,16 @@ if (have_posts()) :
                                 ?>
                                 <div class="slider-element">
                                     <div class="row mx-0">
-                                        <div class="col-lg-6 col-md-6 col-sm-12 position-relative pl-sm-0 block-1">
-                                            <div class="block w-980">
-                                                <h2 class="item-heading text-uppercase px-2 py-2 font-weight-bold"> <?php the_title();?></h2>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 position-relative pl-sm-0">
+                                            <div class="block w-980 pl-md-9 px-2">
+                                                <h2 class="item-heading text-uppercase pr-2 py-2 ml-0 font-weight-bold"> <?php the_title();?></h2>
+                                                <p class="f-14"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam
 
-                                                <?php if( have_rows('btn') ): ?>
+</p>
+
+                                                <?php if( have_rows('subtext') ): ?>
                                                         <?php
-                                                            while ( have_rows('btn') ) : the_row();?>
+                                                            while ( have_rows('subtext') ) : the_row();?>
                                                                 <?php 
                                                                     $class="";
                                                                     $row_index = get_row_index(); 
@@ -103,7 +106,7 @@ if (have_posts()) :
                                                                         $class = "a";
                                                                     }
                                                                 ?>
-                                                                    <button class="btn btn-outline action-btn"> <?php the_sub_field('serv_section_btn');?> <span class="circle"><i class="fa fa-plus" aria-hidden="true"></i></span></button>
+                                                                    <p class="f-14 pl-2"> <?php the_sub_field('serv_subtext');?> </p>
 
                                                             <?php
                                                             endwhile;                    
@@ -173,7 +176,7 @@ if (have_posts()) :
             ?>
 
             <section class="container w-980">
-                <div class="form my-6 hidden_block">
+                <div class="form mt-8 mb-6 hidden_block">
                     <div class="row">
                         <div class="col-md-6 p-md-4 form-block">
                             <?php if($ptitle) { ?>
