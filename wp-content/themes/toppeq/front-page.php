@@ -92,9 +92,6 @@ if (have_posts()) :
                                         <div class="col-lg-6 col-md-6 col-sm-12 position-relative pl-sm-0">
                                             <div class="block w-980 pl-md-9 px-2">
                                                 <h2 class="item-heading text-uppercase pr-2 py-2 ml-0 font-weight-bold"> <?php the_title();?></h2>
-                                                <p class="f-14"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam
-
-</p>
 
                                                 <?php if( have_rows('subtext') ): ?>
                                                         <?php
@@ -106,7 +103,7 @@ if (have_posts()) :
                                                                         $class = "a";
                                                                     }
                                                                 ?>
-                                                                    <p class="f-14 pl-2"> <?php the_sub_field('serv_subtext');?> </p>
+                                                                    <p class="f-14"> <?php the_sub_field('serv_subtext');?> </p>
 
                                                             <?php
                                                             endwhile;                    
