@@ -79,6 +79,7 @@ if (have_posts()) :
                             'post_type' => 'services',
                             'posts_per_page' => -1,
                             'post_status' => 'publish',
+                            'order' => 'ASC',
                         );
                         
                         $services = new WP_Query( $args );
@@ -89,16 +90,35 @@ if (have_posts()) :
                                 <div class="slider-element">
                                     <div class="row mx-0">
                                         <div class="col-lg-6 col-md-6 col-sm-12 position-relative pl-sm-0 block-1">
-                                            <div class="block w-980 in-left">
-                                                <h2 class="item-heading text-uppercase px-2 py-2 font-weight-bold"> <?php the_field('serv_section_title');?></h2>
-                                                <button class="btn btn-outline action-btn"> <?php the_field('serv_section_btn');?> <span class="circle"><i class="fa fa-plus" aria-hidden="true"></i></span></button>
+                                            <div class="block w-980">
+                                                <h2 class="item-heading text-uppercase px-2 py-2 font-weight-bold"> <?php the_title();?></h2>
+
+                                                <?php if( have_rows('btn') ): ?>
+                                                        <?php
+                                                            while ( have_rows('btn') ) : the_row();?>
+                                                                <?php 
+                                                                    $class="";
+                                                                    $row_index = get_row_index(); 
+                                                                    if($row_index == 1) {
+                                                                        $class = "a";
+                                                                    }
+                                                                ?>
+                                                                    <button class="btn btn-outline action-btn"> <?php the_sub_field('serv_section_btn');?> <span class="circle"><i class="fa fa-plus" aria-hidden="true"></i></span></button>
+
+                                                            <?php
+                                                            endwhile;                    
+                                                        ?>
+                                                <?php 
+                                                    else :
+                                                    endif; 
+                                                ?>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 block-2 in-right">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 block-2 block-2">
                                             <picture>
                                                 <source media="(orientation: landscape)" srcset="<?php the_post_thumbnail_url(''); ?>">
                                                 <source media="(orientation: portrait)" srcset="<?php the_post_thumbnail_url(''); ?>">
-                                                <img src="<?php the_post_thumbnail_url(''); ?>" class="" alt="<?php the_title();?>">
+                                                <img src="<?php the_post_thumbnail_url(''); ?>" class="img-block" alt="<?php the_title();?>">
                                             </picture>
                                         </div>
                                     </div>
@@ -113,7 +133,6 @@ if (have_posts()) :
                     ?>
                 </div>
             </section>
-            
 
             <section class="in-news-section">
                 <div class="in-news my-6 py-6" style="background-image: url(<?php the_field('background_image'); ?>); background-repeat: no-repeat;" >
