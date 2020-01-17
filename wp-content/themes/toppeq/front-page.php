@@ -142,7 +142,7 @@ if (have_posts()) :
                         </div>
                         <div class="our-partners container w-980 pt-3">
                             <?php if( have_rows('logo') ): ?>
-                            <div class="row justify-content-center">
+                            <div class="row justify-content-center align-items-center">
                                 <?php
                                     while ( have_rows('logo') ) : the_row();?>
                                         <?php 
