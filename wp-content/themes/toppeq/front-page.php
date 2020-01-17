@@ -122,18 +122,18 @@ if (have_posts()) :
                         </div>
                         <div class="our-partners container w-980 pt-3">
                             <?php if( have_rows('logo') ): ?>
-                            <div class="row">
+                            <div class="row justify-content-center">
                                 <?php
                                     while ( have_rows('logo') ) : the_row();?>
                                         <?php 
                                             $class="";
                                             $row_index = get_row_index(); 
                                             if($row_index == 1) {
-                                                $class = "c_l";
+                                                $class = "a";
                                             }
                                         ?>
-                                    <div class="col-lg-2 col-6 hidden_block  <?php echo $class;?>">
-                                        <img src="<?php the_sub_field('client_logo');?>" class="p-1">
+                                    <div class="col-lg-2 col-6 hidden_block">
+                                        <img src="<?php the_sub_field('client_logo');?>" class="w-100">
                                     </div>
                                 <?php
                                     endwhile;                    
