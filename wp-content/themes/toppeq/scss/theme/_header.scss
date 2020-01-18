@@ -21,20 +21,14 @@
     }
 }
 
-header{
-    padding: 80px 65px;
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-    transition: all .3s ease-in-out;
-    &.sticky{
-        position: fixed;
-        top: 0;
-        width: 100%;
+
+
+body:not(.home){
+    header{
         background: #fff;
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding: 25px 65px;
         .logo{
+            display: block;
             .normal-logo{
                 display: none;
             }
@@ -42,14 +36,53 @@ header{
                 display: block;
             }
         }
+        &.sticky{
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #fff;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
         .hamburger-menu{
             > div {
                 background-color: #000;
             }
         }
     }
-    @media (max-width: 991px) {
-        padding: 25px 0;
+}
+.home{
+    header{
+        position: absolute;
+        background: transparent;
+        padding: 80px 65px;
+        z-index: 10;
+        width: 100%;
+        transition: all .3s ease-in-out;
+        &.sticky{
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #fff;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            .logo{
+                .normal-logo{
+                    display: none;
+                }
+                .sticky-logo{
+                    display: block;
+                }
+            }
+            .hamburger-menu{
+                > div {
+                    background-color: #000;
+                }
+            }
+        }
+        @media (max-width: 991px) {
+            padding: 25px 0;
+        }
     }
 }
 
