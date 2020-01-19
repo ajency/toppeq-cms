@@ -27,7 +27,7 @@ if (have_posts()) {
 
 		<div class="press-block py-3 d-flex justify-content-between align-items-center">
 			<div class="block w-980">
-				<div class="logo-and-date pb-2">
+				<div class="logo-and-date pb-1">
 					<span class="news-date">
 						<?php echo get_the_date(); ?>
 					</span>
