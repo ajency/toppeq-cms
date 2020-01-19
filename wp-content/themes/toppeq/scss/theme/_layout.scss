@@ -601,6 +601,14 @@ hr.line-separator{
         }
         .block {
             padding: 0 20px;
+            h2{
+                a{
+                    color: black;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
             .press-text{
                 color: $gray-600;
             }

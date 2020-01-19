@@ -32,7 +32,7 @@ if (have_posts()) {
 						<?php echo get_the_date(); ?>
 					</span>
 				</div>
-				<h2 class="f-22 font-weight-bold pb-2"> <?php echo wp_trim_words( get_the_title(), 6 ); ?> </h2>
+				<h2> <a class="f-22 font-weight-bold pb-2" href="<?php the_permalink(); ?>"><?php echo wp_trim_words( get_the_title(), 6 ); ?> </a></h2>
 				<p class="press-text"><?php echo wp_trim_words(get_the_content(), 18, '...'); ?></p>
 				<a class="article-link" href="<?php the_permalink(); ?>" target="_blank">Read press release
 					<i class="fa fa-arrow-right"></i>
