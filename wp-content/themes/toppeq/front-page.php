@@ -163,6 +163,8 @@ if (have_posts()) :
                             else :
                             endif; 
                         ?>
+                        <div class="action text-center hidden_block mt-2"><a class="text-white" href="<?php echo get_site_url(); ?>/press">View All</a></div>
+
                         </div>
                     </div>
             </section>
