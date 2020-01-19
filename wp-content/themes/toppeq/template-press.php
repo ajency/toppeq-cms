@@ -26,14 +26,14 @@ if (have_posts()) {
 		<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
 
 		<div class="press-block py-3 d-flex justify-content-between align-items-center">
-			<div class="block">
-				<div class="logo-and-date py-2">
+			<div class="block w-980">
+				<div class="logo-and-date pb-2">
 					<span class="news-date">
-						<?php the_date(); ?>
+						<?php echo get_the_date(); ?>
 					</span>
 				</div>
-				<h2 class="f-25 font-weight-bolder pb-2"> <?php the_title(); ?> </h2>
-				<p class="press-text">GitLab Appoints VP of Global Channels and Chief Legal Officer &amp; Corporate Secretary as Company Prepares for Going Public</p>
+				<h2 class="f-22 font-weight-bold pb-2"> <?php echo wp_trim_words( get_the_title(), 6 ); ?> </h2>
+				<p class="press-text"><?php echo wp_trim_words(get_the_content(), 18, '...'); ?></p>
 				<a class="article-link" href="<?php the_permalink(); ?>" target="_blank">Read press release
 					<i class="fa fa-arrow-right"></i>
 				</a>
@@ -41,10 +41,13 @@ if (have_posts()) {
 			<div class="img-block">
 				<a href="<?php the_permalink(); ?>">
 					<?php
-					if ( has_post_thumbnail() ) :
-						the_post_thumbnail( array('large') );
-					endif;
+						$post_title = get_the_title();
+						$post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'medium');
+						if(empty($post_thumbnail_url) || is_null($post_thumbnail_url) || $post_thumbnail_url== false){
+				          	$post_thumbnail_url = '../wp-content/themes/toppeq/images/Logo_Black.png';
+				        }
 					?>
+					<img src="<?php echo $post_thumbnail_url ?>" alt="<?php echo $post_title;?>" title="<?php echo $post_title;?>">
 				</a>
 			</div>
 		</div>
