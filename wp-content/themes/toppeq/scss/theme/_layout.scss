@@ -657,12 +657,16 @@ hr.line-separator{
         flex-wrap: nowrap;
         li{
             margin: 1rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
             a{
                 border: solid 6px #7b7b7b;
                 border-radius: 100%;
-                padding: 40px 20px;
-                height: 186px;
-                width: 186px;
+                padding: 30px 20px;
+                height: 160px;
+                width: 160px;
+                text-align: center;
                 color: $orange-3;
                 &.active{
                     border: solid 6px $orange-3;
@@ -670,29 +674,27 @@ hr.line-separator{
                     i{
                         color: white;
                         font-size: 5em;
-                        @media (max-width: 991px){
+                        @media (max-width: 475px){
                             font-size: 3em;
-                        }
-                        @media (max-width: 425px){
-                            font-size: 2.5em;
                         }
                     }
                 }
                 i{
                     vertical-align: middle;
                     font-size: 5em;
-                    @media (max-width: 991px){
+                    @media (max-width: 475px){
                         font-size: 3em;
-                    }
-                    @media (max-width: 425px){
-                        font-size: 2.5em;
                     }
                 }
                 @media (max-width: 991px){
-                    padding: 28px 20px;
+                    height: 130px;
+                    width: 130px;
+                    padding: 20px;
                 }
-                @media (max-width: 425px){
-                    padding: 20px 16px;
+                @media (max-width: 475px){
+                    height: 80px;
+                    width: 80px;
+                    padding: 10px 0;
                 }
             }
         }
