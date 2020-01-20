@@ -10585,7 +10585,7 @@ body:not(.home) header {
       display: block; }
   /* line 40, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_header.scss */
   body:not(.home) header.sticky {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     background: #fff;

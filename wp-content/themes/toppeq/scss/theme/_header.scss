@@ -38,7 +38,7 @@ body:not(.home){
             }
         }
         &.sticky{
-            position: fixed;
+            position: sticky;
             top: 0;
             width: 100%;
             background: #fff;
