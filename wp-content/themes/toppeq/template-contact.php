@@ -16,7 +16,7 @@ if (have_posts()) {
 <div class="contact-us">
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-md-4 contact-title">
+			<div class="col-md-5 contact-title">
 				<div class="text-center py-9">
 					<h1 class="title f-45"> Let's get in touch </h1>
 					<p class="email-id f-22"> dummy@emailaddress.com</p>
@@ -28,12 +28,12 @@ if (have_posts()) {
 					<span class="px-1"><a href="#"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></span>
 				</div>
 			</div>
-			<div class="col-md-8  contact-form">
+			<div class="col-md-7  contact-form">
 				<div class="container">
 				  	<ul class="nav nav-tabs">
-				    	<li class="active"><a href="#tab1" data-toggle="tab"><i class="fa fa-user fa-5x" aria-hidden="true"></i></a></li>  
-				    	<li><a href="#tab2" data-toggle="tab"><i class="fa fa-user fa-5x" aria-hidden="true"></i></a></li>
-				    	<li><a href="#tab3" data-toggle="tab"><i class="fa fa-user fa-5x" aria-hidden="true"></i></a></li>
+				    	<li class="active"><a href="#tab1" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i></a></li>  
+				    	<li><a href="#tab2" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+				    	<li><a href="#tab3" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i></a></li>
 				  	</ul>
 
 				  	<div class="tab-content mt-8 position-relative">
