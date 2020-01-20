@@ -42,7 +42,7 @@ if (have_posts()) :
                 endif; 
             ?>
 
-            <section class="why-toppeq mt-5 mb-3" id="why-toppeq-section">
+            <section class="why-toppeq my-5" id="why-toppeq-section">
                 <div class="container">
                     <div class="content w-980">
                         <div class="heading hidden_block">
@@ -71,15 +71,15 @@ if (have_posts()) :
                 </div>
             </section>
 
-            <hr class="seperator container my-4">
-            <section class="container mb-8">
-                <h2 class="text-center my-3 font-weight-bold hidden_block"> Our Services </h2>
-                <div class="pageSlider w-980 my-4">
+            <section>
+                <h2 class="item-heading text-uppercase px-2 py-2 font-weight-bold text-center hidden_block"> Our Services</h2>
+                <div class="homeSlider mt-1">
                     <?php
                         $args = array(
                             'post_type' => 'services',
                             'posts_per_page' => -1,
-		                    'post_status' => 'publish',
+                            'post_status' => 'publish',
+                            'order' => 'ASC',
                         );
                         
                         $services = new WP_Query( $args );
@@ -87,18 +87,39 @@ if (have_posts()) :
                             while( $services->have_posts() ) {
                                 $services->the_post();
                                 ?>
-                                <div class="item hidden_block">
-                                    <div class="thumb">
-                                        <picture>
-                                            <source media="(orientation: landscape)" srcset="<?php the_post_thumbnail_url(''); ?>">
-                                            <source media="(orientation: portrait)" srcset="<?php the_post_thumbnail_url(''); ?>">
-                                            <img src="<?php the_post_thumbnail_url(''); ?>" class="" alt="<?php the_title();?>">
-                                        </picture>
-                                        <div class="overlay">
-                                            <a href="#">
-                                                <i class="flaticon-graph"></i>
-                                                <h4 class="f-18"><?php the_title();?></h4>
-                                            </a>
+                                <div class="slider-element">
+                                    <div class="row mx-0">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 position-relative pl-sm-0">
+                                            <div class="block w-980 pl-md-9 px-2">
+                                                <h2 class="item-heading text-uppercase pr-2 py-2 ml-0 font-weight-bold"> <?php the_title();?></h2>
+
+                                                <?php if( have_rows('subtext') ): ?>
+                                                        <?php
+                                                            while ( have_rows('subtext') ) : the_row();?>
+                                                                <?php 
+                                                                    $class="";
+                                                                    $row_index = get_row_index(); 
+                                                                    if($row_index == 1) {
+                                                                        $class = "a";
+                                                                    }
+                                                                ?>
+                                                                    <p class="f-14"> <?php the_sub_field('serv_subtext');?> </p>
+
+                                                            <?php
+                                                            endwhile;                    
+                                                        ?>
+                                                <?php 
+                                                    else :
+                                                    endif; 
+                                                ?>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 block-2 block-2">
+                                            <picture>
+                                                <source media="(orientation: landscape)" srcset="<?php the_post_thumbnail_url(''); ?>">
+                                                <source media="(orientation: portrait)" srcset="<?php the_post_thumbnail_url(''); ?>">
+                                                <img src="<?php the_post_thumbnail_url(''); ?>" class="img-block" alt="<?php the_title();?>">
+                                            </picture>
                                         </div>
                                     </div>
                                 </div>
@@ -112,14 +133,49 @@ if (have_posts()) :
                     ?>
                 </div>
             </section>
-            
+
+            <section class="in-news-section">
+                <div class="in-news my-6 py-6" style="background-image: url(<?php the_field('background_image'); ?>); background-repeat: no-repeat; background-size: cover;" >
+                        <div class="news-block container w-980 text-center hidden_block">
+                            <h2 class="pt-3 pb-2  mb-0 font-weight-bold text-white"><?php the_field('news_title');?> </h2>
+                            <p class="pb-md-2 pb-1 font-weight-300 text-white w-780"><?php the_field('news_description');?> </p>
+                        </div>
+                        <div class="our-partners container w-980 pt-3">
+                            <?php if( have_rows('logo') ): ?>
+                            <div class="row justify-content-center align-items-center">
+                                <?php
+                                    while ( have_rows('logo') ) : the_row();?>
+                                        <?php 
+                                            $class="";
+                                            $row_index = get_row_index(); 
+                                            if($row_index == 1) {
+                                                $class = "a";
+                                            }
+                                        ?>
+                                    <div class="col-lg-2 col-6 hidden_block">
+                                        <img src="<?php the_sub_field('client_logo');?>" class="w-100">
+                                    </div>
+                                <?php
+                                    endwhile;                    
+                                ?>
+                            </div>
+                        <?php 
+                            else :
+                            endif; 
+                        ?>
+                        <div class="action text-center hidden_block mt-2"><a class="text-white" href="<?php echo get_site_url(); ?>/press">View All</a></div>
+
+                        </div>
+                    </div>
+            </section>
+
             <?php 
                 $ptitle = get_field('p_section_title');
                 $pdesc = get_field('p_section_description');
             ?>
 
             <section class="container w-980">
-                <div class="form my-6 hidden_block">
+                <div class="form mt-8 mb-6 hidden_block">
                     <div class="row">
                         <div class="col-md-6 p-md-4 form-block">
                             <?php if($ptitle) { ?>

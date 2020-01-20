@@ -13,7 +13,20 @@ hr.line-separator{
     margin-bottom: 36px;
 }
 
-
+.title{
+    h1{
+        padding: 20px;
+        text-align: center;
+        font-size: 34px;
+        font-weight: 700;
+    }
+}
+.content{
+    p{
+        line-height: 2;
+        font-size: 14px;
+    }
+}
 .analysis-title{
     h1{
         @media (max-width: 1024px) {
@@ -400,7 +413,7 @@ hr.line-separator{
 
 .homeSlider{   
     position: relative;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-bottom: 180px;
     .block{
         position: absolute;
@@ -536,5 +549,101 @@ hr.line-separator{
     }
     &-2{
         padding-right: 0;
+    }
+}
+
+.in-news{
+    position: relative;
+    z-index: 1;
+    img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        vertical-align: middle;
+    }
+    &:after{
+        content: " ";
+        display: block;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        opacity: 0.5;
+        background: black;
+    }
+    .action{
+        a{
+            font-weight: 700;
+            display: inline-block;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            &:hover{
+                text-decoration: none;
+            }
+            &:after{
+                content: "\f178";
+                font-family: fontAwesome;
+                padding-left: 12px;
+            }
+        }
+    }
+}
+
+.press {
+    &-block {
+        border-bottom: 1px solid $gray-200;
+        .news-date {
+            color: $light-grey-1;
+            font-size: 12px;
+        }
+        .block {
+            padding: 0 20px;
+            h2{
+                a{
+                    color: black;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+            .press-text{
+                color: $gray-600;
+            }
+            a{
+                color: #0b9bff;
+                font-weight: 600;
+            }
+        }
+        .img-block {
+            flex-basis: 200px;
+            margin-left: 24px;
+            a{
+                img{
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                    @media (max-width: 767px){
+                        width: 250px;
+                    }
+                }
+            }
+        }
+        &:last-child {
+            border-bottom: 0px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .img-block {
+        display: none;
+    }
+    .press {
+        .block {
+            width: 100%;
+        }
     }
 }
