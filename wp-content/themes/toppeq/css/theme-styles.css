@@ -10341,7 +10341,7 @@ hr.line-separator {
     right: 0;
     z-index: -1;
     opacity: 0.5;
-    background: black; }
+    background: #959595; }
   /* line 580, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
   .in-news .action a {
     font-weight: 700;
