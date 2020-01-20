@@ -23,9 +23,9 @@ if (have_posts()) {
 				</div>
 				<div class="social-media">
 					<h2 class="f-25"> Find us at </h2>
-					<span class="px-1"><a href="#"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a></span>
-					<span class="px-1"><a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></span>
-					<span class="px-1"><a href="#"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></span>
+					<span class="px-1"><a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></span>
+					<span class="px-1"><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></span>
+					<span class="px-1"><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></span>
 				</div>
 			</div>
 			<div class="col-md-7  contact-form">

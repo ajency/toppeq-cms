@@ -663,9 +663,9 @@ hr.line-separator{
             a{
                 border: solid 6px #7b7b7b;
                 border-radius: 100%;
-                padding: 30px 20px;
-                height: 160px;
-                width: 160px;
+                height: 130px;
+                width: 130px;
+                padding: 28px 0;
                 text-align: center;
                 color: $orange-3;
                 &.active{
@@ -673,7 +673,7 @@ hr.line-separator{
                     background-color: $orange-3;
                     i{
                         color: white;
-                        font-size: 5em;
+                        font-size: 3.5em;
                         @media (max-width: 475px){
                             font-size: 3em;
                         }
@@ -681,15 +681,10 @@ hr.line-separator{
                 }
                 i{
                     vertical-align: middle;
-                    font-size: 5em;
+                    font-size: 3.5em;
                     @media (max-width: 475px){
                         font-size: 3em;
                     }
-                }
-                @media (max-width: 991px){
-                    height: 130px;
-                    width: 130px;
-                    padding: 20px;
                 }
                 @media (max-width: 475px){
                     height: 80px;
@@ -727,7 +722,7 @@ hr.line-separator{
         }
         &:after{
             content:'';
-            background: url("http://localhost/toppeq-cms/wp-content/uploads/2020/01/logo_overlay.png") no-repeat;
+            background: url("../../../uploads/2020/01/logo_overlay.png") no-repeat;
             background-position: center;
             background-size: 280px;
             opacity: 0.08;
