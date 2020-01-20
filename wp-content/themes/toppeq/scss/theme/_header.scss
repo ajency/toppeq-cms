@@ -27,6 +27,7 @@ body:not(.home){
     header{
         background: #fff;
         padding: 25px 65px;
+        z-index: 1;
         .logo{
             display: block;
             .normal-logo{
