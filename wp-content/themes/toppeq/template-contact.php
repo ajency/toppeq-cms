@@ -18,8 +18,8 @@ if (have_posts()) {
 		<div class="row align-items-center">
 			<div class="col-md-4 contact-title">
 				<div class="text-center py-9">
-					<h1 class="title f-35"> Let's get in touch </h1>
-					<p class="email-id f-18"> dummy@emailaddress.com</p>
+					<h1 class="title f-45"> Let's get in touch </h1>
+					<p class="email-id f-22"> dummy@emailaddress.com</p>
 				</div>
 				<div class="social-media">
 					<h2 class="f-25"> Find us at </h2>
@@ -30,28 +30,36 @@ if (have_posts()) {
 			</div>
 			<div class="col-md-8  contact-form">
 				<div class="container">
-				  <ul class="nav nav-tabs">
-				    <li class="active"><a href="#tab1" data-toggle="tab"><i class="fa fa-user fa-5x" aria-hidden="true"></i></a></li>  
-				    <li><a href="#tab2" data-toggle="tab"><i class="fa fa-user fa-5x" aria-hidden="true"></i></a></li>
-				  </ul>
+				  	<ul class="nav nav-tabs">
+				    	<li class="active"><a href="#tab1" data-toggle="tab"><i class="fa fa-user fa-5x" aria-hidden="true"></i></a></li>  
+				    	<li><a href="#tab2" data-toggle="tab"><i class="fa fa-user fa-5x" aria-hidden="true"></i></a></li>
+				    	<li><a href="#tab3" data-toggle="tab"><i class="fa fa-user fa-5x" aria-hidden="true"></i></a></li>
+				  	</ul>
 
-				  <div class="tab-content mt-8 position-relative">
-				  	<div class="rectangle"></div>
-				    <div class="tab-pane active" id="tab1">
-				      <div class="panel panel-default">
-				          <div class="panel-body">
-				         <?php echo do_shortcode("[formidable id=2]"); ?>
-				          </div>
-				        </div>
-				    </div>
-				    <div class="tab-pane" id="tab2">
-				      <div class="panel panel-default">
-				          <div class="panel-body">
-				           <?php echo do_shortcode("[formidable id=2]"); ?>
-				          </div>
-				        </div>
-				      </div>
-				  </div>
+				  	<div class="tab-content mt-8 position-relative">
+				  		<div class="rectangle"></div>
+		    			<div class="tab-pane active" id="tab1">
+			      			<div class="panel panel-default">
+			          			<div class="panel-body">
+			         				<?php echo do_shortcode("[formidable id=2]"); ?>
+			          			</div>
+			        		</div>
+			    		</div>
+			    		<div class="tab-pane" id="tab2">
+			      			<div class="panel panel-default">
+			          			<div class="panel-body">
+			           				<?php echo do_shortcode("[formidable id=3]"); ?>
+			          			</div>
+			        		</div>
+			      		</div>
+			    		<div class="tab-pane" id="tab3">
+			      			<div class="panel panel-default">
+			          			<div class="panel-body">
+			           				<?php echo do_shortcode("[formidable id=3]"); ?>
+			          			</div>
+			        		</div>
+			      		</div>
+			  		</div>
 				</div>
 			</div>
 		</div>
