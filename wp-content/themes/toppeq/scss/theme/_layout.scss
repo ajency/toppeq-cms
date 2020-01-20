@@ -21,10 +21,12 @@ hr.line-separator{
         font-weight: 700;
     }
 }
-.content{
-    p{
-        line-height: 2;
-        font-size: 14px;
+.single-post{
+    .content{
+        p{
+            line-height: 2;
+            font-size: 14px;
+        }
     }
 }
 .analysis-title{
