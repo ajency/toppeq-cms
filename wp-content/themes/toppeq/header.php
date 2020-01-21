@@ -16,7 +16,7 @@
 	<body <?php body_class(); ?>>
 			
 	<header id="site-header">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="navbar navbar-expand-md navbar-light bg-light p-0">
 				<div class="logo">
 					<a href="#" class="d-inline-block text-decoration-none">
