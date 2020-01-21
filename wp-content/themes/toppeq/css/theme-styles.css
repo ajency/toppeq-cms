@@ -10622,13 +10622,6 @@ hr.line-separator {
       /* line 855, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .cs-main-content .title {
         font-size: 25px !important; } }
-  /* line 861, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
-  .cs-main-content .social-media {
-    display: inline-block;
-    padding-left: 1rem; }
-    /* line 865, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
-    .cs-main-content .social-media a i {
-      color: white; }
   @media (max-width: 767px) {
     /* line 839, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .cs-main-content {

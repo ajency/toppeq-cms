@@ -31,11 +31,7 @@
 				<img src="<?php the_field('logo');?>" class="normal-logo">
 				<p class=""> <?php the_field('tagline');?> </p>
 				<h1 class="title font-weight-bold f-35 text-uppercase my-5"><?php the_field('comingsoon_title');?></h1>
-				<div class="social-media">
-					<span class="px-1"><a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></span>
-					<span class="px-1"><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></span>
-					<span class="px-1"><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></span>
-				</div>
+				<a class="text-white f-18" href="mailto:<?php the_field('emailid');?>"> <?php the_field('emailid');?> </a> </p>
 			</div>
 		</div>
 </div>
