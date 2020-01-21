@@ -32,6 +32,13 @@ hr.line-separator{
         display: none;
     }
 }
+.no-post{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    height: 100%;
+    margin: 30% 0;
+}
 .analysis-title{
     h1{
         @media (max-width: 1024px) {

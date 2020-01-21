@@ -52,7 +52,7 @@ if (have_posts()) {
 
 		    <?php else : ?>
 
-				<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+				<p class="no-post"><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 			<?php endif; ?>
 	</div>
 
