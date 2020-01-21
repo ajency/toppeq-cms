@@ -820,9 +820,18 @@ hr.line-separator{
     .social-media{
         display: inline-block;
         padding-left: 1rem;
-        i{
-            color: $orange-3;
-            margin-bottom: 8px;
+        a{
+            i{
+                &.fa-facebook-square{
+                    color: #3b5998;
+                }
+                &.fa-twitter-square{
+                    color: #55acee; 
+                }
+                &.fa-linkedin-square{
+                    color: #0077b5;  
+                }
+            }
         }
     }
     @media (max-width: 767px){
