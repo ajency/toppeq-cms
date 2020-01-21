@@ -647,6 +647,25 @@ hr.line-separator{
             border-bottom: 0px;
         }
     }
+    .pagination_nav{
+        width: 100%;
+        margin: 40px 0;
+        a{
+            background: $gray-400;
+            color: black;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+        span.current{
+            background: $orange-3;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+        @media (max-width: 767px){
+            margin: 15px 0 40px;
+        }
+    }
 }
 
 @media (max-width: 767px) {

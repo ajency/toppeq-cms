@@ -14,7 +14,8 @@ if (have_posts()) {
 ?>
 
 
-		<div class="press container w-980">
+	<div class="press container w-980">
+		<div>
 			<?php 
 
 			$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
@@ -23,8 +24,8 @@ if (have_posts()) {
 			<?php if ( $wpb_all_query->have_posts() ) : ?>
 			<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
 
-				<div class="press-block py-3 d-flex justify-content-between align-items-center">
-					<div class="block w-980">
+				<div class="press-block w-980 py-3 d-flex justify-content-between align-items-center">
+					<div class="block">
 						<div class="logo-and-date pb-1">
 							<span class="news-date">
 								<?php echo get_the_date(); ?>
@@ -49,11 +50,25 @@ if (have_posts()) {
 					</div>
 				</div>
 		    <?php endwhile; ?>
-
+			    
 		    <?php else : ?>
 
 				<p class="no-post"><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 			<?php endif; ?>
+		</div>
+		<div class="container pagination_nav">
+			<?php
+
+				$big = 999999999; // need an unlikely integer
+
+				echo paginate_links( array(
+					'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+					'format' => '?paged=%#%',
+					'current' => max( 1, get_query_var('paged') ),
+					'total' => $wpb_all_query->max_num_pages
+				) );
+			?>
+		</div>
 	</div>
 
 
