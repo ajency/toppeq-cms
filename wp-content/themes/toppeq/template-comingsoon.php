@@ -25,6 +25,7 @@
 
 	<div class="position-relative">
 		<div class="coming-soon-bg" style="background-image: url(<?php the_field('background_image'); ?>); background-repeat: no-repeat; background-size: cover;"></div>
+			<div class="module-header blur"></div>
 		<div class="cs-main-content p-3">
 			<div class="container">
 				<img src="<?php the_field('logo');?>" class="normal-logo">

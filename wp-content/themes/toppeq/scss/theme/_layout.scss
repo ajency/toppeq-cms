@@ -789,7 +789,23 @@ hr.line-separator{
 }
 .coming-soon-bg{
     height: 100vh; 
-    filter: blur(18px);
+}
+
+.module {
+    &-header {
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        &.blur {
+            backdrop-filter: blur(12px);
+            height: 100vh;
+            width: 100%;
+            position: absolute;
+            top: 0;
+        }
+    }
 }
 .cs-main-content{
     position: absolute;
