@@ -803,7 +803,10 @@ hr.line-separator{
         max-width: 100%;
         height: auto;
         width: 280px;
-        padding-left: 0.5rem
+        padding-left: 0.5rem;
+        @media (max-width: 767px){
+            padding-left: 0;
+        }
     }
     .title{
         @media (max-width: 767px){
