@@ -30,7 +30,7 @@
 				<img src="<?php the_field('logo');?>" class="normal-logo">
 				<h1 class="title font-weight-bold f-35 text-uppercase my-2 pl-md-2"><?php the_field('comingsoon_title');?></h1>
 				<p class="pl-md-2"> <?php the_field('tagline');?> </p>
-				<div class="subscribe-form"><?php echo do_shortcode("[formidable id=3]"); ?></div>
+				<div class="subscribe-form"><?php echo do_shortcode("[formidable id=4]"); ?></div>
 				<div class="social-media">
 					<span class="px-1"><a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></span>
 					<span class="px-1"><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></span>
