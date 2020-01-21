@@ -10579,15 +10579,9 @@ hr.line-separator {
   .cs-main-content .social-media {
     display: inline-block;
     padding-left: 1rem; }
-    /* line 821, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
-    .cs-main-content .social-media a i.fa-facebook-square {
-      color: #3b5998; }
-    /* line 824, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
-    .cs-main-content .social-media a i.fa-twitter-square {
-      color: #55acee; }
-    /* line 827, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
-    .cs-main-content .social-media a i.fa-linkedin-square {
-      color: #0077b5; }
+    /* line 820, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    .cs-main-content .social-media a i {
+      color: white; }
   @media (max-width: 767px) {
     /* line 794, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .cs-main-content {
