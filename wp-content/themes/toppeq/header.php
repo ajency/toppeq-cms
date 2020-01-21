@@ -16,7 +16,7 @@
 	<body <?php body_class(); ?>>
 			
 	<header id="site-header">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="navbar navbar-expand-md navbar-light bg-light p-0">
 				<div class="logo">
 					<a href="#" class="d-inline-block text-decoration-none">
@@ -51,7 +51,7 @@
 	</nav>
 
 	<div class="header-bg">
-		<div class="container breadcrumbs-wrapper w-980">
+		<div class="container breadcrumbs-wrapper">
 			<h2 class="title text-capitalize"><?php the_title(); ?></h2>
 			<div class="breadcrumbs-inside">
 		        <ul itemscope itemtype="https://schema.org/BreadcrumbList">

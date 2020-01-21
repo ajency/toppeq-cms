@@ -14,7 +14,7 @@ if (have_posts()) {
 ?>
 
 <div class="contact-us">
-	<div class="container w-980">
+	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-md-5 contact-title">
 				<div class="text-center py-9">

@@ -1,6 +1,6 @@
 </div>
 <footer>
-    <div class="container mt-2 py-2 w-980">
+    <div class="container mt-2 py-2">
     	<div class="row align-items-center">
     		<div class="col-md-10">
 				<ul class="footer-links mb-0">	
@@ -11,7 +11,7 @@
 			</div>
     		<div class="col-md-2 social-media">
 				<span class="px-1"><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></span>
-				<span class="px-1"><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></span>
+				<span class="pl-1"><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></span>
 			</div>	
 		</div>	
     </div><a href="#">

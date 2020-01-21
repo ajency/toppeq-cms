@@ -13,7 +13,7 @@ if (have_posts()) {
 }
 ?>
 
-	<div class="press container w-980">
+	<div class="press container">
 		<div>
 			<?php 
 			$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
@@ -22,7 +22,7 @@ if (have_posts()) {
 			<?php if ( $wpb_all_query->have_posts() ) : ?>
 			<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
 
-				<div class="press-block w-980 py-3 d-flex justify-content-between align-items-center">
+				<div class="press-block py-3 d-flex justify-content-between align-items-center">
 					<?php  $customlink = get_field('custom-link'); ?>
 
 					<div class="block">
