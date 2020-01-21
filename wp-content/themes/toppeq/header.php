@@ -22,7 +22,7 @@
 					<a href="#" class="d-inline-block text-decoration-none">
 						<!-- <h2 class="m-0">TOPPEQ</h2> -->
 						<img src="<?php echo get_template_directory_uri(); ?>/images/Logo_White.png" class="normal-logo">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/Logo_Black.png" class="sticky-logo">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo.png" class="sticky-logo">
 					</a>
 				</div>
 				<div class="hamburger-menu">
@@ -49,5 +49,27 @@
 			<button class="btn-reset menu-close-btn f-35"><img class="" width="35" src="<?php echo get_template_directory_uri(); ?>/images/x-close-icon-white.png"></button>
 		</div>
 	</nav>
-	
+
+	<div class="header-bg">
+		<div class="container breadcrumbs-wrapper">
+			<h2 class="title text-capitalize"><?php the_title(); ?></h2>
+			<div class="breadcrumbs-inside">
+		        <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+		            <li itemprop="itemListElement" itemscope
+						itemtype="https://schema.org/ListItem" title="Toppeq">
+		                <a itemprop="item" href="<?php echo get_site_url(); ?>/" title="Toppeq">
+		                    <span itemprop="name">Home</span></a>
+		                    <meta itemprop="position" content="1" />
+		            </li>
+		                <span class="sperator"> / </span>
+		            <li itemprop="itemListElement" itemscope
+		              	itemtype="https://schema.org/ListItem" title="<?php the_title(); ?>">
+		                <span itemprop="name" title="<?php the_title(); ?>"><?php the_title(); ?></span>
+		                    <meta itemprop="position" content="2" />
+		        	</li>
+		        </ul>
+	        </div>
+        </div>
+	</div>
+
 	<div id="content">

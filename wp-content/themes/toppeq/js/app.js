@@ -149,4 +149,7 @@ animateHTML().init();
 		}
 	}
 
+	$('.nav-tabs li:first-child').find('a').addClass('active');
+    $('.tabcontent').hide();
+    $('.tabcontent:first-child').show();
 });

@@ -1,5 +1,6 @@
 footer{
 	background-color: $gray-300;
+	padding: 0px 65px;
 	.row{
 		@media (max-width: 767px){
 			flex-direction: column-reverse;
