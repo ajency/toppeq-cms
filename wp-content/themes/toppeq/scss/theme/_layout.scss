@@ -789,7 +789,7 @@ hr.line-separator{
 }
 .coming-soon-bg{
     height: 100vh; 
-    filter: blur(10px);
+    filter: blur(18px);
 }
 .cs-main-content{
     position: absolute;
@@ -803,10 +803,6 @@ hr.line-separator{
         max-width: 100%;
         height: auto;
         width: 280px;
-        padding-left: 0.5rem;
-        @media (max-width: 767px){
-            padding-left: 0;
-        }
     }
     p{
         color: white;
