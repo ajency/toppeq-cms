@@ -860,11 +860,12 @@ hr.line-separator{
     }
     .email-id-link{
         color: $orange-3;
-        box-shadow: 0px 1px 0px 0px;
         padding: 2px;
         margin: 0 15px;
+        transition: all 0.2s ease-in;
         &:hover{
             text-decoration: none;
+            box-shadow: 0px 1px 0px 0px;
         }
     }
     @media (max-width: 767px){
