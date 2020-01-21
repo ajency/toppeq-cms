@@ -49,5 +49,15 @@
 			<button class="btn-reset menu-close-btn f-35"><img class="" width="35" src="<?php echo get_template_directory_uri(); ?>/images/x-close-icon-white.png"></button>
 		</div>
 	</nav>
-	
+
+	<div class="header-bg">
+		<div class="container breadcrumbs-wrapper">
+			<h2 class="title text-capitalize"><?php the_title(); ?></h2>
+			<div class="breadcrumbs-inside">
+				<a href="<?php echo get_site_url(); ?>/">Home</a> <span> / </span> 
+				<span><?php the_title(); ?></span>
+			</div>
+		</div>
+	</div>
+
 	<div id="content">
