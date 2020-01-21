@@ -10546,6 +10546,15 @@ hr.line-separator {
   left: -25px;
   z-index: -1; }
 
+/* line 790, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+.cs-main-content {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center; }
+
 /* line 1, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_header.scss */
 .logo {
   width: 200px; }

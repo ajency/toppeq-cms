@@ -22,7 +22,7 @@
 					<a href="#" class="d-inline-block text-decoration-none">
 						<!-- <h2 class="m-0">TOPPEQ</h2> -->
 						<img src="<?php echo get_template_directory_uri(); ?>/images/Logo_White.png" class="normal-logo">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/Logo_Black.png" class="sticky-logo">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo.png" class="sticky-logo">
 					</a>
 				</div>
 				<div class="hamburger-menu">
