@@ -44,7 +44,7 @@ if (have_posts()) :
 
             <section class="why-toppeq my-5" id="why-toppeq-section">
                 <div class="container">
-                    <div class="content w-980">
+                    <div class="content">
                         <div class="heading hidden_block">
                             <h2 class="item-heading py-2 font-weight-bold"><?php the_field('section_title');?></h2>
                             <div class="sub-text f-22">
@@ -140,7 +140,7 @@ if (have_posts()) :
                             <h2 class="pt-3 pb-2  mb-0 font-weight-bold text-white"><?php the_field('news_title');?> </h2>
                             <p class="pb-md-2 pb-1 font-weight-300 text-white w-780"><?php the_field('news_description');?> </p>
                         </div>
-                        <div class="our-partners container w-980 pt-3">
+                        <div class="our-partners container pt-3">
                             <?php if( have_rows('logo') ): ?>
                             <div class="row justify-content-center align-items-center">
                                 <?php
@@ -174,7 +174,7 @@ if (have_posts()) :
                 $pdesc = get_field('p_section_description');
             ?>
 
-            <section class="container w-980">
+            <section class="container">
                 <div class="form mt-8 mb-6 hidden_block">
                     <div class="row">
                         <div class="col-md-6 p-md-4 form-block">

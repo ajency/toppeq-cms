@@ -10931,7 +10931,7 @@ body:not(.home) header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px 0 30px; }
+    padding: 0 10px 0 30px; }
     /* line 283, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_header.scss */
     .header-bg .breadcrumbs-wrapper .title {
       margin-top: 0.5rem;
