@@ -51,13 +51,25 @@
 	</nav>
 
 	<div class="header-bg">
-		<div class="container breadcrumbs-wrapper">
+		<div class="container breadcrumbs-wrapper w-980">
 			<h2 class="title text-capitalize"><?php the_title(); ?></h2>
 			<div class="breadcrumbs-inside">
-				<a href="<?php echo get_site_url(); ?>/">Home</a> <span> / </span> 
-				<span><?php the_title(); ?></span>
-			</div>
-		</div>
+		        <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+		            <li itemprop="itemListElement" itemscope
+						itemtype="https://schema.org/ListItem" title="Toppeq">
+		                <a itemprop="item" href="<?php echo get_site_url(); ?>/" title="Toppeq">
+		                    <span itemprop="name">Home</span></a>
+		                    <meta itemprop="position" content="1" />
+		            </li>
+		                <span class="sperator"> / </span>
+		            <li itemprop="itemListElement" itemscope
+		              	itemtype="https://schema.org/ListItem" title="<?php the_title(); ?>">
+		                <span itemprop="name" title="<?php the_title(); ?>"><?php the_title(); ?></span>
+		                    <meta itemprop="position" content="2" />
+		        	</li>
+		        </ul>
+	        </div>
+        </div>
 	</div>
 
 	<div id="content">
