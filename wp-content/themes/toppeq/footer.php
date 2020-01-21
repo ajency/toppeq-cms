@@ -1,6 +1,6 @@
 </div>
 <footer>
-    <div class="container mt-2 py-2">
+    <div class="container-fluid mt-2 py-2">
     	<div class="row align-items-center">
     		<div class="col-md-10">
 				<ul class="footer-links mb-0">	
