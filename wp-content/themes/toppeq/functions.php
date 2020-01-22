@@ -196,4 +196,4 @@ function tp_register_custom_post_types() {
 
   register_post_type( 'press', $args );
 }
-add_action( 'init', 'tp_register_custom_post_types' );
+add_action( 'init', 'tp_register_custom_post_types' ); 

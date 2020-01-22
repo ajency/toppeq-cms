@@ -612,7 +612,7 @@ hr.line-separator{
             font-size: 12px;
         }
         .block {
-            
+            width: 700px;
             h2{
                 a{
                     color: black;
@@ -627,6 +627,9 @@ hr.line-separator{
             a{
                 color: #0b9bff;
                 font-weight: 600;
+            }
+            @media (max-width: 767px){
+                width: 100%;
             }
         }
         .img-block {
