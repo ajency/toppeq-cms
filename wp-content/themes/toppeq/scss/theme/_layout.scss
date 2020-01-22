@@ -908,3 +908,13 @@ hr.line-separator{
         }
     }
 }
+
+.single-press{
+    .header-bg{
+        display: none;
+    }
+    .header{
+        box-shadow: 0px 0px 10px 0px #dddbdb;
+        border-left: 4px solid $orange-3;
+    }
+}
