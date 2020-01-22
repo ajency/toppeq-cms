@@ -185,15 +185,15 @@ add_action( 'init', 'create_posttype' );
 function tp_register_custom_post_types() {
     $args = array(
     'labels' => array(
-    'name' => __('Press Media'),
-    'singular_name' => __('Press Media'),
+    'name' => __('Press'),
+    'singular_name' => __('Press'),
     ),
     'public' => true,
     'has_archive' => false,
-    'rewrite' => array( 'slug' => 'press_media' ),
+    'rewrite' => array( 'slug' => 'press' ),
     'supports' => array( 'title', 'editor', 'thumbnail' ),
     );
 
-  register_post_type( 'press_media', $args );
+  register_post_type( 'press', $args );
 }
 add_action( 'init', 'tp_register_custom_post_types' );
