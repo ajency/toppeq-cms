@@ -52,6 +52,13 @@ body:not(.home , .page-template-front-page-home){
         }
     }
 }
+.page-template{
+    .hamburger-menu{
+        > div {
+            background-color: #000;
+        }
+    }
+}
 .home, .page-template-front-page-home{
     header{
         position: absolute;
