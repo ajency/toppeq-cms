@@ -828,6 +828,7 @@ hr.line-separator{
         top: 0;
         left: 0;
         &.blur {
+            -webkit-backdrop-filter: blur(12px);
             backdrop-filter: blur(12px);
             height: 100vh;
             width: 100%;
