@@ -1,9 +1,8 @@
 <?php
 
-/*
- Template Name : Front-page
-
-**/
+/**
+ * Template Name: frontpage
+ */
 
 get_header();
 ?>
