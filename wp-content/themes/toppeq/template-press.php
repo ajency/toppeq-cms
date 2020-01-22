@@ -17,13 +17,12 @@ if (have_posts()) {
 		<div>
 			<?php 
 			$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-			$wpb_all_query = new WP_Query(array('post_type'=>'press_media', 'post_status'=>'publish', 'posts_per_page'=> 4 , 'paged' => $paged)); ?>
+			$wpb_all_query = new WP_Query(array('post_type'=>'press', 'post_status'=>'publish', 'posts_per_page'=> 4 , 'paged' => $paged)); ?>
 
 			<?php if ( $wpb_all_query->have_posts() ) : ?>
 			<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
 
 				<div class="press-block py-3 d-flex justify-content-between align-items-center">
-					<?php  $customlink = get_field('custom-link'); ?>
 
 					<div class="block">
 						<div class="logo-and-date pb-1">
@@ -31,13 +30,13 @@ if (have_posts()) {
 								<?php echo get_the_date(); ?>
 							</span>
 						</div>
-						<h2> <a class="f-22 font-weight-bold pb-2" target="_blank" href="<?php echo $customlink; ?>"><?php echo wp_trim_words( get_the_title(), 6 ); ?> </a></h2>
+						<h2> <a class="f-22 font-weight-bold pb-2" target="_blank" href="<?php the_permalink(); ?>"><?php echo wp_trim_words( get_the_title(), 6 ); ?> </a></h2>
 						<p class="press-text"><?php echo wp_trim_words(get_the_content(), 18, '...'); ?></p>
-						<a class="article-link" href=" <?php echo $customlink; ?>" target="_blank">Read more
+						<a class="article-link" href="<?php the_permalink(); ?>" target="_blank">Read more
 						</a>
 					</div>
 					<div class="img-block">
-						<a href="<?php echo $customlink; ?>" target="_blank">
+						<a href="<?php the_permalink(); ?>" target="_blank">
 							<?php
 								$post_title = get_the_title();
 								$post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'medium');
