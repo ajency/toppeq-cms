@@ -10682,9 +10682,14 @@ hr.line-separator {
   display: none; }
 
 /* line 919, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+.single-press img {
+  margin: 30px; }
+
+/* line 922, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
 .single-press .header {
   box-shadow: 0px 0px 10px 0px #dddbdb;
-  border-left: 4px solid #f16624; }
+  border-left: 4px solid #f16624;
+  margin: 30px 0; }
 
 /* line 1, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_header.scss */
 .logo {
@@ -10952,7 +10957,7 @@ body  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px 0 30px; }
+    padding: 0 10px 0 24px; }
     /* line 290, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_header.scss */
     .header-bg .breadcrumbs-wrapper .title {
       margin-top: 0.5rem;

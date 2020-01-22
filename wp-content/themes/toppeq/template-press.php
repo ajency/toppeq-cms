@@ -13,7 +13,7 @@ if (have_posts()) {
 }
 ?>
 
-	<div class="press container">
+	<div class="press container w-980">
 		<div>
 			<?php 
 			$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
