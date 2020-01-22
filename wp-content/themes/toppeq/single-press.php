@@ -13,11 +13,15 @@ if (have_posts()) {
   <div class="single-press-post">
     <div class="container">
       <div class="single-post-featured-img text-center">
-        <?php
-          if ( has_post_thumbnail() ) :
-          the_post_thumbnail( 'medium-large' );
-          endif;
-        ?>
+        <a href="<?php the_permalink(); ?>" target="_blank">
+          <?php
+            $post_title = get_the_title();
+            $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'medium');
+            if(empty($post_thumbnail_url) || is_null($post_thumbnail_url) || $post_thumbnail_url== false){
+                    $post_thumbnail_url = '../wp-content/themes/toppeq/images/orange-logo.png';
+                }
+          ?>
+          <img src="<?php echo $post_thumbnail_url ?>" alt="<?php echo $post_title;?>" title="<?php echo $post_title;?>">
       </div>
       <header class="header text-left my-2 py-1 px-0">
         <h2 class="single-post-title text-capitalize f-25 py-1 pl-3 font-weight-bold mb-0"><?php the_title(); ?></h2>
