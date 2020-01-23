@@ -35,48 +35,49 @@
 	</header>
 	<nav>
 		<div class="site-menu">
-			<div class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo.png" class="menu-logo"></div>
-			<ul class="navbar-nav mt-4">
-				<li class="nav-item">
-					<a class="nav-link active" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Our Services</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Pricing</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
-					<ul class="dropdown">
-						<li class="nav-item">
-							<a class="nav-link" href="#">Team</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Careers</a>
-						</li>
-					</ul>
-				</li>
-				
-				<li class="nav-item">
-					<a class="nav-link" href="#">Newsrooom</a>
-					<ul class="dropdown">
-						<li class="nav-item">
-							<a class="nav-link" href="#">Media</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">In the News</a>
-						</li>
-					</ul>
-				</li>
-				<li class="nav-item ">
-					<a class="nav-link" href="#">Contact Us</a>
-				</li>
-			</ul>
-			<button class="btn-reset menu-close-btn"><img class="" width="35" src="<?php echo get_template_directory_uri(); ?>/images/x-close-icon-white.png"></button>
-			<div class="rectangle-black"></div>
-			<div class="rectangle-orange"></div>
-			
+			<div class="menu-items position-relative">
+				<div class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo.png" class="menu-logo"></div>
+				<ul class="navbar-nav mt-4">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Our Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+						<ul class="dropdown">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Team</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Careers</a>
+							</li>
+						</ul>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#">Newsrooom</a>
+						<ul class="dropdown">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Media</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">In the News</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="#">Contact Us</a>
+					</li>
+				</ul>
+				<button class="btn-reset menu-close-btn"><img class="" width="35" src="<?php echo get_template_directory_uri(); ?>/images/x-close-icon-white.png"></button>
+				<div class="rectangle-black"></div>
+				<div class="rectangle-orange"></div>
+			</div>
 		</div>
 	</nav>
 
