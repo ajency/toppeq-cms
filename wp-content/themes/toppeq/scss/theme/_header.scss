@@ -45,14 +45,14 @@ body:not(.home , .page-template-front-page-home){
             padding-top: 25px;
             padding-bottom: 25px;
         }
-        .hamburger-menu{
-            > div {
-                background-color: #000;
-            }
-        }
     }
 }
-.page-template{
+.hamburger-menu{
+    > div {
+        background-color: #000;
+    }
+}
+.page-template-template-press-php{
     .hamburger-menu{
         > div {
             background-color: #000;
@@ -84,7 +84,7 @@ body:not(.home , .page-template-front-page-home){
             }
             .hamburger-menu{
                 > div {
-                    background-color: #000;
+                    background-color: black;
                 }
             }
         }
