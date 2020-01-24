@@ -47,37 +47,41 @@ if (have_posts()) :
                 endif; 
             ?>
 
-            <section class="why-toppeq my-5" id="why-toppeq-section">
-                <div class="container">
-                    <div class="content">
-                        <div class="heading hidden_block">
-                            <h2 class="item-heading py-2 font-weight-bold"><?php the_field('section_title');?></h2>
-                            <div class="sub-text f-22">
-                                <?php the_field('section_description');?>
-                            </div>
-                        </div>
-                        <div class="row justify-content-left">
-                            <div class="col-md-5 col-sm-12 hidden_block text-block mr-2" data-position="left">
-                                <h3 class="item-heading py-2 font-weight-bold"><?php the_field('left_section_title');?></h3>
-                                <p class=""><?php the_field('left_section_description');?></p>
-                            </div>
-                            <div class="col-md-5 col-sm-12 hidden_block text-block">
-                                <h3 class="item-heading py-2 font-weight-bold"><?php the_field('right_section_title');?></h3>
-                                <p class=""><?php the_field('right_section_description');?></p>
-                            </div>
-                        </div>
+            <div class="toppeq-section">
+                <div class="overlay"></div>
+                <div class="container w-980 mt-8 mb-8 hidden_block">
+                    <div class="detailed-page">
+                        <h2 class="section-title f-25 text-uppercase py-md-4 py-2"> WHY TOPPEQ?  </h2>
+                        <h5 class="sub-title">TOPPEQ helps investors and startups keep track of their money </h5>
+                        <p class="sub-text f-18">Our machine learning algorithms and decision support systems provide investors with both the big picture and the nitty gritty, and enable startups to find out what they are spending their money on and what it is doing for them. </p>
                         <div class="row">
-                            <div class="col-lg-10 col-12 hidden_block text-block pr-2">
-                                <h3 class="item-heading py-2 font-weight-bold"><?php the_field('bottom_section_title');?></h3>
-                                <p class=""><?php the_field('bottom_section_description');?></p>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="block">
+                                    <h3 class="block-title my-2">TOPPEQ for Investors</h3>
+                                      <img src="<?php echo get_template_directory_uri(); ?>/images/logo_overlay.png" class="icon">                                    
+                                      <p class="block-content">Toppeq’s platform helps venture capitalists, private equity firms, and angel investors go granular on their investment portfolio and use our dynamically generated sector-specific metrics to glean rapidly actionable insights.</p>
+                                </div>
+                                <div class="block  my-2">
+                                    <h3 class="block-title">TOPPEQ for Startups</h3>
+                                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo_overlay.png" class="icon">  
+                                    <p class="block-content">We use pattern recognition to dissect thousands of shareholder agreements and employ big data to red flag contractual trapdoors and ensure parity between all parties. </p>
+                                </div>
+                                <div class="block  my-2">
+                                    <h3 class="block-title">TOPPEQ for Law & Accounting Firms</h3>
+                                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo_overlay.png" class="icon">  
+                                    <p class="block-content">The constantly and consistently updated data at our disposal— from shareholder agreements to cap tables — enables law and accounting firms to deliver prompt and correct advice to their clients</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-12 why-toppeq-img">
+                               <img src="<?php echo get_template_directory_uri(); ?>/images/why-toppeq_1.png" class="block-img w-100">
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
 
 
-            <div class="services-page">
+            <div class="services-page mt-4">
                 <div class="overlay"></div>
                 <div class="container w-980">
                     <div class="detailed-page hidden_block">
