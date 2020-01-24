@@ -11062,14 +11062,14 @@ input[type="text"], textarea {
       /* line 1288, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .toppeq-section .detailed-page .block .icon {
         position: absolute;
-        width: 40px;
+        width: 38px;
         height: 40px;
         top: 0px;
         left: -70px; }
         @media (max-width: 425px) {
           /* line 1288, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .toppeq-section .detailed-page .block .icon {
-            width: 30px;
+            width: 28px;
             height: 30px;
             top: 0;
             left: -35px; } }
