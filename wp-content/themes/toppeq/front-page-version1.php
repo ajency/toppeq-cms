@@ -30,7 +30,6 @@ if (have_posts()) :
                                 </picture>
                                 <div class="item-text in-left">
                                     <h1 class=""><?php the_sub_field('slide_title');?></h1>
-                                    <a href="javascript:void(0)"><?php the_sub_field('button_text');?></a>
                                 </div>
                                 <div class="item-count in-bottom">
                                     <hr></hr>
