@@ -50,29 +50,40 @@ if (have_posts()) :
                 <div class="overlay"></div>
                 <div class="container w-980 mt-8 mb-8 hidden_block">
                     <div class="detailed-page">
-                        <h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> WHY TOPPEQ?  </h2>
-                        <h5 class="sub-title pr-3">TOPPEQ helps investors and startups keep track of their money </h5>
-                        <p class="sub-text f-18 pr-3">Our machine learning algorithms and decision support systems provide investors with both the big picture and the nitty gritty, and enable startups to find out what they are spending their money on and what it is doing for them. </p>
+                        <h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> <?php the_field('section_title');?></h2>
+                        <h5 class="sub-title pr-3"><?php the_field('sub_title');?></h5>
+                        <p class="sub-text f-18 pr-3"><?php the_field('section_description');?></p>
                         <div class="row">
-                            <div class="col-lg-6 col-md-12">
-                                <div class="block">
-                                    <h3 class="block-title my-2">TOPPEQ for Investors</h3>
-                                      <img src="<?php echo get_template_directory_uri(); ?>/images/logo_overlay.png" class="icon">                                    
-                                      <p class="block-content">Toppeq’s platform helps venture capitalists, private equity firms, and angel investors go granular on their investment portfolio and use our dynamically generated sector-specific metrics to glean rapidly actionable insights.</p>
+                            <?php if( have_rows('block_section') ): ?>
+                                <div class="col-lg-6 col-md-12">
+                                    <?php
+                                    while ( have_rows('block_section') ) : the_row();?>
+                                        <?php 
+                                            $class="";
+                                            $row_index = get_row_index(); 
+                                            if($row_index == 1) {
+                                                $class = "why-toppeq";
+                                            }
+                                        ?>
+                                        <div class="block">
+                                            <h3 class="block-title my-2"><?php the_sub_field('block_title');?> </h3>
+                                            <img src="<?php the_sub_field('block_icon');?>" class="icon">
+                                            <p class="block-content"><?php the_sub_field('block_content');?></p>
+                                        </div>
+                                    <?php
+                                        endwhile;                    
+                                    ?>
                                 </div>
-                                <div class="block  my-2">
-                                    <h3 class="block-title">TOPPEQ for Startups</h3>
-                                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo_overlay.png" class="icon">  
-                                    <p class="block-content">We use pattern recognition to dissect thousands of shareholder agreements and employ big data to red flag contractual trapdoors and ensure parity between all parties. </p>
-                                </div>
-                                <div class="block  my-2">
-                                    <h3 class="block-title">TOPPEQ for Law & Accounting Firms</h3>
-                                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo_overlay.png" class="icon">  
-                                    <p class="block-content">The constantly and consistently updated data at our disposal— from shareholder agreements to cap tables — enables law and accounting firms to deliver prompt and correct advice to their clients</p>
-                                </div>
-                            </div>
+                            <?php 
+                            else :
+                                endif; 
+                            ?>
                             <div class="col-lg-5 col-md-12 why-toppeq-img">
-                               <img src="<?php echo get_template_directory_uri(); ?>/images/why-toppeq_1.png" class="block-img w-100">
+                               <picture>
+                                    <source media="(orientation: landscape)" srcset="<?php the_field('main_img_desk');?>">
+                                    <source media="(orientation: portrait)" srcset="<?php the_field('main_img_mob');?>">
+                                    <img src="<?php the_field('main_img_desk');?>" class="block-img w-100">
+                                </picture>  
                             </div>
                         </div>
                     </div>
