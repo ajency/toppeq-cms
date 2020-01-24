@@ -51,9 +51,9 @@ if (have_posts()) :
                 <div class="overlay"></div>
                 <div class="container w-980 mt-8 mb-8 hidden_block">
                     <div class="detailed-page">
-                        <h2 class="section-title f-25 text-uppercase py-md-4 py-2"> WHY TOPPEQ?  </h2>
-                        <h5 class="sub-title">TOPPEQ helps investors and startups keep track of their money </h5>
-                        <p class="sub-text f-18">Our machine learning algorithms and decision support systems provide investors with both the big picture and the nitty gritty, and enable startups to find out what they are spending their money on and what it is doing for them. </p>
+                        <h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> WHY TOPPEQ?  </h2>
+                        <h5 class="sub-title pr-3">TOPPEQ helps investors and startups keep track of their money </h5>
+                        <p class="sub-text f-18 pr-3">Our machine learning algorithms and decision support systems provide investors with both the big picture and the nitty gritty, and enable startups to find out what they are spending their money on and what it is doing for them. </p>
                         <div class="row">
                             <div class="col-lg-6 col-md-12">
                                 <div class="block">
