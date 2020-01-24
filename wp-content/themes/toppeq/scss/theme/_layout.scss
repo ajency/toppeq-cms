@@ -1010,15 +1010,6 @@ input[type="text"] , textarea{
     border: 0;
     border-radius: 0;
     position: relative;
-    &:after{
-        content: "\f105";
-        color: white;
-        font-family: 'FontAwesome';
-        position: absolute;
-        right: 0.5rem;
-        font-size: 25px;
-        top: 7px;
-    }
     &:hover{
         background-color: $orange-3;
         color: white;
