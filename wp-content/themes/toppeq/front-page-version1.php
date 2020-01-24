@@ -80,8 +80,8 @@ if (have_posts()) :
             <div class="services-page">
                 <div class="overlay"></div>
                 <div class="container w-980">
-                    <div class="detailed-page">
-                        <h2 class="section-title f-25 text-uppercase py-4"> Our Pricing</h2>
+                    <div class="detailed-page hidden_block">
+                        <h2 class="section-title f-25 text-uppercase py-4"> Our Services</h2>
                         <div class="row services-block services-01 left">
                             <div class="number-overlay"> 01 </div>
                             <div class="d-block">
@@ -182,7 +182,7 @@ if (have_posts()) :
             </div>
 
             <section class="contact-us mt-8">
-                <div class="container w-980">
+                <div class="container w-980 hidden_block">
                     <div class="row align-items-center">
                         <div class="contact-form">
                             <h2 class="section-title f-25 text-uppercase"> Our Pricing</h2>
