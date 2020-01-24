@@ -192,7 +192,7 @@ if (have_posts()) :
                         </div>
                         <div class="col-md-6 p-md-3 form-block">
                             <div class="form-field mb-0">
-                                [formidable id=2]
+                                <?php echo do_shortcode("[formidable id=2]"); ?>
                             </div>
                         </div>
                     </div>
