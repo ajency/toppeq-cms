@@ -30,7 +30,7 @@ if (have_posts()) :
                                 </picture>
                                 <div class="item-text in-left">
                                     <h1 class=""><?php the_sub_field('slide_title');?></h1>
-                                    <a href="#why-toppeq-section"><?php the_sub_field('button_text');?></a>
+                                    <a href="javascript:void(0)"><?php the_sub_field('button_text');?></a>
                                 </div>
                                 <div class="item-count in-bottom">
                                     <hr></hr>
@@ -192,9 +192,7 @@ if (have_posts()) :
                         </div>
                         <div class="col-md-6 p-md-3 form-block">
                             <div class="form-field mb-0">
-                                <input class="form-control" type="text" placeholder="Are you an Individual, Enterprise or a Startup?">
-                                <input class="form-control" type="email" placeholder="Your e-mail address?">
-                                <button class="btn btn-default submit">Let’s get in touch</button>
+                                [formidable id=2]
                             </div>
                         </div>
                     </div>
