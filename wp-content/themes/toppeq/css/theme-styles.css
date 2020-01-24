@@ -11108,7 +11108,14 @@ input[type="text"], textarea {
           .toppeq-section .detailed-page .why-toppeq-img:before {
             width: 150px;
             height: 150px; } }
-      /* line 1333, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        @media (max-width: 425px) {
+          /* line 1317, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          .toppeq-section .detailed-page .why-toppeq-img:before {
+            width: 150px;
+            height: 150px;
+            top: -7px;
+            left: 30px; } }
+      /* line 1339, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .toppeq-section .detailed-page .why-toppeq-img:after {
         content: "";
         position: absolute;
@@ -11121,10 +11128,15 @@ input[type="text"], textarea {
         opacity: 0.46;
         border-width: 2px 0px 0px 2px; }
         @media (max-width: 991px) {
-          /* line 1333, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 1339, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .toppeq-section .detailed-page .why-toppeq-img:after {
             width: 150px;
             height: 150px; } }
+        @media (max-width: 425px) {
+          /* line 1339, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          .toppeq-section .detailed-page .why-toppeq-img:after {
+            top: -18px;
+            left: 20px; } }
       @media (max-width: 991px) {
         /* line 1313, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .toppeq-section .detailed-page .why-toppeq-img {
@@ -11132,6 +11144,10 @@ input[type="text"], textarea {
           margin-top: 39px;
           padding-right: 15px;
           right: 0; } }
+      @media (max-width: 425px) {
+        /* line 1313, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        .toppeq-section .detailed-page .why-toppeq-img {
+          padding-left: 40px; } }
     @media (max-width: 425px) {
       /* line 1253, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .toppeq-section .detailed-page {
