@@ -11124,7 +11124,8 @@ input[type="text"], textarea {
         .toppeq-section .detailed-page .why-toppeq-img {
           position: relative;
           margin-top: 39px;
-          padding-right: 30px; } }
+          padding-right: 15px;
+          right: 0; } }
     @media (max-width: 425px) {
       /* line 1252, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .toppeq-section .detailed-page {
