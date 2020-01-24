@@ -23,7 +23,7 @@
 
 
 
-body:not(.home , .page-template-front-page-home){
+body:not(.home , .page-template-front-page-home , .page-template-front-page-version1-php){
     header{
         background: #fff;
         padding: 25px 65px;
@@ -59,7 +59,7 @@ body:not(.home , .page-template-front-page-home){
         }
     }
 }
-.home, .page-template-front-page-home{
+.home, .page-template-front-page-home, .page-template-front-page-version1-php{
     header{
         position: absolute;
         background: transparent;
