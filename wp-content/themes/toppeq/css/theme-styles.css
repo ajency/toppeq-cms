@@ -10547,14 +10547,15 @@ hr.line-separator {
   .contact-us .contact-form .panel-body {
     box-shadow: 0 2px 20px 0 rgba(235, 235, 235, 0.5);
     background-color: white;
-    padding: 1.5rem; }
-    /* line 784, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    padding: 1.5rem;
+    margin: 0 15px; }
+    /* line 785, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .contact-us .contact-form .panel-body input[type="text"], .contact-us .contact-form .panel-body textarea {
       border-bottom: solid 1px #adb5bd !important;
       box-shadow: none;
       border: 0;
       border-radius: 0px; }
-    /* line 790, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    /* line 791, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .contact-us .contact-form .panel-body .frm_button_submit {
       background-color: #f16624;
       padding: 0.8rem 4rem 0.8rem 0.5rem;
@@ -10563,7 +10564,7 @@ hr.line-separator {
       border: 0;
       border-radius: 0;
       position: relative; }
-      /* line 798, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+      /* line 799, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .contact-us .contact-form .panel-body .frm_button_submit:after {
         content: "\f105";
         color: white;
@@ -10572,19 +10573,19 @@ hr.line-separator {
         right: 0.5rem;
         font-size: 25px;
         top: 7px; }
-      /* line 807, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+      /* line 808, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .contact-us .contact-form .panel-body .frm_button_submit:hover {
         background-color: #f16624;
         color: white; }
-        /* line 810, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 811, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .contact-us .contact-form .panel-body .frm_button_submit:hover:after {
           right: 0.5rem; }
       @media (max-width: 767px) {
-        /* line 790, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 791, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .contact-us .contact-form .panel-body .frm_button_submit {
           width: 100%;
           text-align: left; } }
-  /* line 820, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+  /* line 821, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
   .contact-us .contact-form .rectangle {
     background: #f16624;
     width: 150px;
@@ -10599,18 +10600,18 @@ hr.line-separator {
     .contact-us .contact-form {
       margin: 0 40px; } }
 
-/* line 835, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+/* line 836, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
 .coming-soon-bg {
   height: 100vh; }
 
-/* line 840, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+/* line 841, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
 .module-header {
   width: 100%;
   height: 100px;
   position: fixed;
   top: 0;
   left: 0; }
-  /* line 846, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+  /* line 847, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
   .module-header.blur {
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
@@ -10619,7 +10620,7 @@ hr.line-separator {
     position: absolute;
     top: 0; }
 
-/* line 856, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+/* line 857, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
 .cs-main-content {
   position: absolute;
   top: 30%;
@@ -10629,40 +10630,40 @@ hr.line-separator {
   text-align: center;
   background: rgba(255, 255, 255, 0.04);
   width: fit-content; }
-  /* line 865, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+  /* line 866, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
   .cs-main-content img {
     display: inline-block;
     max-width: 100%;
     height: auto;
     width: 280px; }
-  /* line 871, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+  /* line 872, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
   .cs-main-content p {
     color: white; }
-  /* line 874, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+  /* line 875, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
   .cs-main-content .title {
     color: white; }
     @media (max-width: 767px) {
-      /* line 874, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+      /* line 875, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .cs-main-content .title {
         font-size: 25px !important; } }
-  /* line 880, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+  /* line 881, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
   .cs-main-content .email-id-link {
     color: #f16624;
     padding: 2px;
     margin: 0 8px;
     transition: all 0.2s ease-in; }
-    /* line 885, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    /* line 886, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .cs-main-content .email-id-link:hover {
       text-decoration: none;
       box-shadow: 0px 1px 0px 0px; }
   @media (max-width: 767px) {
-    /* line 856, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    /* line 857, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .cs-main-content {
       top: 22%;
       width: 100%;
       text-align: center; } }
 
-/* line 897, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+/* line 898, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
 .contact-us-v2 .contactBox {
   max-width: 334px;
   width: auto;
@@ -10676,12 +10677,12 @@ hr.line-separator {
   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
   position: relative;
   text-align: center; }
-  /* line 910, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+  /* line 911, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
   .contact-us-v2 .contactBox:nth-child(2) {
     margin-left: 20px;
     margin-right: 20px; }
   @media (max-width: 767px) {
-    /* line 897, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    /* line 898, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .contact-us-v2 .contactBox {
       display: block;
       text-decoration: none;
@@ -10693,28 +10694,28 @@ hr.line-separator {
       position: relative;
       text-align: center; } }
 
-/* line 929, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+/* line 930, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
 .single-press .header-bg {
   display: none; }
 
-/* line 933, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+/* line 934, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
 .single-press .single-post-featured-img img {
   margin: 30px; }
 
-/* line 937, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+/* line 938, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
 .single-press .header {
   box-shadow: 0px 0px 10px 0px #dddbdb;
   border-left: 4px solid #f16624;
   margin: 30px 0; }
 
-/* line 944, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+/* line 945, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
 .services-page {
   position: relative;
   background-image: url(../images/bgimg1.png);
   background-position: bottom 30% right -90px;
   background-size: auto;
   background-repeat: no-repeat; }
-  /* line 950, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+  /* line 951, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
   .services-page .overlay {
     position: absolute;
     width: 100%;
@@ -10725,16 +10726,16 @@ hr.line-separator {
     background-color: rgba(255, 255, 255, 0.82);
     z-index: 0;
     cursor: pointer; }
-  /* line 961, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+  /* line 962, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
   .services-page .detailed-page {
     box-shadow: 0 2px 40px 0 rgba(235, 235, 235, 0.5);
     background-color: white;
     position: relative; }
-    /* line 965, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    /* line 966, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .services-page .detailed-page .services-block {
       position: relative;
       width: 100%; }
-      /* line 968, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+      /* line 969, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .services-page .detailed-page .services-block .number-overlay {
         color: black;
         font-size: 150px;
@@ -10743,29 +10744,29 @@ hr.line-separator {
         top: -25px;
         z-index: 0; }
         @media (max-width: 767px) {
-          /* line 968, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 969, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .services-page .detailed-page .services-block .number-overlay {
             font-size: 120px;
             top: 0px; } }
-      /* line 980, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+      /* line 981, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .services-page .detailed-page .services-block.left {
         padding-left: 160px;
         padding-bottom: 80px;
         padding-top: 80px; }
-        /* line 984, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 985, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .services-page .detailed-page .services-block.left .number-overlay {
           left: 85px; }
           @media (max-width: 767px) {
-            /* line 984, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+            /* line 985, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
             .services-page .detailed-page .services-block.left .number-overlay {
               left: 20px; } }
-        /* line 990, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 991, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .services-page .detailed-page .services-block.left .title {
           position: relative; }
-          /* line 992, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 993, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .services-page .detailed-page .services-block.left .title h2 {
             position: relative; }
-            /* line 994, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+            /* line 995, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
             .services-page .detailed-page .services-block.left .title h2:after {
               content: '';
               position: absolute;
@@ -10775,10 +10776,10 @@ hr.line-separator {
               border-bottom: solid 5px #f16624;
               padding-bottom: 40px; }
             @media (max-width: 767px) {
-              /* line 992, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+              /* line 993, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
               .services-page .detailed-page .services-block.left .title h2 {
                 font-size: 25px; } }
-          /* line 1007, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 1008, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .services-page .detailed-page .services-block.left .title:after {
             content: '';
             position: absolute;
@@ -10791,34 +10792,34 @@ hr.line-separator {
             width: 200px;
             opacity: 0.08; }
             @media (max-width: 767px) {
-              /* line 1007, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+              /* line 1008, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
               .services-page .detailed-page .services-block.left .title:after {
                 width: 100px;
                 left: 155px; } }
         @media (max-width: 767px) {
-          /* line 980, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 981, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .services-page .detailed-page .services-block.left {
             padding-right: 30px;
             padding-left: 30px; } }
-      /* line 1029, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+      /* line 1030, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .services-page .detailed-page .services-block.right {
         padding-right: 160px;
         padding-bottom: 80px;
         padding-top: 80px; }
-        /* line 1033, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 1034, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .services-page .detailed-page .services-block.right .number-overlay {
           right: 60px; }
           @media (max-width: 767px) {
-            /* line 1033, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+            /* line 1034, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
             .services-page .detailed-page .services-block.right .number-overlay {
               right: 20px; } }
-        /* line 1039, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 1040, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .services-page .detailed-page .services-block.right .title {
           position: relative; }
-          /* line 1041, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 1042, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .services-page .detailed-page .services-block.right .title h2 {
             position: relative; }
-            /* line 1043, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+            /* line 1044, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
             .services-page .detailed-page .services-block.right .title h2:after {
               content: '';
               position: absolute;
@@ -10828,10 +10829,10 @@ hr.line-separator {
               border-bottom: solid 5px #f16624;
               padding-bottom: 40px; }
             @media (max-width: 767px) {
-              /* line 1041, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+              /* line 1042, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
               .services-page .detailed-page .services-block.right .title h2 {
                 font-size: 25px; } }
-          /* line 1056, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 1057, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .services-page .detailed-page .services-block.right .title:after {
             content: '';
             position: absolute;
@@ -10844,25 +10845,25 @@ hr.line-separator {
             width: 200px;
             opacity: 0.08; }
             @media (max-width: 767px) {
-              /* line 1056, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+              /* line 1057, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
               .services-page .detailed-page .services-block.right .title:after {
                 width: 100px;
                 right: 120px; } }
         @media (max-width: 767px) {
-          /* line 1029, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 1030, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .services-page .detailed-page .services-block.right {
             padding-right: 30px;
             padding-left: 30px; } }
         @media (max-width: 767px) {
-          /* line 1077, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 1078, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .services-page .detailed-page .services-block.right .s-content {
             flex-direction: column-reverse; } }
-      /* line 1086, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+      /* line 1087, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .services-page .detailed-page .services-block.services-01 .outer-box-shares {
         width: auto;
         height: auto;
         right: 30px; }
-        /* line 1090, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 1091, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .services-page .detailed-page .services-block.services-01 .outer-box-shares table {
           box-shadow: 0 2px 20px 0 rgba(235, 235, 235, 0.5);
           background-color: white;
@@ -10871,15 +10872,15 @@ hr.line-separator {
           border-spacing: 0 1em;
           padding: 0 0 0 20px;
           float: right; }
-          /* line 1100, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 1101, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .services-page .detailed-page .services-block.services-01 .outer-box-shares table tbody tr td {
             background-color: #fafafa;
             padding: 15px; }
-          /* line 1105, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 1106, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .services-page .detailed-page .services-block.services-01 .outer-box-shares table tbody tr td:first-child {
             border-top-left-radius: 15px;
             border-bottom-left-radius: 15px; }
-          /* line 1112, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 1113, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .services-page .detailed-page .services-block.services-01 .outer-box-shares table:before {
             content: "";
             position: absolute;
@@ -10892,12 +10893,12 @@ hr.line-separator {
             opacity: 0.46;
             border-width: 0px 0 0px 2px; }
             @media (max-width: 991px) {
-              /* line 1112, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+              /* line 1113, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
               .services-page .detailed-page .services-block.services-01 .outer-box-shares table:before {
                 width: 150px;
                 height: 150px;
                 display: none; } }
-          /* line 1129, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 1130, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .services-page .detailed-page .services-block.services-01 .outer-box-shares table:after {
             content: "";
             position: absolute;
@@ -10909,28 +10910,28 @@ hr.line-separator {
             left: 40px;
             border-width: 0px 0px 0px 2px; }
             @media (max-width: 991px) {
-              /* line 1129, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+              /* line 1130, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
               .services-page .detailed-page .services-block.services-01 .outer-box-shares table:after {
                 width: 150px;
                 height: 150px;
                 display: none; } }
       @media (max-width: 767px) {
-        /* line 1085, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 1086, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .services-page .detailed-page .services-block.services-01 {
           padding-right: 0; } }
       @media (max-width: 767px) {
-        /* line 1151, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 1152, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .services-page .detailed-page .services-block.services-04 {
           padding-left: 0; } }
-      /* line 1158, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+      /* line 1159, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .services-page .detailed-page .services-block .s-content img {
         max-width: 100%;
         vertical-align: middle; }
-      /* line 1162, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+      /* line 1163, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .services-page .detailed-page .services-block .s-content .ser_img-04 {
         position: relative;
         margin-top: 30px; }
-        /* line 1165, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 1166, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .services-page .detailed-page .services-block .s-content .ser_img-04:before {
           content: "";
           position: absolute;
@@ -10943,11 +10944,11 @@ hr.line-separator {
           opacity: 0.46;
           border-width: 2px 2px 0px 0; }
           @media (max-width: 991px) {
-            /* line 1165, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+            /* line 1166, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
             .services-page .detailed-page .services-block .s-content .ser_img-04:before {
               width: 150px;
               height: 150px; } }
-        /* line 1181, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 1182, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .services-page .detailed-page .services-block .s-content .ser_img-04:after {
           content: "";
           position: absolute;
@@ -10959,27 +10960,27 @@ hr.line-separator {
           right: -12px;
           border-width: 2px 2px 0px 0; }
           @media (max-width: 991px) {
-            /* line 1181, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+            /* line 1182, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
             .services-page .detailed-page .services-block .s-content .ser_img-04:after {
               width: 150px;
               height: 150px; } }
   @media (max-width: 767px) {
-    /* line 944, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    /* line 945, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .services-page {
       background-position: top 30% right -90px; } }
   @media (max-width: 767px) {
-    /* line 944, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    /* line 945, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .services-page {
       background-position: top 30% right -450px; } }
 
-/* line 1208, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+/* line 1209, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
 input[type="text"], textarea {
   border-bottom: solid 1px #adb5bd !important;
   box-shadow: none;
   border: 0;
   border-radius: 0px; }
 
-/* line 1214, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+/* line 1215, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
 .frm_button_submit {
   background-color: #f16624;
   padding: 0.8rem 4rem 0.8rem 0.5rem;
@@ -10988,27 +10989,27 @@ input[type="text"], textarea {
   border: 0;
   border-radius: 0;
   position: relative; }
-  /* line 1222, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+  /* line 1223, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
   .frm_button_submit:hover {
     background-color: #f16624;
     color: white; }
-    /* line 1225, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    /* line 1226, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .frm_button_submit:hover:after {
       right: 0.5rem; }
   @media (max-width: 767px) {
-    /* line 1214, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    /* line 1215, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .frm_button_submit {
       width: 100%;
       text-align: left; } }
 
-/* line 1235, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+/* line 1236, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
 .toppeq-section {
   position: relative;
   background-image: url(../images/bgimg1.png);
   background-position: bottom 30% right -90px;
   background-size: auto;
   background-repeat: no-repeat; }
-  /* line 1241, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+  /* line 1242, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
   .toppeq-section .overlay {
     position: absolute;
     width: 100%;
@@ -11019,41 +11020,46 @@ input[type="text"], textarea {
     background-color: rgba(255, 255, 255, 0.82);
     z-index: 0;
     cursor: pointer; }
-  /* line 1252, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+  /* line 1253, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
   .toppeq-section .detailed-page {
     box-shadow: 0 2px 40px 0 rgba(235, 235, 235, 0.5);
     background-color: white;
     position: relative;
     padding: 0px 0 30px 30px; }
-    /* line 1257, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    /* line 1258, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .toppeq-section .detailed-page .sub-title {
       color: #495057;
       text-align: center;
       font-size: 28px; }
       @media (max-width: 991px) {
-        /* line 1257, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 1258, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .toppeq-section .detailed-page .sub-title {
           padding: 15px 0; } }
-    /* line 1265, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+      @media (max-width: 425px) {
+        /* line 1258, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        .toppeq-section .detailed-page .sub-title {
+          padding: 0 30px;
+          font-size: 24px; } }
+    /* line 1270, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .toppeq-section .detailed-page .sub-text {
       color: #6c757d;
       text-align: center;
       padding: 15px 0; }
       @media (max-width: 425px) {
-        /* line 1265, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 1270, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .toppeq-section .detailed-page .sub-text {
           padding-left: 24px; } }
-    /* line 1273, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    /* line 1278, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .toppeq-section .detailed-page .block {
       margin-left: 90px;
       border-bottom: 1px solid #ced4da;
       opacity: 0.8;
       position: relative; }
       @media (max-width: 991px) {
-        /* line 1278, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 1283, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .toppeq-section .detailed-page .block-title {
           font-size: 24px; } }
-      /* line 1283, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+      /* line 1288, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .toppeq-section .detailed-page .block .icon {
         position: absolute;
         width: 40px;
@@ -11061,31 +11067,31 @@ input[type="text"], textarea {
         top: 0px;
         left: -70px; }
         @media (max-width: 425px) {
-          /* line 1283, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 1288, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .toppeq-section .detailed-page .block .icon {
             width: 30px;
             height: 30px;
             top: 0;
             left: -35px; } }
       @media (max-width: 991px) {
-        /* line 1273, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 1278, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .toppeq-section .detailed-page .block {
           margin-right: 50px; } }
       @media (max-width: 425px) {
-        /* line 1273, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 1278, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .toppeq-section .detailed-page .block {
           margin-right: 15px;
           margin-left: 40px; } }
-    /* line 1304, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    /* line 1309, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .toppeq-section .detailed-page img {
       max-width: 100%;
       width: 100%; }
-    /* line 1308, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+    /* line 1313, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
     .toppeq-section .detailed-page .why-toppeq-img {
       position: absolute;
       bottom: 0;
       right: -15px; }
-      /* line 1312, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+      /* line 1317, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .toppeq-section .detailed-page .why-toppeq-img:before {
         content: "";
         position: absolute;
@@ -11098,11 +11104,11 @@ input[type="text"], textarea {
         opacity: 0.46;
         border-width: 2px 0px 0px 2px; }
         @media (max-width: 991px) {
-          /* line 1312, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 1317, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .toppeq-section .detailed-page .why-toppeq-img:before {
             width: 150px;
             height: 150px; } }
-      /* line 1328, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+      /* line 1333, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .toppeq-section .detailed-page .why-toppeq-img:after {
         content: "";
         position: absolute;
@@ -11115,18 +11121,19 @@ input[type="text"], textarea {
         opacity: 0.46;
         border-width: 2px 0px 0px 2px; }
         @media (max-width: 991px) {
-          /* line 1328, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+          /* line 1333, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
           .toppeq-section .detailed-page .why-toppeq-img:after {
             width: 150px;
             height: 150px; } }
       @media (max-width: 991px) {
-        /* line 1308, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+        /* line 1313, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
         .toppeq-section .detailed-page .why-toppeq-img {
           position: relative;
           margin-top: 39px;
-          padding-right: 30px; } }
+          padding-right: 15px;
+          right: 0; } }
     @media (max-width: 425px) {
-      /* line 1252, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
+      /* line 1253, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
       .toppeq-section .detailed-page {
         padding: 0px 0 0px 0px; } }
 
