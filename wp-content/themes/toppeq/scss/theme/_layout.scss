@@ -995,3 +995,39 @@ hr.line-separator{
         }
     }
 }
+
+input[type="text"] , textarea{
+    border-bottom: solid 1px $gray-500 !important;
+    box-shadow: none;
+    border: 0;
+    border-radius: 0px;
+}
+.frm_button_submit{
+    background-color: $orange-3;
+    padding: 0.8rem 4rem 0.8rem 0.5rem;
+    color: white;
+    box-shadow: none;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    &:after{
+        content: "\f105";
+        color: white;
+        font-family: 'FontAwesome';
+        position: absolute;
+        right: 0.5rem;
+        font-size: 25px;
+        top: 7px;
+    }
+    &:hover{
+        background-color: $orange-3;
+        color: white;
+        &:after{
+            right: 0.5rem;
+        }
+    }
+    @media (max-width: 767px){
+        width: 100%;
+        text-align: left;
+    }
+}
