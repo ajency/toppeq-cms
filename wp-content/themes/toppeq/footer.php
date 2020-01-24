@@ -4,9 +4,9 @@
     	<div class="row align-items-center">
     		<div class="col-md-10">
 				<ul class="footer-links mb-0">	
-					<li class="nav-links pr-3 f-18"><a href="#">Privacy and Policy</a></li>
-					<li class="nav-links pr-3 f-18"><a href="#">Career at Toppeq</a></li>
+					<li class="nav-links pr-3 f-18"><a href="#">Careers</a></li>
 					<li class="nav-links pr-3 f-18"><a href="#">Contact us</a></li>
+					<li class="nav-links pr-3 f-18"><a href="#">Privacy and Policy</a></li>
 				</ul>
 			</div>
     		<div class="col-md-2 social-media">
