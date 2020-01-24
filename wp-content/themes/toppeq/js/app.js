@@ -5,10 +5,10 @@ $(document).ready(function () {
         arrows: false,
 		dots: true,
 		infinite: true,
-		speed: 1000,
+		speed: 2000,
 		fade: true,
 		cssEase: 'linear',
-		// autoplay: true,
+		autoplay: true,
 		//swipe: false        
 	});
 	
