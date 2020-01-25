@@ -11623,7 +11623,7 @@ input[type="text"], textarea {
 body  header {
   background: #fff;
   padding: 25px 65px;
-  z-index: 1; }
+  z-index: 4; }
   /* line 31, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_header.scss */
   body  header .logo {
     display: block; }
