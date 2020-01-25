@@ -112,7 +112,7 @@ if (have_posts()) :
                                     <thead>
                                         <tr>
                                             <th class="f-18 p-1">Shareholder Name</th>
-                                            <th class="f-18 p-1">%age holding</th>
+                                            <th class="f-18 p-1">% holding</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -199,8 +199,8 @@ if (have_posts()) :
                 <div class="container w-980 hidden_block">
                     <div class="row align-items-center">
                         <div class="contact-form">
-                            <h2 class="section-title f-25 text-uppercase"> Our Pricing</h2>
-                            <h5 class="sub-title f-18">A quick brown fox jumps over a lazy dog. </h5>
+                            <h2 class="section-title f-25 text-uppercase"><?php the_field('pricing_title');?></h2>
+                            <h5 class="sub-title f-18"><?php the_field('pricing_description');?> </h5>
                             <div class="tab-content mt-4 position-relative">
                                 <div class="rectangle"></div>
                                 <div class="tab-pane active" id="tab1">
