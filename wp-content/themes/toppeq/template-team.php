@@ -167,6 +167,7 @@ if (have_posts()) {
 		                        			<p class="designation">Business Role</p>
 		                    			</div>
 	                                    <h4>Chief Happiness incharge with a penchant for people and stories. Can create a tune a minute and is taking over the world one Podcast at a time!</h4>
+	                                </div>
 	                            </div>
 	                        </div>
 	                    </div>
