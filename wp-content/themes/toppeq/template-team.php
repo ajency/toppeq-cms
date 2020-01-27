@@ -27,28 +27,28 @@ if (have_posts()) {
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/large-img.png"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/second-member.png"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/hema.png"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/third-member.png"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/ajay.png"></div>
 	                </li>
 					<li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/fourth-member.png"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/bhargavi.png"></div>
 	                </li>
 					<li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/fifth-member.png"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/aditya.png"></div>
 	                </li>
 					<li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/sixth-member.png"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/akhilesh.png"></div>
 	                </li>
 	                	<li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/seventh-member.png"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/urmi.png"></div>
 	                </li>
 	                	<li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/eight-member.png"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/aayush.png"></div>
 	                </li>
 	                	<li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/ninth-member.png"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/kaartik.png"></div>
 	                </li>
 
 
