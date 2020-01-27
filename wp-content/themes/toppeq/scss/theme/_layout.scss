@@ -1893,9 +1893,28 @@ input[type="text"] , textarea{
             text-align: center;
             color: #a2a2a2;
         }
+        a{
+            color: #f16624;
+            text-decoration: none;
+        }
         @media (max-width: 768px) {
             padding-left: 15px;
             padding-right: 15px;
         }
     }
+}
+
+.c-image{
+    height: 435px;
+    width: 100%;
+    object-fit: cover;   
+    @media (max-width: 991px) {
+        height: 300px;
+    } 
+    @media (max-width: 768px) {
+        height: 200px;
+    } 
+    @media (max-width: 480px) {
+        height: 115px;
+    } 
 }
