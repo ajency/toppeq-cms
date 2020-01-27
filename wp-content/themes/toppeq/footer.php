@@ -3,7 +3,7 @@
     <div class="container-fluid mt-2 py-2">
     	<div class="row align-items-center">
     		<div class="col-md-10">
-				<ul class="footer-links mb-0">	
+				<ul class="footer-links mb-0">
 					<li class="nav-links pr-3 f-18"><a href="#">Careers</a></li>
 					<li class="nav-links pr-3 f-18"><a href="#">Contact us</a></li>
 					<li class="nav-links pr-3 f-18"><a href="#">Privacy and Policy</a></li>
