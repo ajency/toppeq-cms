@@ -47,6 +47,9 @@ if (have_posts()) {
 	                	<li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/eight-member.png"></div>
 	                </li>
+	                	<li class="block">
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/ninth-member.png"></div>
+	                </li>
 
 
 
@@ -188,7 +191,7 @@ if (have_posts()) {
 	                        </div>
 	                    </div>
 	                </div>
-	                <div class="animate">
+	                <!-- <div class="animate">
 	                    <div class="animate-img">
 	                        <div class="animate-img__in">
 	                            <div class="animate-more">
@@ -232,7 +235,7 @@ if (have_posts()) {
 	                            </div>
 	                        </div>
 	                    </div>
-	                </div>
+	                </div> -->
 	            </div>
 	           
 	        </div>
