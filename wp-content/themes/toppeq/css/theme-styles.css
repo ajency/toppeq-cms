@@ -9603,7 +9603,7 @@ input[type="text"], textarea {
       font-size: 20px;
       color: #ffffff;
       border-radius: 50%;
-      width: 100%;
+      width: 115px;
       margin: -8% auto;
       transition: all 500ms ease; }
     .circle--rotate > li i {
@@ -9621,7 +9621,8 @@ input[type="text"], textarea {
       margin: auto;
       transform: rotate(235deg);
       width: 100px;
-      height: 100px; }
+      height: 100px;
+      transition: all 0.3s ease; }
       @media (max-width: 991px) {
         .circle--rotate > li img {
           width: 75px;
@@ -9630,6 +9631,20 @@ input[type="text"], textarea {
         .circle--rotate > li img {
           width: 45px;
           height: 45px; } }
+    .circle--rotate > li.active + .block img {
+      transform: rotate(318deg); }
+    .circle--rotate > li.active + .block + .block img {
+      transform: rotate(288deg); }
+    .circle--rotate > li.active + .block + .block + .block + .block img {
+      transform: rotate(200deg); }
+    .circle--rotate > li.active + .block + .block + .block + .block + .block img {
+      transform: rotate(165deg); }
+    .circle--rotate > li.active + .block + .block + .block + .block + .block + .block img {
+      transform: rotate(120deg); }
+    .circle--rotate > li.active + .block + .block + .block + .block + .block + .block + .block img {
+      transform: rotate(80deg); }
+    .circle--rotate > li.active + .block + .block + .block + .block + .block + .block + .block + .block img {
+      transform: rotate(40deg); }
   @media (max-width: 475px) {
     .circle--rotate {
       height: 50vh !important;
@@ -9647,6 +9662,8 @@ input[type="text"], textarea {
       transform: rotate(0deg);
       transition: all 2s;
       opacity: 0; }
+  .circle--slider .circle--rotate > li.active div.icon {
+    width: 200px; }
   .circle--slider .circle--rotate > li.active div img {
     width: 200px;
     height: 200px;

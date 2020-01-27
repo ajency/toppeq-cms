@@ -1416,7 +1416,7 @@ input[type="text"] , textarea{
       font-size: 20px;
       color: #ffffff;
       border-radius: 50%;
-      width: 100%;
+      width: 115px;
       margin: -8% auto;
       transition: all 500ms ease;
 
@@ -1444,6 +1444,7 @@ input[type="text"] , textarea{
         transform: rotate(235deg);
         width: 100px;
         height: 100px;
+        transition: all 0.3s ease;
         @media (max-width: 991px){
             width: 75px;
             height: 75px;
@@ -1451,6 +1452,44 @@ input[type="text"] , textarea{
         @media (max-width: 768px){
             width: 45px;
             height: 45px;
+        }
+    }
+
+    &.active{
+        & + .block{
+            img{
+                transform: rotate(318deg);
+            }
+        }
+        &+.block+.block{
+            img{
+                transform: rotate(288deg);
+            }
+        }
+        &+.block+.block+.block+.block{
+            img{
+                transform: rotate(200deg);
+            }
+        }
+        &+.block+.block+.block+.block+.block{
+            img{
+                transform: rotate(165deg);
+            }
+        }
+        &+.block+.block+.block+.block+.block+.block{
+            img{
+                transform: rotate(120deg);
+            }
+        }
+        &+.block+.block+.block+.block+.block+.block+.block{
+            img{
+                transform: rotate(80deg);
+            }
+        }
+        &+.block+.block+.block+.block+.block+.block+.block+.block{
+            img{
+                transform: rotate(40deg);
+            }
         }
     }
   }
@@ -1482,6 +1521,9 @@ input[type="text"] , textarea{
     }
 
     &.active div {
+        &.icon{
+            width: 200px;
+        }
     img{
         width: 200px;
         height: 200px;
