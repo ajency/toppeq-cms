@@ -21,8 +21,18 @@
 				<div class="logo">
 					<a href="#" class="d-inline-block text-decoration-none">
 						<!-- <h2 class="m-0">TOPPEQ</h2> -->
-						<img src="<?php echo get_template_directory_uri(); ?>/images/Logo_White.png" class="normal-logo">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo.png" class="sticky-logo">
+						<?php 
+						if ( is_page_template( 'front-page-home-v1.php' ) ) {
+							?>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/Logo_White.png" class="normal-logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo.png" class="sticky-logo">
+							<?php
+						} else {
+							?>
+						    <img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo.png" class="">
+							<?php
+						}
+						?>
 					</a>
 				</div>
 				<div class="hamburger-menu">
