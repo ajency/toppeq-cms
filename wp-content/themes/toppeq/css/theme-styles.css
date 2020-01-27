@@ -9949,17 +9949,17 @@ input[type="text"], textarea {
     .logo {
       width: 100px; } }
 
-body:not(.home, .page-template-front-page-home, .page-template-front-page-version1-php) header {
+body:not(.page-template-front-page-home) header {
   background: #fff;
   padding: 25px 65px;
   z-index: 4; }
-  body:not(.home, .page-template-front-page-home, .page-template-front-page-version1-php) header .logo {
+  body:not(.page-template-front-page-home) header .logo {
     display: block; }
-    body:not(.home, .page-template-front-page-home, .page-template-front-page-version1-php) header .logo .normal-logo {
+    body:not(.page-template-front-page-home) header .logo .normal-logo {
       display: none; }
-    body:not(.home, .page-template-front-page-home, .page-template-front-page-version1-php) header .logo .sticky-logo {
+    body:not(.page-template-front-page-home) header .logo .sticky-logo {
       display: block; }
-  body:not(.home, .page-template-front-page-home, .page-template-front-page-version1-php) header.sticky {
+  body:not(.page-template-front-page-home) header.sticky {
     position: sticky;
     top: 0;
     width: 100%;
