@@ -108,7 +108,6 @@ if (have_posts()) {
 		                    			</div>
 	                                    <h4>Operates at the intersection of product and technology. Can whip up a mean vangi bhaat.</h4>
 	                                </div>
-	                                </div>
 	                            </div>
 	                        </div>
 	                    </div>
