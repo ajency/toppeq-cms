@@ -1871,11 +1871,11 @@ input[type="text"] , textarea{
         }
     }
     &-content{     
-        text-align: center;  
         margin-bottom: 120px; 
         max-width: 1096px;
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
         h2{
             margin-bottom: 50px;
             font-size: 28px;
@@ -1886,11 +1886,16 @@ input[type="text"] , textarea{
                 margin-bottom: 40px;
             }
         }
+        h3{
+            font-size: 22px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            color: #505050;
+        }
         p{
             margin-bottom: 30px;
             font-size: 18px;
             font-weight: normal;
-            text-align: center;
             color: #a2a2a2;
         }
         a{
