@@ -10,7 +10,7 @@ get_header(); ?>
         the_post(); ?>
             <div class="container">
                 <div class="page-title">
-                    <h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> <?php the_title();?> </h2>
+                    <h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> LIFE AT TOPPEQ </h2>
                 </div>
                 <div class="page-featured-image mb-3 mb-md-6">
                     <div class="row">
