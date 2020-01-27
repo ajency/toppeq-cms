@@ -3,15 +3,15 @@
     <div class="container-fluid mt-2 py-2">
     	<div class="row align-items-center">
     		<div class="col-md-10">
-				<ul class="footer-links mb-0">
-					<li class="nav-links pr-3 f-18"><a href="#">Careers</a></li>
+				<ul class="footer-links mb-0">	
+					<li class="nav-links pr-3 f-18"><a href="/careers">Career at Toppeq</a></li>
 					<li class="nav-links pr-3 f-18"><a href="#">Contact us</a></li>
-					<li class="nav-links pr-3 f-18"><a href="#">Privacy and Policy</a></li>
+					<li class="nav-links pr-3 f-18"><a href="/privacy-policy">Privacy and Policy</a></li>	
 				</ul>
 			</div>
     		<div class="col-md-2 social-media">
-				<span class="px-1"><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></span>
-				<span class="pl-1"><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></span>
+				<!-- <span class="px-1"><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></span>
+				<span class="pl-1"><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></span> -->
 			</div>	
 		</div>	
     </div><a href="#">
