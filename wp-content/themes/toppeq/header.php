@@ -82,7 +82,7 @@
 	</nav>
 
 	<div class="header-bg">
-		<div class="container breadcrumbs-wrapper w-980">
+		<div class="breadcrumbs-wrapper">
 			<h2 class="title text-capitalize"><?php the_title(); ?></h2>
 			<div class="breadcrumbs-inside">
 		        <ul itemscope itemtype="https://schema.org/BreadcrumbList">
