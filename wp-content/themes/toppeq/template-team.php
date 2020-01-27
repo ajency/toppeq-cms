@@ -62,6 +62,141 @@ if (have_posts()) {
 											<h5 class="name"> Nandini Sankar </h5>
 		                        			<p class="designation">Business Role</p>
 		                    			</div>
+	                                    <h4>Big picture person. Insomniac. Seahawks 12th Woman. Design fiend</h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h5 class="name"> Hema Radhakrishna </h5>
+		                        			<p class="designation">Business Role</p>
+		                    			</div>
+	                                    <h4>Discerns patterns in data. Global Citizen. Cruciverbalist. Wodehouse fan</h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h5 class="name"> Ajay Khadke </h5>
+		                        			<p class="designation">Business Role</p>
+		                    			</div>
+	                                    <h4>Talent spotter and excellent team builder. Dreams of winning a PGA tournament. Recommends The Seventh Secret by Irving Wallace to all and sundry.</h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h5 class="name"> Bhargavi Swami </h5>
+		                        			<p class="designation">Business Role</p>
+		                    			</div>
+	                                    <h4>Chief Happiness incharge with a penchant for people and stories. Can create a tune a minute and is taking over the world one Podcast at a time!</h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h5 class="name"> Aditya Yadav </h5>
+		                        			<p class="designation">Business Role</p>
+		                    			</div>
+	                                    <h4>Transforms ideas into products. Drawn to the ocean. Tom Hanks fan</h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h5 class="name"> Akhilesh Vyas </h5>
+		                        			<p class="designation">Business Role</p>
+		                    			</div>
+	                                    <h4>Operates at the intersection of product and technology. Can whip up a mean vangi bhaat.</h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h5 class="name"> Urmi Mehta </h5>
+		                        			<p class="designation">Business Role</p>
+		                    			</div>
+	                                    <h4>Hard taskmaster; always finds a way. Can solve Rubik’s Cube in XX seconds. Comedy movie buff.</h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h5 class="name"> Aayush Tainwala </h5>
+		                        			<p class="designation">Business Role</p>
+		                    			</div>
+	                                    <h4></h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h5 class="name"> Kaartik Malhotra </h5>
+		                        			<p class="designation">Business Role</p>
+		                    			</div>
+	                                    <h4>A potato trying to be a French fry</h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h5 class="name"> Hema Radhakrishna </h5>
+		                        			<p class="designation">Business Role</p>
+		                    			</div>
 	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
 	                                </div>
 	                            </div>
@@ -73,6 +208,10 @@ if (have_posts()) {
 	                        <div class="animate-img__in">
 	                            <div class="animate-more">
 	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h5 class="name"> Hema Radhakrishna </h5>
+		                        			<p class="designation">Business Role</p>
+		                    			</div>
 	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
 	                                </div>
 	                            </div>
@@ -84,105 +223,10 @@ if (have_posts()) {
 	                        <div class="animate-img__in">
 	                            <div class="animate-more">
 	                                <div class="animate-title">
-	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="animate">
-	                    <div class="animate-img">
-	                        <div class="animate-img__in">
-	                            <div class="animate-more">
-	                                <div class="animate-title">
-	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="animate">
-	                    <div class="animate-img">
-	                        <div class="animate-img__in">
-	                            <div class="animate-more">
-	                                <div class="animate-title">
-	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="animate">
-	                    <div class="animate-img">
-	                        <div class="animate-img__in">
-	                            <div class="animate-more">
-	                                <div class="animate-title">
-	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="animate">
-	                    <div class="animate-img">
-	                        <div class="animate-img__in">
-	                            <div class="animate-more">
-	                                <div class="animate-title">
-	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="animate">
-	                    <div class="animate-img">
-	                        <div class="animate-img__in">
-	                            <div class="animate-more">
-	                                <div class="animate-title">
-	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="animate">
-	                    <div class="animate-img">
-	                        <div class="animate-img__in">
-	                            <div class="animate-more">
-	                                <div class="animate-title">
-	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="animate">
-	                    <div class="animate-img">
-	                        <div class="animate-img__in">
-	                            <div class="animate-more">
-	                                <div class="animate-title">
-	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="animate">
-	                    <div class="animate-img">
-	                        <div class="animate-img__in">
-	                            <div class="animate-more">
-	                                <div class="animate-title">
-	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="animate">
-	                    <div class="animate-img">
-	                        <div class="animate-img__in">
-	                            <div class="animate-more">
-	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h5 class="name"> Hema Radhakrishna </h5>
+		                        			<p class="designation">Business Role</p>
+		                    			</div>
 	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
 	                                </div>
 	                            </div>
