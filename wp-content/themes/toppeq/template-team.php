@@ -58,7 +58,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
         								<div class="text-center">
-											<h5 class="name"> Nandini Sankar </h5>
+											<h3 class="name"> Nandini Sankar </h3>
 		                        			<p class="designation">Business Role</p>
 		                    			</div>
 	                                    <h4>Big picture person. Insomniac. Seahawks 12th Woman. Design fiend</h4>
@@ -73,7 +73,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h5 class="name"> Hema Radhakrishna </h5>
+											<h3 class="name"> Hema Radhakrishna </h3>
 		                        			<p class="designation">Business Role</p>
 		                    			</div>
 	                                    <h4>Discerns patterns in data. Global Citizen. Cruciverbalist. Wodehouse fan</h4>
@@ -88,7 +88,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h5 class="name"> Aditya Yadav </h5>
+											<h3 class="name"> Aditya Yadav </h3>
 		                        			<p class="designation">Business Role</p>
 		                    			</div>
 	                                    <h4>Transforms ideas into products. Drawn to the ocean. Tom Hanks fan</h4>
@@ -103,7 +103,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h5 class="name"> Akhilesh Vyas </h5>
+											<h3 class="name"> Akhilesh Vyas </h3>
 		                        			<p class="designation">Business Role</p>
 		                    			</div>
 	                                    <h4>Operates at the intersection of product and technology. Can whip up a mean vangi bhaat.</h4>
@@ -118,7 +118,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h5 class="name"> Kaartik Malhotra </h5>
+											<h3 class="name"> Kaartik Malhotra </h3>
 		                        			<p class="designation">Business Role</p>
 		                    			</div>
 	                                    <h4>A potato trying to be a French fry</h4>
@@ -133,7 +133,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h5 class="name"> Ajay Khadke </h5>
+											<h3 class="name"> Ajay Khadke </h3>
 		                        			<p class="designation">Business Role</p>
 		                    			</div>
 	                                    <h4>Talent spotter and excellent team builder. Dreams of winning a PGA tournament. Recommends The Seventh Secret by Irving Wallace to all and sundry.</h4>
@@ -148,7 +148,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h5 class="name"> Aayush Tainwala </h5>
+											<h3 class="name"> Aayush Tainwala </h3>
 		                        			<p class="designation">Business Role</p>
 		                    			</div>
 	                                    <h4></h4>
@@ -163,7 +163,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h5 class="name"> Bhargavi Swami </h5>
+											<h3 class="name"> Bhargavi Swami </h3>
 		                        			<p class="designation">Business Role</p>
 		                    			</div>
 	                                    <h4>Chief Happiness incharge with a penchant for people and stories. Can create a tune a minute and is taking over the world one Podcast at a time!</h4>
@@ -178,7 +178,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h5 class="name"> Urmi Mehta </h5>
+											<h3 class="name"> Urmi Mehta </h3>
 		                        			<p class="designation">Business Role</p>
 		                    			</div>
 	                                    <h4>Hard taskmaster; always finds a way. Can solve Rubik’s Cube in XX seconds. Comedy movie buff.</h4>
