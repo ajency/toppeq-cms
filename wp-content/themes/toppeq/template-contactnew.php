@@ -63,7 +63,7 @@ if (have_posts()) {
 					</div>
 				</div>	
 			</div>
-			<div class="col-sm-2">
+			<div class="col-sm-2 mb-3 mb-sm-0">
 			
 			</div>
 			<div class="col-sm-5">
