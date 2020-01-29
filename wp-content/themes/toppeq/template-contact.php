@@ -28,7 +28,7 @@ if (have_posts()) {
 					<span class="px-1"><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></span>
 				</div> -->
 			</div>
-			<div class="col-md-7  contact-form">
+			<div class="col-md-7  contact-form ml-0 mr-0">
 				<div class="container">
 				  	<ul class="nav nav-tabs">
 				    	<li class="active"><a href="#tab1" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i></a><span class="mt-2 text-center">Contact HR</span></li>  
