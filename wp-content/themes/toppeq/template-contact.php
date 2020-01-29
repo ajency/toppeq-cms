@@ -21,12 +21,12 @@ if (have_posts()) {
 					<h1 class="title f-45"> Let's get in touch </h1>
 					<p class="email-id f-22"> dummy@emailaddress.com</p>
 				</div>
-				<div class="social-media">
+<!-- 				<div class="social-media">
 					<h2 class="f-25"> Find us at </h2>
 					<span class="px-1"><a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></span>
 					<span class="px-1"><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></span>
 					<span class="px-1"><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></span>
-				</div>
+				</div> -->
 			</div>
 			<div class="col-md-7  contact-form">
 				<div class="container">
