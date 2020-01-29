@@ -31,9 +31,24 @@ if (have_posts()) {
 			<div class="col-md-7  contact-form ml-0 mr-0">
 				<div class="container">
 				  	<ul class="nav nav-tabs">
-				    	<li class="active"><a href="#tab1" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i></a><span class="mt-2 text-center">Contact HR</span></li>  
-				    	<li><a href="#tab2" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i></a><span class="mt-2 text-center">Dummy Text</span></li>
-				    	<li><a href="#tab3" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i></a><span class="mt-2 text-center">Dummy Text</span></li>
+				    	<li class="">
+					    	<a href="#tab1" data-toggle="tab">
+					    		<img src="<?php echo get_template_directory_uri(); ?>/images/Investor_White.png" class="active">
+					    		<img src="<?php echo get_template_directory_uri(); ?>/images/Investor_Orange.png" class="not-active">
+					    	</a><span class="mt-2 text-center">Considering an Investment in TOPPEQ</span>
+					    </li>  
+				    	<li>
+				    		<a href="#tab2" data-toggle="tab">
+				    			<img src="<?php echo get_template_directory_uri(); ?>/images/HR_White.png" class="active">
+				    			<img src="<?php echo get_template_directory_uri(); ?>/images/HR_Orange.png" class="not-active">
+				    		</a><span class="mt-2 text-center">Interested in becoming a Client</span>
+				    	</li>
+				    	<li>
+				    		<a href="#tab3" data-toggle="tab">
+				    			<img src="<?php echo get_template_directory_uri(); ?>/images/Investor_White.png" class="active">
+				    			<img src="<?php echo get_template_directory_uri(); ?>/images/Investor_Orange.png" class="not-active">
+				    		</a><span class="mt-2 text-center">Want to build a Career with us?</span>
+				    	</li>
 				  	</ul>
 
 				  	<div class="tab-content mt-8 position-relative">
