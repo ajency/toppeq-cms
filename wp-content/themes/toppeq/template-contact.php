@@ -56,21 +56,24 @@ if (have_posts()) {
 		    			<div class="tab-pane active" id="tab1">
 			      			<div class="panel panel-default">
 			          			<div class="panel-body">
-			         				<?php echo do_shortcode("[formidable id=2]"); ?>
+								  	<?php $form_id = get_field('form_one_id');?>
+									<?php echo do_shortcode( '[formidable id="' . $form_id . '"]' );?>
 			          			</div>
 			        		</div>
 			    		</div>
 			    		<div class="tab-pane" id="tab2">
 			      			<div class="panel panel-default">
 			          			<div class="panel-body">
-			           				<?php echo do_shortcode("[formidable id=3]"); ?>
+								  	<?php $form_id = get_field('form_two_id');?>
+									<?php echo do_shortcode( '[formidable id="' . $form_id . '"]' );?>
 			          			</div>
 			        		</div>
 			      		</div>
 			    		<div class="tab-pane" id="tab3">
 			      			<div class="panel panel-default">
 			          			<div class="panel-body">
-			           				<?php echo do_shortcode("[formidable id=3]"); ?>
+								  	<?php $form_id = get_field('form_three_id');?>
+									<?php echo do_shortcode( '[formidable id="' . $form_id . '"]' );?>
 			          			</div>
 			        		</div>
 			      		</div>
