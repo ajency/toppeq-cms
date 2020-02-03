@@ -2023,3 +2023,24 @@ input[type="text"] , textarea{
         }
     }
 }
+
+.modal-header{
+    border-bottom: 0;
+    padding-bottom: 0;
+    .close{
+        outline: 0;
+    }
+}
+
+.modal-body{
+    &.contact-us{
+        .contact-form{
+            .panel-body{
+                margin: 0;
+            }
+            @media (max-width: 767px) {
+                margin: 0;
+            }
+        }
+    }
+}

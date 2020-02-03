@@ -24,7 +24,7 @@ if (have_posts()) {
 		<div class="row align-items-center"> 
 	  		<ul class="nav">
 				<li>
-					<a href="#" class="contactBox"> 
+					<a href="#" role="button" class="contactBox" data-toggle="modal" data-target="#form-one"> 
 			         	<div class="contactInnerContainer"> 
 			         		<div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/invest-form.png"></div>
 			       			<h3 class="contactTitle common-BodyTitle">Considering an Investment in TOPPEQ</h3> 
@@ -33,7 +33,7 @@ if (have_posts()) {
 			 	 	</a> 
 			    </li>  
 				<li>
-					<a href="#" class="contactBox"> 
+					<a href="#" role="button" class="contactBox" data-toggle="modal" data-target="#form-two"> 
 			         	<div class="contactInnerContainer">  
 			         		<div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/client-form.png"></div>
 			       			<h3 class="contactTitle common-BodyTitle">Interested in becoming a Client</h3> 
@@ -42,7 +42,7 @@ if (have_posts()) {
 		 	 		</a> 
 	 	 		</li>
 	 	 		<li>
-					<a href="#" class="contactBox"> 
+				  <a href="#" role="button" class="contactBox" data-toggle="modal" data-target="#form-three"> 
 			         	<div class="contactInnerContainer"> 
 		         			<div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/career-form.png"></div>
 			       			<h3 class="contactTitle common-BodyTitle">Want to build a Career with us?</h3> 
@@ -80,5 +80,68 @@ if (have_posts()) {
 	</div>
 </div>
 
+
+<!-- Modal -->
+<div class="modal fade" id="form-one" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered " role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body contact-us ">
+	  	<div class="contact-form">
+			<div class="panel-body">
+				<?php $form_id = get_field('form_one_id');?>
+				<?php echo do_shortcode( '[formidable id="' . $form_id . '"]' );?>
+			</div>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="form-two" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered " role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body contact-us ">
+	  	<div class="contact-form">
+			<div class="panel-body">
+				<?php $form_id = get_field('form_two_id');?>
+				<?php echo do_shortcode( '[formidable id="' . $form_id . '"]' );?>
+			</div>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="form-three" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered " role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body contact-us ">
+	  	<div class="contact-form">
+			<div class="panel-body">
+				<?php $form_id = get_field('form_three_id');?>
+				<?php echo do_shortcode( '[formidable id="' . $form_id . '"]' );?>
+			</div>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <?php get_footer(); ?>
