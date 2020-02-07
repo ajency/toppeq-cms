@@ -819,6 +819,8 @@ hr.line-separator{
                 border: 0;
                 border-radius: 0;
                 position: relative;
+                text-align: left;
+                padding-left: 12px;
                 &:after{
                     content: "\f105";
                     color: white;
