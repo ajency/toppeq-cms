@@ -36,9 +36,9 @@ if (have_posts()) {
 				    	<li><a href="#tab3" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i></a><span class="mt-2 text-center">Dummy Text</span></li>
 				  	</ul>
 
-				  	<div class="tab-content mt-8 position-relative">
+				  	<div class="tab-content mt-8 position-relative min-353">
 				  		<div class="rectangle"></div>
-		    			<div class="tab-pane active" id="tab1">
+		    			<div class="tab-pane" id="tab1">
 			      			<div class="panel panel-default">
 			          			<div class="panel-body">
 								  	<?php $form_id = get_field('form_one_id');?>
