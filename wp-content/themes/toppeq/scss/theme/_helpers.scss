@@ -82,3 +82,12 @@
 .min-353{
     min-height: 353px;
 }
+
+.text-black{
+    color: #000;
+    text-decoration: none;
+    &:hover{
+        color: #000;
+        text-decoration: none; 
+    }
+}

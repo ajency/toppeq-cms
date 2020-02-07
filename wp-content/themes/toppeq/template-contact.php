@@ -19,9 +19,9 @@ if (have_posts()) {
 			<div class="col-md-5 contact-title">
 				<div class="text-center py-9">
 					<h1 class="title f-45"> Let's get in touch </h1>
-					<p class="email-id f-22"> dummy@emailaddress.com</p>
+					<p class="email-id f-22"><a href="mailto:info@toppeq.com" class="text-black">info@toppeq.com</a></p>
 				</div>
-<!-- 				<div class="social-media">
+				<!--<div class="social-media">
 					<h2 class="f-25"> Find us at </h2>
 					<span class="px-1"><a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></span>
 					<span class="px-1"><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></span>

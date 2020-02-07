@@ -18,7 +18,7 @@ if (have_posts()) {
 		<div class="contact-title">
 			<div class="text-center pb-6">
 				<h1 class="title f-45"> Let's get in touch </h1>
-				<p class="email-id f-22"> dummy@emailaddress.com</p>
+				<p class="email-id f-22"> <a href="mailto:info@toppeq.com" class="text-black">info@toppeq.com</a></p>
 			</div>
 		</div>
 		<div class="row align-items-center"> 
@@ -89,7 +89,10 @@ if (have_posts()) {
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
+	  </div>
+	  <div class="form-title">
+	  	<h5>Considering an Investment in TOPPEQ</h5>
+	  </div>
       <div class="modal-body contact-us ">
 	  	<div class="contact-form">
 			<div class="panel-body">
@@ -110,7 +113,10 @@ if (have_posts()) {
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
+	  </div>
+	  <div class="form-title">
+	  	<h5>Interested in becoming a Client</h5>
+	  </div>
       <div class="modal-body contact-us ">
 	  	<div class="contact-form">
 			<div class="panel-body">
@@ -131,7 +137,10 @@ if (have_posts()) {
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
+	  </div>
+	  <div class="form-title">
+	  	<h5>Want to build a Career with us?</h5>
+	  </div>
       <div class="modal-body contact-us ">
 	  	<div class="contact-form">
 			<div class="panel-body">
