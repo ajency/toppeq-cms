@@ -2140,3 +2140,86 @@ input[type="text"] , textarea{
         margin-bottom: 0;
     }
 }
+
+.post{
+    &-column{
+        padding-bottom: 70px;
+        margin-bottom: 35px;
+        position: relative;
+    }
+    &-featured-image{
+        position: relative;       
+        margin-bottom: 30px;
+        @media (min-width: 878px) {
+            padding-bottom: 56%;
+            overflow: hidden;
+        }
+        img{
+            @media (min-width: 878px) {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 100%;
+                object-fit: contain;
+                width: 100%;
+            }
+        }
+    }
+    &-meta{
+        h4{
+            color: #505050;
+            font-weight: 400;
+            position: relative;
+            padding-bottom: 0;
+            margin-bottom: 30px;
+            &:after{
+                content: "";
+                position: absolute;
+                bottom: -16px;
+                height: 4px;
+                background: #f16624;
+                width: 50px;               
+                left: 0;
+            }
+        }
+        .post-excerpt{
+            color: #a2a2a2;
+            @media (min-width: 768px) and (max-width: 991px) {
+                font-size: 14px;
+            }
+        }
+    }
+    &-link{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        a{
+            display: inline-block;
+            color: white;
+            background-color: #f16624;
+            padding: 0.6rem 4rem 0.7rem 0.5rem;           
+            box-shadow: none;
+            position: relative;
+            text-align: left;
+            padding-left: 12px;
+            text-decoration: none;
+            &:after{
+                content: "\f105";
+                color: white;
+                font-family: 'FontAwesome';
+                position: absolute;
+                right: 0.5rem;
+                font-size: 25px;
+                top: 3px;
+                @media (min-width: 768px) and (max-width: 991px) {
+                    top: 1px;
+                }
+            }
+            @media (min-width: 768px) and (max-width: 991px) {
+                font-size: 14px;
+            }
+        }
+    }
+}

@@ -215,6 +215,37 @@ if (have_posts()) :
                     </div>
                 </div>
             </section>
+
+            <section class="blog mb-5 mt-5">
+                <div class="container">
+                    <h2 class="section-title f-25 text-uppercase mb-3">Blog</h2>
+                    <h5 class="sub-title f-18 text-center mb-4">A quick brown fox jumps over a lazy dog. </h5>
+                    <div class="row">
+                        <?php 
+                        $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>3)); ?>
+                            <?php if ( $wpb_all_query->have_posts() ) : ?>
+                            <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
+                                <div class="col-md-4 d-flex">
+                                    <div class="post-column">
+                                        <div class="post-featured-image">
+                                            <img src="<?php the_post_thumbnail_url(''); ?>" class="img-fluid"/>
+                                        </div>
+                                        <div class="post-meta">
+                                            <h4><?php the_title();?></h4>
+                                            <div class="post-excerpt">
+                                                <?php the_excerpt();?>
+                                            </div>
+                                        </div>
+                                        <div class="post-link">
+                                            <a href="<?php the_permalink(); ?>">See more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endwhile; ?>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            </section>
         <?php
     endwhile;
     wp_reset_query();
