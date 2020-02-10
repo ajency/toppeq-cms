@@ -2146,6 +2146,7 @@ input[type="text"] , textarea{
         padding-bottom: 70px;
         margin-bottom: 35px;
         position: relative;
+        width: 100%;
     }
     &-featured-image{
         position: relative;       
@@ -2168,6 +2169,7 @@ input[type="text"] , textarea{
         }
     }
     &-meta{
+        word-break: break-word;
         h4{
             color: #505050;
             font-weight: 400;
@@ -2195,6 +2197,7 @@ input[type="text"] , textarea{
         position: absolute;
         bottom: 0;
         left: 0;
+        width: 100%;
         a{
             display: inline-block;
             color: white;
@@ -2205,6 +2208,7 @@ input[type="text"] , textarea{
             text-align: left;
             padding-left: 12px;
             text-decoration: none;
+            min-width: 72%;
             &:after{
                 content: "\f105";
                 color: white;
