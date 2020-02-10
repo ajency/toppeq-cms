@@ -206,8 +206,16 @@ if (have_posts()) :
                             <?php while ( $blog_posts->have_posts() ) : $blog_posts->the_post(); ?>
                                 <div class="col-md-4 d-flex">
                                     <div class="post-column">
+                                        <?php 
+                                            $image = get_the_post_thumbnail_url();
+                                            if($image) {
+                                                $image = get_the_post_thumbnail_url();
+                                            } else {
+                                                $image = get_template_directory_uri().'/images/placeholder.png';
+                                            }
+                                        ?>
                                         <div class="post-featured-image">
-                                            <img src="<?php the_post_thumbnail_url(''); ?>" class="img-fluid" alt="<?php the_title();?>"/>
+                                            <img src="<?php echo $image; ?>" class="img-fluid" alt="<?php the_title();?>"/>
                                         </div>
                                         <div class="post-meta">
                                             <h4><?php the_title();?></h4>
