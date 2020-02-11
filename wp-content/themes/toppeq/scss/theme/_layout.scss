@@ -2228,3 +2228,41 @@ input[type="text"] , textarea{
         }
     }
 }
+
+.single-post-navigation{
+    a{
+        color: #f16624;
+        text-decoration: none;
+    }
+    @media (max-width: 768px) {
+        margin-bottom: 35px;
+    }
+}
+
+.post-featured-image{
+    img{
+        width: 100%;
+        height: auto;
+    }
+    @media (min-width: 992px) {
+        padding-bottom: 35%;
+        height: 0;
+        position: relative;
+        overflow: hidden;
+        img{
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.single-post-content{
+    @media (max-width: 768px) {
+        margin-bottom: 35px;
+    }
+}
