@@ -58,34 +58,34 @@
 						<a class="nav-link" href="#">Pricing</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">About</a>
+						<a class="nav-link" href="#">About Us</a>
 						<ul class="dropdown">
 							<li class="nav-item">
-								<a class="nav-link" href="#">Team</a>
+								<a class="nav-link" href="/team">Team</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Careers</a>
+								<a class="nav-link" href="/careers">Careers</a>
 							</li>
 						</ul>
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link" href="#">Newsrooom</a>
+						<a class="nav-link" href="#">Media</a>
 						<ul class="dropdown">
 							<li class="nav-item">
-								<a class="nav-link" href="#">Media</a>
+								<a class="nav-link" href="/press">News</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">In the News</a>
+								<a class="nav-link" href="#">Blog</a>
 							</li>
 						</ul>
 					</li>
 					<li class="nav-item ">
-						<a class="nav-link" href="#">Contact Us</a>
+						<a class="nav-link" href="/contact">Contact Us</a>
 					</li>
 				</ul>
-				<button class="btn-reset menu-close-btn"><img class="" width="35" src="<?php echo get_template_directory_uri(); ?>/images/x-close-icon-white.png"></button>
-				<div class="rectangle-black"></div>
+				<button class="btn-reset menu-close-btn"><img class="" width="35" src="<?php echo get_template_directory_uri(); ?>/images/cancel.svg"></button>
+				<!-- <div class="rectangle-black"></div> -->
 				<div class="rectangle-orange"></div>
 			</div>
 		</div>
