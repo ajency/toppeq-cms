@@ -198,7 +198,7 @@ if (have_posts()) :
             <section class="blog mb-5 mt-5">
                 <div class="container">
                     <h2 class="section-title f-25 text-uppercase mb-3">Blog</h2>
-                    <h5 class="sub-title f-18 text-center mb-5">A quick brown fox jumps over a lazy dog. </h5>
+                    <h5 class="sub-title f-18 text-center mb-5 pb-2">A quick brown fox jumps over a lazy dog. </h5>
                     <div class="row">
                         <?php 
                             $blog_posts = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>3)); ?>
