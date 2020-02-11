@@ -14,7 +14,7 @@ get_header();
                 while ( have_posts() ) :
                   the_post();
                 ?>
-                    <div class="single-post-featured-img post-featured-image text-center">
+                    <div class="single-post-featured-img post-image text-center">
                         <?php
                             if ( has_post_thumbnail() ) :
                                 the_post_thumbnail( 'medium-large' );

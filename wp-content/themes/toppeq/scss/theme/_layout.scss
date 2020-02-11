@@ -2209,7 +2209,7 @@ input[type="text"] , textarea{
             text-align: left;
             padding-left: 12px;
             text-decoration: none;
-            min-width: 72%;
+            min-width: 75%;
             &:after{
                 content: "\f105";
                 color: white;
@@ -2239,7 +2239,7 @@ input[type="text"] , textarea{
     }
 }
 
-.post-featured-image{
+.post-image{
     img{
         width: 100%;
         height: auto;
