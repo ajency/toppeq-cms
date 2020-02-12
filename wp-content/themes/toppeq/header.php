@@ -100,7 +100,14 @@
 
 	<div class="header-bg">
 		<div class="breadcrumbs-wrapper">
-			<h2 class="title text-capitalize"><?php the_title(); ?></h2>
+			<?php
+				if(is_archive()) {
+					$title = single_cat_title( '', false );
+				} else {
+					$title = get_the_title();
+				}				
+			?>
+			<h2 class="title text-capitalize"><?php echo $title; ?></h2>
 			<div class="breadcrumbs-inside">
 		        <ul itemscope itemtype="https://schema.org/BreadcrumbList">
 		            <li itemprop="itemListElement" itemscope
@@ -109,10 +116,10 @@
 		                    <span itemprop="name">Home</span></a>
 		                    <meta itemprop="position" content="1" />
 		            </li>
-		                <span class="sperator"> / </span>
+		                <span class="sperator"> / </span>						
 		            <li itemprop="itemListElement" itemscope
-		              	itemtype="https://schema.org/ListItem" title="<?php the_title(); ?>">
-		                <span itemprop="name" title="<?php the_title(); ?>"><?php the_title(); ?></span>
+		              	itemtype="https://schema.org/ListItem" title="<?php echo $title; ?>">
+		                <span itemprop="name" title="<?php echo $title; ?>"><?php echo $title; ?></span>
 		                    <meta itemprop="position" content="2" />
 		        	</li>
 		        </ul>
