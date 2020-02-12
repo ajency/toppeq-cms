@@ -136,7 +136,7 @@ if (have_posts()) :
                             
                         </div>
                         <div class="services-block services-05 text-right right">
-                            <div class="number-overlay"> 05 </div>
+                            <div class="number-overlay"> 02 </div>
                             <div class="title">
                                 <h2 class="pb-2">CASHFLOW <br> MANAGEMENT</h2>
                             </div>
@@ -156,8 +156,8 @@ if (have_posts()) :
                             <div class="title">
                                 <h2 class="pb-2">DUE DILIGENCE & <br> VALUATION</h2>
                             </div>
-                            <div class="row s-content align-items-center">
-                                <div class="col-md-5">
+                            <div class="row s-content align-items-center" style="margin-top: -100px;">
+                                <div class="col-md-7">
                                         <p>Our integrated suite of tools provides accurate and defensible audit-ready valuations, and our relentless focus on compliance adherence  speeds up the due diligence process. </p>
                                 </div>
                                 <div class="col-md-5">
@@ -167,8 +167,24 @@ if (have_posts()) :
                             
                             </div>
                         </div>
-                        <div class="row services-block services-02 text-right right">
-                        <div class="number-overlay"> 02 </div>
+
+                        <div class="row services-block services-04 text-right right">
+                        <div class="number-overlay"> 04 </div>
+                            <div class="title w-100">
+                                <h2 class="pb-2">LEGAL AND <br> SECRETARIAL <br> SERVICES</h2>
+                            </div>
+                            <div class="row s-content align-items-center ml-2">
+                            <div class="col-md-6 p-0 ser_img-04">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/legal-services.png">
+                            </div>
+                            <div class="col-md-6">
+                                <p>Our experienced professionals handle tax, regulatory and legal compliance, so you can focus on building your company.</p>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="row services-block services-02 left">
+                        <div class="number-overlay"> 05 </div>
                             <div class="title w-100">
                                 <h2 class="pb-2">PORTFOLIO ANALYTICS <br> AND SCENARIO <br> MODELING</h2>
                             </div>
@@ -182,20 +198,6 @@ if (have_posts()) :
                             </div>
                         </div>
                         
-                        <!-- <div class="row services-block services-04 text-right right">
-                        <div class="number-overlay"> 04 </div>
-                            <div class="title w-100">
-                                <h2 class="pb-2">LEGAL AND <br> SECRETARIAL <br> SERVICES</h2>
-                            </div>
-                            <div class="row s-content align-items-center ml-2">
-                            <div class="col-md-6 p-0 ser_img-04">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/legal-services.png">
-                            </div>
-                            <div class="col-md-6">
-                                <p>Our experienced professionals handle tax, regulatory and legal compliance, so you can focus on building your company.</p>
-                            </div>
-                            </div>
-                        </div> -->
                         
                     </div>
                 </div>

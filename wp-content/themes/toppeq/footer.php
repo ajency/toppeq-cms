@@ -6,7 +6,7 @@
 				<ul class="footer-links mb-0">	
 					<li class="nav-links pr-3 f-18"><a href="/privacy-policy">Privacy and Policy</a></li>
 					<li class="nav-links pr-3 f-18"><a href="/careers">Careers at TOPPEQ</a></li>
-					<li class="nav-links pr-3 f-18"><a href="/contact-us">Contact us</a></li>
+					<li class="nav-links pr-3 f-18"><a href="/contact">Contact us</a></li>
 				</ul>
 			</div>
     		<div class="col-md-2 social-media">
