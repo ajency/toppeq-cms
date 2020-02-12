@@ -48,7 +48,7 @@ if (have_posts()) {
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/bhargavi.png" alt="Bhargavi Swami" title="Bhargavi Swami"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/urmi_mehta.jpg" alt="Urmi Mehta" title="Urmi Mehta"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/urmi.jpg" alt="Urmi Mehta" title="Urmi Mehta"></div>
 	                </li>
 	            </ul>
 	            <div class="animate-wrapper">
