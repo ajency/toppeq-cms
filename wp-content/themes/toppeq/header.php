@@ -51,8 +51,8 @@
 					<li class="nav-item">
 						<a class="nav-link active" href="#">Home</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Our Services</a>
+					<li class="nav-item service">
+						<a class="nav-link" href="#services-section">Our Services</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Pricing</a>

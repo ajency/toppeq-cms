@@ -91,7 +91,7 @@ if (have_posts()) :
             </div>
 
 
-            <div class="services-page mt-4">
+            <div class="services-page mt-4" id="services-section">
                 <div class="overlay"></div>
                 <div class="container w-980">
                     <div class="detailed-page hidden_block">
@@ -111,18 +111,18 @@ if (have_posts()) :
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th class="f-18 p-1">Shareholder Name</th>
+                                            <th class="f-18 p-1">Shareholders</th>
                                             <th class="f-18 p-1">% holding</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td class="f-14">John Appleseed</td>
-                                            <td class="f-14">25%</td>
+                                            <td class="f-14">25</td>
                                         </tr>
                                         <tr>
                                             <td class="f-14">John Doe</td>
-                                            <td class="f-14">12%</td>
+                                            <td class="f-14">12</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -139,7 +139,7 @@ if (have_posts()) :
                             </div>
                             <div class="row s-content align-items-center">
                                 <div class="col-md-6 pl-4">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio-analytics.png">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio.png">
                                 </div>
                                 <div class="col-md-6">
                                     <p>We deep-dive into big data across sectors to help deliver critical insights that optimise your funding round decisions.</p>
@@ -157,13 +157,13 @@ if (have_posts()) :
                                         <p>Our integrated suite of tools provides accurate and defensible audit-ready valuations, and our relentless focus on compliance adherence  speeds up the due diligence process. </p>
                                 </div>
                                 <div class="col-md-5">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/due-deligence.png">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/due-digilence.png">
                                 </div>
                                 
                             
                             </div>
                         </div>
-                        <div class="row services-block services-04 text-right right">
+                        <!-- <div class="row services-block services-04 text-right right">
                         <div class="number-overlay"> 04 </div>
                             <div class="title w-100">
                                 <h2 class="pb-2">LEGAL AND <br> SECRETARIAL <br> SERVICES</h2>
@@ -176,7 +176,7 @@ if (have_posts()) :
                                 <p>Our experienced professionals handle tax, regulatory and legal compliance, so you can focus on building your company.</p>
                             </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="services-block services-05 left">
                         <div class="number-overlay"> 05 </div>
                             <div class="title">

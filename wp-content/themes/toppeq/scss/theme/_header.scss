@@ -37,6 +37,9 @@ body:not(.page-template-front-page-home){
                 display: block;
             }
         }
+        .hamburger-menu > div{
+            background-color: #000;
+        }
         &.sticky{
             position: sticky;
             top: 0;
