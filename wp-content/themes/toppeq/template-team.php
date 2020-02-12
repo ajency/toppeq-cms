@@ -30,7 +30,7 @@ if (have_posts()) {
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/bhargavi-s.png" alt="Bhargavi Swami" title="Bhargavi Swami"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/aditya.png" alt="Akhilesh Vyas" title="Akhilesh Vyas"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Akhilesh-vyas.jpg" alt="Akhilesh Vyas" title="Akhilesh Vyas"></div>
 	                </li>
 					<li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/akhilesh.png" alt="Aditya Yadav" title="Aditya Yadav"></div>

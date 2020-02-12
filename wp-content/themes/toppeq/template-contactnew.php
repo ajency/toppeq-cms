@@ -27,27 +27,30 @@ if (have_posts()) {
 			         	<div class="contactInnerContainer"> 
 			         		<div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/invest-form.png"></div>
 			       			<h3 class="contactTitle common-BodyTitle">Considering an Investment in TOPPEQ</h3> 
-			           		<p class="contactTagline common-BodyText">We’d love to talk about how we can work together.</p> 
+			           		<p class="contactTagline common-BodyText">investor@toppeq.com</p> 
 			    	 	</div> 
 			 	 	</a> 
+					  <!-- <a href="mailto:investor@toppeq.com" class="text-orange">investor@toppeq.com</a> -->
 			    </li>  
 				<li>
 					<a href="#" role="button" class="contactBox" data-toggle="modal" data-target="#form-two"> 
 			         	<div class="contactInnerContainer">  
 			         		<div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/career-form.png"></div>
 			       			<h3 class="contactTitle common-BodyTitle">Interested in becoming a Client</h3> 
-			           		<p class="contactTagline common-BodyText">We’d love to talk about how we can work together.</p> 
+			           		<p class="contactTagline common-BodyText">prospect@toppeq.com</p> 
 			    	 	</div> 
 		 	 		</a> 
+					  <!-- <a href="mailto:prospect@toppeq.com" class="text-orange">prospect@toppeq.com</a>					   -->
 	 	 		</li>
 	 	 		<li>
 				  <a href="#" role="button" class="contactBox" data-toggle="modal" data-target="#form-three"> 
 			         	<div class="contactInnerContainer"> 
 		         			<div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/client-form.png"></div>
 			       			<h3 class="contactTitle common-BodyTitle">Want to build a Career with us?</h3> 
-			           		<p class="contactTagline common-BodyText">We’d love to talk about how we can work together.</p> 
+			           		<p class="contactTagline common-BodyText">hr@toppeq.com</p> 
 			    	 	</div> 
 			 	 	</a> 
+					  <!-- <a href="mailto:hr@toppeq.com" class="text-orange">hr@toppeq.com</a>					   -->
 		 	 	</li>
 	  		</ul>
 		</div>
