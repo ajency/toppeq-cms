@@ -48,42 +48,44 @@ if (have_posts()) :
 
             <div class="toppeq-section">
                 <div class="overlay"></div>
-                <div class="container w-980 mt-8 mb-8 hidden_block">
+                <div class="container mt-8 mb-8 hidden_block">
                     <div class="detailed-page">
-                        <h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> <?php the_field('section_title');?></h2>
-                        <h5 class="sub-title pr-3"><?php the_field('sub_title');?></h5>
-                        <p class="sub-text f-18 pr-3"><?php the_field('section_description');?></p>
-                        <div class="row">
-                            <?php if( have_rows('block_section') ): ?>
-                                <div class="col-lg-6 col-md-12">
-                                    <?php
-                                    while ( have_rows('block_section') ) : the_row();?>
-                                        <?php 
-                                            $class="";
-                                            $row_index = get_row_index(); 
-                                            if($row_index == 1) {
-                                                $class = "why-toppeq";
-                                            }
+                        <div class="w-980">
+                            <h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> <?php the_field('section_title');?></h2>
+                            <h5 class="sub-title pr-3"><?php the_field('sub_title');?></h5>
+                            <p class="sub-text f-18 pr-3"><?php the_field('section_description');?></p>
+                            <div class="row">
+                                <?php if( have_rows('block_section') ): ?>
+                                    <div class="col-lg-6 col-md-12">
+                                        <?php
+                                        while ( have_rows('block_section') ) : the_row();?>
+                                            <?php 
+                                                $class="";
+                                                $row_index = get_row_index(); 
+                                                if($row_index == 1) {
+                                                    $class = "why-toppeq";
+                                                }
+                                            ?>
+                                            <div class="block">
+                                                <h3 class="block-title my-2"><?php the_sub_field('block_title');?> </h3>
+                                                <img src="<?php the_sub_field('block_icon');?>" class="icon">
+                                                <p class="block-content"><?php the_sub_field('block_content');?></p>
+                                            </div>
+                                        <?php
+                                            endwhile;                    
                                         ?>
-                                        <div class="block">
-                                            <h3 class="block-title my-2"><?php the_sub_field('block_title');?> </h3>
-                                            <img src="<?php the_sub_field('block_icon');?>" class="icon">
-                                            <p class="block-content"><?php the_sub_field('block_content');?></p>
-                                        </div>
-                                    <?php
-                                        endwhile;                    
-                                    ?>
+                                    </div>
+                                <?php 
+                                else :
+                                    endif; 
+                                ?>
+                                <div class="col-lg-5 col-md-12 why-toppeq-img">
+                                <picture>
+                                        <source media="(orientation: landscape)" srcset="<?php the_field('main_img_desk');?>">
+                                        <source media="(orientation: portrait)" srcset="<?php the_field('main_img_mob');?>">
+                                        <img src="<?php the_field('main_img_desk');?>" class="block-img w-100">
+                                    </picture>  
                                 </div>
-                            <?php 
-                            else :
-                                endif; 
-                            ?>
-                            <div class="col-lg-5 col-md-12 why-toppeq-img">
-                               <picture>
-                                    <source media="(orientation: landscape)" srcset="<?php the_field('main_img_desk');?>">
-                                    <source media="(orientation: portrait)" srcset="<?php the_field('main_img_mob');?>">
-                                    <img src="<?php the_field('main_img_desk');?>" class="block-img w-100">
-                                </picture>  
                             </div>
                         </div>
                     </div>
@@ -93,10 +95,10 @@ if (have_posts()) :
 
             <div class="services-page mt-4" id="services-section">
                 <div class="overlay"></div>
-                <div class="container w-980">
+                <div class="container">
                     <div class="detailed-page hidden_block">
                         <h2 class="section-title f-25 text-uppercase py-4"> Our Services</h2>
-                        <div class="row services-block services-01 left">
+                        <div class="w-980 row services-block services-01 left">
                             <div class="number-overlay"> 01 </div>
                             <div class="d-block">
                                 <div class="title">
@@ -132,7 +134,7 @@ if (have_posts()) :
                             </div>
                             
                         </div>
-                        <div class="row services-block services-02 text-right right">
+                        <div class="w-980 row services-block services-02 text-right right">
                         <div class="number-overlay"> 02 </div>
                             <div class="title w-100">
                                 <h2 class="pb-2">PORTFOLIO ANALYTICS <br> AND SCENARIO <br> MODELING</h2>
@@ -147,7 +149,7 @@ if (have_posts()) :
                                 
                             </div>
                         </div>
-                        <div class="row  services-block services-03 left">
+                        <div class="w-980 row services-block services-03 left">
                         <div class="number-overlay"> 03 </div>
                             <div class="title">
                                 <h2 class="pb-2">DUE DILIGENCE & <br> VALUATION</h2>
@@ -177,8 +179,8 @@ if (have_posts()) :
                             </div>
                             </div>
                         </div> -->
-                        <div class="services-block services-05 left">
-                        <div class="number-overlay"> 05 </div>
+                        <div class="w-980 services-block services-05 left">
+                            <div class="number-overlay"> 05 </div>
                             <div class="title">
                                 <h2 class="pb-2">CASHFLOW <br> MANAGEMENT</h2>
                             </div>
@@ -196,7 +198,7 @@ if (have_posts()) :
             </div>
 
             <section class="contact-us mt-8" id="pricing-section">
-                <div class="container w-980 hidden_block">
+                <div class="container hidden_block">
                     <div class="row align-items-center">
                         <div class="contact-form">
                             <h2 class="section-title f-25 text-uppercase"><?php the_field('pricing_title');?></h2>
