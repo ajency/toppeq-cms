@@ -83,7 +83,7 @@
 						</ul>
 					</li>
 					
-					<li class="nav-item">
+					<!-- <li class="nav-item">
 						<a class="nav-link" href="#">Media</a>
 						<ul class="dropdown">
 							<li class="nav-item">
@@ -93,7 +93,7 @@
 								<a class="nav-link" href="#">Blog</a>
 							</li>
 						</ul>
-					</li>
+					</li> -->
 					<li class="nav-item ">
 						<a class="nav-link" href="/contact">Contact Us</a>
 					</li>
