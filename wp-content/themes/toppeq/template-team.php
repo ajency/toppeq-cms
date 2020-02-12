@@ -73,10 +73,25 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Hema Radhakrishna </h3>
-		                        			<p class="designation">Lead Product & Tech Strategist</p>
+											<h3 class="name"> Bhargavi Swami </h3>
+		                        			<p class="designation">CHRO</p>
 		                    			</div>
 	                                    <h4>Discerns patterns in data. Global Citizen. Cruciverbalist. Wodehouse fan</h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+					<div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h3 class="name"> Akhilesh Vyas </h3>
+		                        			<p class="designation">Lead BA – Equity Vertical</p>
+		                    			</div>
+	                                    <h4>Transforms ideas into products. Drawn to the ocean. Tom Hanks fan</h4>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -96,22 +111,7 @@ if (have_posts()) {
 	                            </div>
 	                        </div>
 	                    </div>
-	                </div>
-	                <div class="animate">
-	                    <div class="animate-img">
-	                        <div class="animate-img__in">
-	                            <div class="animate-more">
-	                                <div class="animate-title">
-	                                	<div class="text-center">
-											<h3 class="name"> Akhilesh Vyas </h3>
-		                        			<p class="designation">Lead BA – Equity Vertical</p>
-		                    			</div>
-	                                    <h4>Transforms ideas into products. Drawn to the ocean. Tom Hanks fan</h4>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
+	                </div>	                
 	                <div class="animate">
 	                    <div class="animate-img">
 	                        <div class="animate-img__in">
@@ -157,22 +157,7 @@ if (have_posts()) {
 	                        </div>
 	                    </div>
 	                </div>
-	                <div class="animate">
-	                    <div class="animate-img">
-	                        <div class="animate-img__in">
-	                            <div class="animate-more">
-	                                <div class="animate-title">
-	                                	<div class="text-center">
-											<h3 class="name"> Bhargavi Swami </h3>
-		                        			<p class="designation">CHRO</p>
-		                    			</div>
-	                                    <h4>Chief Happiness incharge with a penchant for people and stories. Can create a tune a minute and is taking over the world one Podcast at a time!</h4>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="animate">
+					<div class="animate">
 	                    <div class="animate-img">
 	                        <div class="animate-img__in">
 	                            <div class="animate-more">
@@ -187,51 +172,21 @@ if (have_posts()) {
 	                        </div>
 	                    </div>
 	                </div>
-	                <!-- <div class="animate">
-	                    <div class="animate-img">
-	                        <div class="animate-img__in">
-	                            <div class="animate-more">
-	                                <div class="animate-title">
-	                                	<div class="text-center">
-											<h5 class="name"> Hema Radhakrishna </h5>
-		                        			<p class="designation">Business Role</p>
-		                    			</div>
-	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
 	                <div class="animate">
 	                    <div class="animate-img">
 	                        <div class="animate-img__in">
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h5 class="name"> Hema Radhakrishna </h5>
-		                        			<p class="designation">Business Role</p>
+											<h3 class="name"> Hema Radhakrishna</h3>
+		                        			<p class="designation">Lead Product & Tech Strategist</p>
 		                    			</div>
-	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
+	                                    <h4>Chief Happiness incharge with a penchant for people and stories. Can create a tune a minute and is taking over the world one Podcast at a time!</h4>
 	                                </div>
 	                            </div>
 	                        </div>
 	                    </div>
 	                </div>
-	                <div class="animate">
-	                    <div class="animate-img">
-	                        <div class="animate-img__in">
-	                            <div class="animate-more">
-	                                <div class="animate-title">
-	                                	<div class="text-center">
-											<h5 class="name"> Hema Radhakrishna </h5>
-		                        			<p class="designation">Business Role</p>
-		                    			</div>
-	                                    <h4>A quick brown fox jumps over a lazy dog</h4>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div> -->
 	            </div>
 	           
 	        </div>
