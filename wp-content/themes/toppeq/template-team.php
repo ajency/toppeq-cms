@@ -45,7 +45,7 @@ if (have_posts()) {
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/aayush.png" alt="Aayush Tainwala" title="Aayush Tainwala"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/urmi_mehta.jpg" alt="Urmi Mehta" title="Urmi Mehta"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/urmi_mehta_new.jpg" alt="Urmi Mehta" title="Urmi Mehta"></div>
 	                </li>
 	                <li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/hema-r.png" alt="Hema Radhakrishna" title="Hema Radhakrishna"></div>
