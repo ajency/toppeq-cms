@@ -50,7 +50,7 @@ if (have_posts()) :
                 <div class="overlay"></div>
                 <div class="container mt-8 mb-8 hidden_block">
                     <div class="detailed-page">
-                        <div class="w-980">
+                        <div class="">
                             <h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> <?php the_field('section_title');?></h2>
                             <h5 class="sub-title pr-3"><?php the_field('sub_title');?></h5>
                             <p class="sub-text f-18 pr-3"><?php the_field('section_description');?></p>
@@ -79,11 +79,12 @@ if (have_posts()) :
                                 else :
                                     endif; 
                                 ?>
+                                <div class="col-lg-1 col-md-12"></div>
                                 <div class="col-lg-5 col-md-12 why-toppeq-img">
-                                <picture>
-                                        <source media="(orientation: landscape)" srcset="<?php the_field('main_img_desk');?>">
-                                        <source media="(orientation: portrait)" srcset="<?php the_field('main_img_mob');?>">
-                                        <img src="<?php the_field('main_img_desk');?>" class="block-img w-100">
+                                    <picture>
+                                            <source media="(orientation: landscape)" srcset="<?php the_field('main_img_desk');?>">
+                                            <source media="(orientation: portrait)" srcset="<?php the_field('main_img_mob');?>">
+                                            <img src="<?php the_field('main_img_desk');?>" class="block-img w-100">
                                     </picture>  
                                 </div>
                             </div>
@@ -98,17 +99,17 @@ if (have_posts()) :
                 <div class="container">
                     <div class="detailed-page hidden_block">
                         <h2 class="section-title f-25 text-uppercase py-4"> Our Services</h2>
-                        <div class="w-980 row services-block services-01 left">
+                        <div class="row services-block services-01 left">
                             <div class="number-overlay"> 01 </div>
                             <div class="d-block">
                                 <div class="title">
                                     <h2 class="pb-2">CAP TABLE <br> MANAGEMENT</h2>
                                 </div>
                                 <div class="row s-content align-items-center">
-                                <div class="col-md-6">
+                                <div class="col-md-5">
                                     <p>From shareholders to percentage of holding and types of securities, TOPPEQ’s cloud-based platform digitises and secures your equity data and makes it both instantly accessible and easy to understand.</p>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-5">
                                     <div class="outer-box-shares">
                                 <table>
                                     <thead>
@@ -134,22 +135,23 @@ if (have_posts()) :
                             </div>
                             
                         </div>
-                        <div class="w-980 row services-block services-02 text-right right">
-                        <div class="number-overlay"> 02 </div>
-                            <div class="title w-100">
-                                <h2 class="pb-2">PORTFOLIO ANALYTICS <br> AND SCENARIO <br> MODELING</h2>
+                        <div class="services-block services-05 text-right right">
+                            <div class="number-overlay"> 05 </div>
+                            <div class="title">
+                                <h2 class="pb-2">CASHFLOW <br> MANAGEMENT</h2>
                             </div>
                             <div class="row s-content align-items-center">
-                                <div class="col-md-6 pl-4">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio.png">
+                                <div class="col-md-2"></div>
+                                 <div class="col-md-5">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/cashflow.png">
                                 </div>
-                                <div class="col-md-6">
-                                    <p>We deep-dive into big data across sectors to help deliver critical insights that optimise your funding round decisions.</p>
+                                <div class="col-md-5">
+                                    <p>Our intelligent voice and messaging-based digital expense ledgers make it easy to track your company’s current spends, and our AI-engineered forecasting tools enable you to create a financial road map for the rest of your journey.</p>
                                 </div>
                                 
                             </div>
                         </div>
-                        <div class="w-980 row services-block services-03 left">
+                        <div class="row services-block services-03 left">
                         <div class="number-overlay"> 03 </div>
                             <div class="title">
                                 <h2 class="pb-2">DUE DILIGENCE & <br> VALUATION</h2>
@@ -159,12 +161,27 @@ if (have_posts()) :
                                         <p>Our integrated suite of tools provides accurate and defensible audit-ready valuations, and our relentless focus on compliance adherence  speeds up the due diligence process. </p>
                                 </div>
                                 <div class="col-md-5">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/due-digilence.png">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/Due.svg">
                                 </div>
                                 
                             
                             </div>
                         </div>
+                        <div class="row services-block services-02 text-right right">
+                        <div class="number-overlay"> 02 </div>
+                            <div class="title w-100">
+                                <h2 class="pb-2">PORTFOLIO ANALYTICS <br> AND SCENARIO <br> MODELING</h2>
+                            </div>
+                            <div class="row s-content align-items-center">
+                                <div class="col-md-6">
+                                    <p>We deep-dive into big data across sectors to help deliver critical insights that optimise your funding round decisions.</p>
+                                </div>
+                                <div class="col-md-6 pl-4">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio.png">
+                                </div>
+                            </div>
+                        </div>
+                        
                         <!-- <div class="row services-block services-04 text-right right">
                         <div class="number-overlay"> 04 </div>
                             <div class="title w-100">
@@ -179,20 +196,7 @@ if (have_posts()) :
                             </div>
                             </div>
                         </div> -->
-                        <div class="w-980 services-block services-05 left">
-                            <div class="number-overlay"> 05 </div>
-                            <div class="title">
-                                <h2 class="pb-2">CASHFLOW <br> MANAGEMENT</h2>
-                            </div>
-                            <div class="row s-content align-items-center">
-                                <div class="col-md-5">
-                                    <p>Our intelligent voice and messaging-based digital expense ledgers make it easy to track your company’s current spends, and our AI-engineered forecasting tools enable you to create a financial road map for the rest of your journey.</p>
-                                </div>
-                                <div class="col-md-5">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/cashflow.png">
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
