@@ -45,7 +45,7 @@ if (have_posts()) {
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/aayush.png" alt="Aayush Tainwala" title="Aayush Tainwala"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/urmi.jpg" alt="Bhargavi Swami" title="Bhargavi Swami"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/urmi_mehta.jpg" alt="Bhargavi Swami" title="Bhargavi Swami"></div>
 	                </li>
 	                <li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/hema-r.png" alt="Urmi Mehta" title="Urmi Mehta"></div>
@@ -73,10 +73,10 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Bhargavi Swami </h3>
+											<h3 class="name">Bhargavi Swami</h3>
 		                        			<p class="designation">CHRO</p>
 		                    			</div>
-	                                    <h4>Discerns patterns in data. Global Citizen. Cruciverbalist. Wodehouse fan</h4>
+	                                    <h4>Chief Happiness incharge with a penchant for people and stories. Can create a tune a minute and is taking over the world one Podcast at a time!</h4>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -91,7 +91,7 @@ if (have_posts()) {
 											<h3 class="name"> Akhilesh Vyas </h3>
 		                        			<p class="designation">Lead BA – Equity Vertical</p>
 		                    			</div>
-	                                    <h4>Transforms ideas into products. Drawn to the ocean. Tom Hanks fan</h4>
+	                                    <h4>Operates at the intersection of product and technology. Can whip up a mean vangi bhaat.</h4>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -106,7 +106,7 @@ if (have_posts()) {
 											<h3 class="name"> Aditya Yadav </h3>
 		                        			<p class="designation">Lead BA – Cash Vertical</p>
 		                    			</div>
-	                                    <h4>Operates at the intersection of product and technology. Can whip up a mean vangi bhaat.</h4>
+	                                    <h4>Transforms ideas into products. Drawn to the ocean. Tom Hanks fan</h4>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -166,7 +166,7 @@ if (have_posts()) {
 											<h3 class="name"> Urmi Mehta </h3>
 		                        			<p class="designation">Lead Business and Product Strategist</p>
 		                    			</div>
-	                                    <h4>Hard taskmaster; always finds a way. Can solve Rubik’s Cube in 3 minutes. Comedy movie buff.</h4>
+	                                    <h4>Hard taskmaster; always finds a way. Can solve Rubik’s Cube faster than making Maggie. Comedy movie buff.</h4>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -179,9 +179,9 @@ if (have_posts()) {
 	                                <div class="animate-title">
 	                                	<div class="text-center">
 											<h3 class="name"> Hema Radhakrishna</h3>
-		                        			<p class="designation">Lead Product & Tech Strategist</p>
+		                        			<p class="designation">Lead Product &amp; Tech Strategist</p>
 		                    			</div>
-	                                    <h4>Chief Happiness incharge with a penchant for people and stories. Can create a tune a minute and is taking over the world one Podcast at a time!</h4>
+	                                    <h4>Discerns patterns in data. Global Citizen. Cruciverbalist. Wodehouse fan</h4>
 	                                </div>
 	                            </div>
 	                        </div>
