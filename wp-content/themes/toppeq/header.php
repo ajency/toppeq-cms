@@ -51,6 +51,13 @@
 					<li class="nav-item">
 						<a class="nav-link active" href="#">Home</a>
 					</li>
+					<?php
+						// if ( is_front_page() ){
+						// 	$url = "#services-section";
+						// } else {
+						// 	$url = get_home_url()."/#services-section";
+						// }
+					?>
 					<li class="nav-item service">
 						<a class="nav-link" href="#services-section">Our Services</a>
 					</li>

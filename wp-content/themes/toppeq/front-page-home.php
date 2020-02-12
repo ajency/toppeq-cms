@@ -195,47 +195,6 @@ if (have_posts()) :
                 </div>
             </div>
 
-            <section class="blog mb-5 mt-5">
-                <div class="container">
-                    <h2 class="section-title f-25 text-uppercase mb-3">Blog</h2>
-                    <h5 class="sub-title f-18 text-center mb-5 pb-2">A quick brown fox jumps over a lazy dog. </h5>
-                    <div class="row">
-                        <?php 
-                            $blog_posts = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>3)); ?>
-                            <?php if ( $blog_posts->have_posts() ) : ?>
-                            <?php while ( $blog_posts->have_posts() ) : $blog_posts->the_post(); ?>
-                                <div class="col-md-4 d-flex">
-                                    <div class="post-column">
-                                        <?php 
-                                            $image = get_the_post_thumbnail_url();
-                                            if($image) {
-                                                $image = get_the_post_thumbnail_url();
-                                            } else {
-                                                $image = get_template_directory_uri().'/images/placeholder.png';
-                                            }
-                                        ?>
-                                        <div class="post-featured-image">
-                                            <img src="<?php echo $image; ?>" class="img-fluid" alt="<?php the_title();?>"/>
-                                        </div>
-                                        <div class="post-meta">
-                                            <h4><?php the_title();?></h4>
-                                            <?php if(has_excerpt()) { ?>
-                                                <div class="post-excerpt">
-                                                    <?php the_excerpt();?>
-                                                </div>
-                                            <?php } ?>
-                                        </div>
-                                        <div class="post-link">
-                                            <a href="<?php the_permalink(); ?>" title="<?php the_title();?>">See more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php endwhile; ?>
-                        <?php endif; ?>
-                    </div>
-                </div>
-            </section>
-
             <section class="contact-us mt-8">
                 <div class="container w-980 hidden_block">
                     <div class="row align-items-center">

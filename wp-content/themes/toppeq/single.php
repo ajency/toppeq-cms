@@ -26,10 +26,16 @@ get_header();
                         <?php 
                             $author = get_the_author();
                             $posted_in = '';
-                            foreach((get_the_category()) as $category) {
-                                $posted_in .= "<a href='../".str_replace(" ", "-", strtolower($category->cat_name))."' class='text-black'><strong class='text-underline text-capitalize'>".$category->cat_name."</strong></a> , ";
+                            // foreach((get_the_category()) as $category) {
+                            //     var_dump($category);
+                            //     $posted_in .= "<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '" class='text-black'><strong class='text-underline text-capitalize'>".$category->cat_name."</strong></a> , ";
+                            // }
+                            // $posted_in = rtrim($posted_in,' , ');
+
+                            $categories = get_the_category();
+                            if ( ! empty( $categories ) ) {
+                                $posted_in .= '<a class="text-black" href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '" ><strong class="text-underline text-capitalize">' . esc_html( $categories[0]->name ) . '</strong></a>';
                             }
-                            $posted_in = rtrim($posted_in,' , ');
                         ?>
                         <p>Posted in <?php echo $posted_in;?> by <?php the_author(); ?> on <?php echo get_the_date(); ?></p>            
                     </div>
