@@ -19,7 +19,7 @@
 		<div class="container-fluid">
 			<div class="navbar navbar-expand-md navbar-light bg-light p-0">
 				<div class="logo">
-					<a href="#" class="d-inline-block text-decoration-none">
+					<a href="<?php echo get_site_url(); ?>" class="d-inline-block text-decoration-none">
 						<!-- <h2 class="m-0">TOPPEQ</h2> -->
 						<?php 
 						if ( is_page_template( 'front-page-home.php' ) ) {
@@ -52,17 +52,24 @@
 						<a class="nav-link active" href="#">Home</a>
 					</li>
 					<?php
-						// if ( is_front_page() ){
-						// 	$url = "#services-section";
-						// } else {
-						// 	$url = get_home_url()."/#services-section";
-						// }
+						if ( is_front_page() ){
+							$url = "#services-section";
+						} else {
+							$url = get_home_url()."/#services-section";
+						}
 					?>
-					<li class="nav-item service">
-						<a class="nav-link" href="#services-section">Our Services</a>
+					<li class="nav-item click">
+						<a class="nav-link" href="<?php echo $url;?>">Our Services</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Pricing</a>
+					<?php
+						if ( is_front_page() ){
+							$urlP = "#pricing-section";
+						} else {
+							$urlP = get_home_url()."/#pricing-section";
+						}
+					?>
+					<li class="nav-item click">
+						<a class="nav-link" href="<?php echo $urlP;?>">Pricing</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">About Us</a>

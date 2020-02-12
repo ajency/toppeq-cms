@@ -27,7 +27,7 @@ if (have_posts()) {
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/large-img.png" alt="Nandini Sankar" title="Nandini Sankar"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/hema.png" alt="Hema Radhakrishna" title="Hema Radhakrishna"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/bhargavi-s.png" alt="Hema Radhakrishna" title="Hema Radhakrishna"></div>
 	                </li>
 	                <li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/aditya.png" alt="Aditya Yadav" title="Aditya Yadav"></div>
@@ -45,10 +45,10 @@ if (have_posts()) {
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/aayush.png" alt="Aayush Tainwala" title="Aayush Tainwala"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/bhargavi.png" alt="Bhargavi Swami" title="Bhargavi Swami"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/urmi.jpg" alt="Bhargavi Swami" title="Bhargavi Swami"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/urmi.jpg" alt="Urmi Mehta" title="Urmi Mehta"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/hema-r.png" alt="Urmi Mehta" title="Urmi Mehta"></div>
 	                </li>
 	            </ul>
 	            <div class="animate-wrapper">

@@ -195,7 +195,7 @@ if (have_posts()) :
                 </div>
             </div>
 
-            <section class="contact-us mt-8">
+            <section class="contact-us mt-8" id="pricing-section">
                 <div class="container w-980 hidden_block">
                     <div class="row align-items-center">
                         <div class="contact-form">

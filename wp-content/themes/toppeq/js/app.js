@@ -140,8 +140,8 @@ animateHTML().init();
 	});
 
 
-	$('.nav-item.service a[href*="#"]').on('click', function(e) {
-        e.preventDefault();	  
+	$('.nav-item.click a[href*="#"]').on('click', function(e) {
+        // e.preventDefault();	  
         $(".menu-close-btn").trigger("click");
 		$('html, body').animate({
 			scrollTop: $($(this).attr('href')).offset().top-100,
