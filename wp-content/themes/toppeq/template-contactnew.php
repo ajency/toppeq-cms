@@ -46,7 +46,7 @@ if (have_posts()) {
 				  <a href="#" role="button" class="contactBox" data-toggle="modal" data-target="#form-three"> 
 			         	<div class="contactInnerContainer"> 
 		         			<div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/client-form.png"></div>
-			       			<h3 class="contactTitle common-BodyTitle">Want to build a Career with us?</h3> 
+			       			<h3 class="contactTitle common-BodyTitle">Want to build a Career with us</h3> 
 			           		<p class="contactTagline common-BodyText">hr@toppeq.com</p> 
 			    	 	</div> 
 			 	 	</a> 
