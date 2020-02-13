@@ -226,9 +226,11 @@
       }
     }
     &.b{
-      justify-content: center !important;
-      img{
-        margin-bottom: -100px;
+      @media (max-width: 767px) {
+        justify-content: center !important;
+        img{
+          margin-bottom: -100px;
+        }
       }
       .item-text{
         
