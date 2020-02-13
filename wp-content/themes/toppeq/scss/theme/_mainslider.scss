@@ -14,6 +14,7 @@
       max-width: 100%;
       @media (min-width: 1201px) and (max-width: 1600px) {
         max-height: 450px;
+        max-height: 50vh;
       }
       @media (min-width: 1201px) and (max-width: 1350px) {
         max-height: 300px;
@@ -87,7 +88,10 @@
       }
       @media (max-width: 1600px) {
         max-width: 450px;
-        bottom: 55%;
+        // bottom: 55%;
+        top: 25vh;
+        bottom: initial;
+        bottom: auto;
       }
       @media (min-width: 1201px) and (max-width: 1350px) {
         bottom: 40%;
@@ -127,7 +131,7 @@
       .item-text{
         @media (max-width: 1600px) {
           max-width: 630px;
-          bottom: 65%;
+          // bottom: 65%;
         }
         h1{
           text-align: left;
