@@ -161,7 +161,7 @@ if (have_posts()) :
                             <div class="title">
                                 <h2 class="pb-2">DUE DILIGENCE & <br> VALUATION</h2>
                             </div>
-                            <div class="row s-content align-items-center" style="margin-top: -100px;">
+                            <div class="row s-content align-items-center due-diligence">
                                 <div class="col-md-7">
                                         <p>Our integrated suite of tools provides accurate and defensible audit-ready valuations, and our relentless focus on compliance adherence  speeds up the due diligence process. </p>
                                 </div>

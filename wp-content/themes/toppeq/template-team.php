@@ -161,7 +161,7 @@ if (have_posts()) {
 	                                <div class="animate-title">
 	                                	<div class="text-center">
 											<h3 class="name"> Aayush Tainwala </h3>
-		                        			<p class="designation">Legal Consultant</p>
+		                        			<p class="designation">Legal</p>
 		                    			</div>
 	                                    <h4>Gets down to the nitty gritty.  Pianist. Never tires of watching The Big Short</h4>
 	                                </div>
@@ -178,7 +178,7 @@ if (have_posts()) {
 											<h3 class="name"> Urmi Mehta </h3>
 		                        			<p class="designation">Lead Business and Product Strategist</p>
 		                    			</div>
-	                                    <h4>Hard taskmaster; always finds a way. Can solve Rubik’s Cube faster than making Maggie. Comedy movie buff.</h4>
+	                                    <h4>Hard taskmaster; always finds a way. Can solve Rubik’s Cube faster than making Maggi. Comedy movie buff.</h4>
 	                                </div>
 	                            </div>
 	                        </div>

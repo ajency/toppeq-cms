@@ -39,8 +39,8 @@ if (have_posts()) {
 					    </li>  
 				    	<li>
 				    		<a href="#tab2" data-toggle="tab">
-				    			<img src="<?php echo get_template_directory_uri(); ?>/images/Investor_White.png" class="active">
-				    			<img src="<?php echo get_template_directory_uri(); ?>/images/Investor_Orange.png" class="not-active">
+				    			<img src="<?php echo get_template_directory_uri(); ?>/images/client-white.svg" class="active">
+				    			<img src="<?php echo get_template_directory_uri(); ?>/images/client-orange.svg" class="not-active">
 				    		</a><span class="mt-2 text-center">Interested in becoming a Client</span>
 				    	</li>
 				    	<li>
