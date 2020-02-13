@@ -161,9 +161,9 @@ if (have_posts()) {
 	                                <div class="animate-title">
 	                                	<div class="text-center">
 											<h3 class="name"> Aayush Tainwala </h3>
-		                        			<p class="designation">Gets down to the nitty gritty.  Pianist. Never tires of watching The Big Short</p>
+		                        			<p class="designation">Legal Consultant</p>
 		                    			</div>
-	                                    <h4></h4>
+	                                    <h4>Gets down to the nitty gritty.  Pianist. Never tires of watching The Big Short</h4>
 	                                </div>
 	                            </div>
 	                        </div>

@@ -20,6 +20,8 @@ if (have_posts()) :
                                 $row_index = get_row_index(); 
                                 if($row_index == 1) {
                                     $class = "a";
+                                } else{
+                                    $class = "b"
                                 }
                             ?>
                             <div class="item <?php echo $class;?>">
