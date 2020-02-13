@@ -1489,14 +1489,18 @@ input[type="text"] , textarea{
     img {
         margin: auto;
         // transform: rotate(235deg);
-        width: 100px;
-        height: 100px;
+        width: 78px;
+        height: 78px;
         transition: all 0.3s ease;
         border-radius: 50%;
         object-fit: cover;
+        @media (max-width: 1200px){
+            width: 70px;
+            height: 70px;
+        }
         @media (max-width: 991px){
-            width: 75px;
-            height: 75px;
+            width: 56px;
+            height: 56px;
         }
         @media (max-width: 768px){
             width: 45px;
@@ -1588,16 +1592,20 @@ input[type="text"] , textarea{
             }
         }
     img{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         transform: rotate(0);
         @media (max-width: 1200px){
-            width: 150px;
-            height: 150px;
-        }
-        @media (max-width: 768px){
             width: 100px;
             height: 100px;
+        }
+        @media (max-width: 991px){
+            width: 90px;
+            height: 90px;
+        }
+        @media (max-width: 768px){
+            width: 80px;
+            height: 80px;
         }
         @media (max-width: 599px){
             width: 75px;
@@ -1877,6 +1885,44 @@ input[type="text"] , textarea{
     }
   }
 
+ .count13 li {
+    &:nth-child(2) {
+      transform: rotate(32deg);
+    }
+    &:nth-child(3) {
+      transform: rotate(57deg);
+    }
+    &:nth-child(4) {
+      transform: rotate(81deg);
+    }
+    &:nth-child(5) {
+      transform: rotate(106deg);
+    }
+    &:nth-child(6) {
+      transform: rotate(-229deg);
+    }
+    &:nth-child(7) {
+      transform: rotate(-202deg);
+    }
+    &:nth-child(8) {
+      transform: rotate(-170deg);
+    }
+    &:nth-child(9) {
+      transform: rotate(-141deg);
+    }
+    &:nth-child(10) {
+      transform: rotate(-114deg);
+    }
+    &:nth-child(11) {
+      transform: rotate(-87deg);
+    }
+    &:nth-child(12) {
+      transform: rotate(-60deg);
+    }
+    &:nth-child(13) {
+      transform: rotate(-30deg);
+    }
+}
 
     .animate-wrapper {
         width: 25%;
