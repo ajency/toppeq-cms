@@ -165,6 +165,7 @@ if (have_posts()) :
                                 <div class="col-md-5">
                                         <p>Our integrated suite of tools provides accurate and defensible audit-ready valuations, and our relentless focus on compliance adherence  speeds up the due diligence process. </p>
                                 </div>
+                                <div class="col-md-2"></div>
                                 <div class="col-md-5">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/Due-svg.png">
                                 </div>
