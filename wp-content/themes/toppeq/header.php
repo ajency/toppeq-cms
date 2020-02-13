@@ -49,7 +49,7 @@
 				<div class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo.png" class="menu-logo"></div>
 				<ul class="navbar-nav mt-4">
 					<li class="nav-item">
-						<a class="nav-link active" href="#">Home</a>
+						<a class="nav-link <?php if (is_front_page()) { echo "active"; }?>" href="<?php echo get_site_url(); ?>">Home</a>
 					</li>
 					<?php
 						if ( is_front_page() ){
@@ -75,10 +75,10 @@
 						<a class="nav-link" href="#">About Us</a>
 						<ul class="dropdown">
 							<li class="nav-item">
-								<a class="nav-link" href="/team">Team</a>
+								<a class="nav-link <?php if (is_page('team')) { echo "active"; }?>" href="/team">Team</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="/careers">Careers</a>
+								<a class="nav-link <?php if (is_page('careers')) { echo "active"; }?>" href="/careers">Careers</a>
 							</li>
 						</ul>
 					</li>
@@ -95,7 +95,7 @@
 						</ul>
 					</li> -->
 					<li class="nav-item ">
-						<a class="nav-link" href="/contact">Contact Us</a>
+						<a class="nav-link <?php if (is_page('contact')) { echo "active"; }?>" href="/contact">Contact Us</a>
 					</li>
 				</ul>
 				<button class="btn-reset menu-close-btn"><img class="" width="35" src="<?php echo get_template_directory_uri(); ?>/images/cancel.svg"></button>
