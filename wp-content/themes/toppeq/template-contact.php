@@ -47,7 +47,7 @@ if (have_posts()) {
 				    		<a href="#tab3" data-toggle="tab">
 				    			<img src="<?php echo get_template_directory_uri(); ?>/images/HR_White.png" class="active">
 				    			<img src="<?php echo get_template_directory_uri(); ?>/images/HR_Orange.png" class="not-active">
-				    		</a><span class="mt-2 text-center">Want to build a Career with us?</span>
+				    		</a><span class="mt-2 text-center">Want to build a Career with us</span>
 				    	</li>
 				  	</ul>
 
