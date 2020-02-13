@@ -181,7 +181,7 @@ if (have_posts()) :
                             </div>
                             <div class="row s-content align-items-center ml-2">
                             <div class="col-md-6 p-0 ser_img-04">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/legal.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/legal.jpg">
                             </div>
                             <div class="col-md-6">
                                 <p>Our experienced professionals handle tax, regulatory and legal compliance, so you can focus on building your company.</p>
