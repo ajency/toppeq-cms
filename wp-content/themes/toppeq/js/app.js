@@ -20,7 +20,7 @@ $(document).ready(function () {
 		speed: 2000,
 		fade: true,
 		cssEase: 'linear',
-		autoplay: false,
+		autoplay: true,
 		//swipe: false        
 	});
 	
