@@ -50,6 +50,15 @@ if (have_posts()) {
 	                <li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/hema-r.png" alt="Hema Radhakrishna" title="Hema Radhakrishna"></div>
 	                </li>
+	                <li class="block">
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nitin.jpg" alt="Nitin Edate" title="Nitin Edate"></div>
+	                </li>
+	                <!-- <li class="block">
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Sujit.jpg" alt="Sujit Karunakaran" title="Sujit Karunakaran"></div>
+	                </li>
+	                <li class="block">
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nikhil.jpg" alt="Nikhil Jain" title="Nikhil Jain"></div>
+	                </li> -->
 	            </ul>
 	            <div class="animate-wrapper">
 	                <div class="animate">
@@ -182,6 +191,51 @@ if (have_posts()) {
 		                        			<p class="designation">Lead Product &amp; Tech Strategist</p>
 		                    			</div>
 	                                    <h4>Discerns patterns in data. Global Citizen. Cruciverbalist. Wodehouse fan</h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h3 class="name"> Nitin Edate</h3>
+		                        			<p class="designation">Back-end developer</p>
+		                    			</div>
+	                                    <h4>Always up for a challenge. Eats, breathes, and sleeps movies. Also loves Chicken Chilly</h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h3 class="name"> Sujit Karunakaran</h3>
+		                        			<p class="designation">Back-end developer</p>
+		                    			</div>
+	                                    <h4>Product person. Loves movies with twists and turns. Brings knights into action before bishops.</h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h3 class="name"> Nikhil Jain</h3>
+		                        			<p class="designation">UI/UX developer</p>
+		                    			</div>
+	                                    <h4>Goes with the (task) flow. Has his own take on why Kattapa killed Baahubali. Firm believer in driving therapy</h4>
 	                                </div>
 	                            </div>
 	                        </div>
