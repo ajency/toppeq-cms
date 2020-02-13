@@ -113,9 +113,23 @@
           bottom: 65%;
         }
         h1{
+          text-align: left;
+          position: relative;
+          &:after{
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            height: 2px;
+            width: 30%;
+            background: white;
+          }
           @media (max-width: 1600px) {
             margin-bottom: 45px;
             font-size: 35px;
+          }
+          @media (max-width: 767px) {
+            font-size: 20px;
           }
         }
       }
@@ -175,7 +189,7 @@
           bottom: 58%;
         }
         @media (width: 375px) and ( height: 667px ) {
-          bottom: 46%;
+          bottom: 56%;
         }
       }
     }
