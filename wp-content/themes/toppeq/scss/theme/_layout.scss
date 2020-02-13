@@ -1554,6 +1554,21 @@ input[type="text"] , textarea{
                 transform: rotate(-240deg);
             }
         }
+        &+.block+.block+.block+.block+.block+.block+.block+.block+.block+.block{
+            img{
+                transform: rotate(-270deg);
+            }
+        }
+        &+.block+.block+.block+.block+.block+.block+.block+.block+.block+.block+.block{
+            img{
+                transform: rotate(-300deg);
+            }
+        }
+        &+.block+.block+.block+.block+.block+.block+.block+.block+.block+.block+.block+.block{
+            img{
+                transform: rotate(-330deg);
+            }
+        }
     }
   }
   @media (max-width: 475px){
