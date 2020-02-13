@@ -31,10 +31,10 @@ if (have_posts()) :
                                 <div class="item-text in-left">
                                     <h1 class=""><?php the_sub_field('slide_title');?></h1>
                                 </div>
-                                <div class="item-count in-bottom">
+                                <!-- <div class="item-count in-bottom">
                                     <hr></hr>
                                     <h1 class="slide-count"><?php the_sub_field('slide_number');?></h1>
-                                </div>
+                                </div> -->
                             </div>
 
                             <?php
