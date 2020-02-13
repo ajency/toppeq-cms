@@ -8,6 +8,9 @@
       display: block;
       position: relative;
       bottom: 50px;
+      @media (max-width: 767px) {
+        bottom: 70px;
+      }
     }
     img{
       margin: auto;
@@ -89,9 +92,10 @@
       @media (max-width: 1600px) {
         max-width: 450px;
         // bottom: 55%;
-        top: 180px;
+        top: 150px;
         bottom: initial;
         bottom: auto;
+        left: 90px;
       }
       @media (min-width: 1201px) and (max-width: 1350px) {
         bottom: 40%;
@@ -123,8 +127,11 @@
           background: white
         }
         @media (max-width: 1600px) {
-            // font-size: 35px;
-          }
+          font-size: 35px;
+        }
+        @media (max-width: 767px) {
+          font-size: 20px;
+        }
       }
       @media(max-width: 1600px) and (min-width: 1201px){
         img{
@@ -229,7 +236,7 @@
       @media (max-width: 767px) {
         justify-content: center !important;
         img{
-          margin-bottom: -100px;
+          margin-bottom: -140px;
         }
       }
       .item-text{
@@ -273,6 +280,9 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  @media (max-width: 767px) {
+    bottom: 30px;
+  }
   
   li {
     list-style: none;
