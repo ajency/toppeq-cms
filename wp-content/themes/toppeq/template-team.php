@@ -53,12 +53,12 @@ if (have_posts()) {
 	                <li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nitin.jpg" alt="Nitin Edate" title="Nitin Edate"></div>
 	                </li>
-	                <!-- <li class="block">
+	                <li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Sujit.jpg" alt="Sujit Karunakaran" title="Sujit Karunakaran"></div>
 	                </li>
 	                <li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nikhil.jpg" alt="Nikhil Jain" title="Nikhil Jain"></div>
-	                </li> -->
+	                </li>
 	            </ul>
 	            <div class="animate-wrapper">
 	                <div class="animate">
