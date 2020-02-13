@@ -53,7 +53,7 @@ if (have_posts()) :
                         <div class="">
                             <h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> <?php the_field('section_title');?></h2>
                             <h5 class="sub-title pr-3"><?php the_field('sub_title');?></h5>
-                            <p class="sub-text f-18 pr-3 pb-5"><?php the_field('section_description');?></p>
+                            <p class="sub-text f-18 pr-3 pb-8"><?php the_field('section_description');?></p>
                             <div class="row">
                                 <?php if( have_rows('block_section') ): ?>
                                     <div class="col-lg-6 col-md-12">
@@ -109,6 +109,7 @@ if (have_posts()) :
                                 <div class="col-md-5">
                                     <p>From shareholders to percentage of holding and types of securities, TOPPEQ’s cloud-based platform digitises and secures your equity data and makes it both instantly accessible and easy to understand.</p>
                                 </div>
+                                <div class="col-md-2"></div>
                                 <div class="col-md-5">
                                     <div class="outer-box-shares">
                                 <table>

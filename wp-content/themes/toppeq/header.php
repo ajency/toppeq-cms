@@ -45,7 +45,7 @@
 	</header>
 	<nav>
 		<div class="site-menu">
-			<div class="menu-items position-relative">
+			<div class="menu-items">
 				<div class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo.png" class="menu-logo"></div>
 				<ul class="navbar-nav mt-4">
 					<li class="nav-item">
