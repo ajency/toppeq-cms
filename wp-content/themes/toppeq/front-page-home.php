@@ -136,7 +136,7 @@ if (have_posts()) :
                             
                         </div>
                         <div class="services-block services-05 text-right right">
-                            <div class="number-overlay"> 05 </div>
+                            <div class="number-overlay"> 02 </div>
                             <div class="title">
                                 <h2 class="pb-2">CASHFLOW <br> MANAGEMENT</h2>
                             </div>
@@ -168,7 +168,7 @@ if (have_posts()) :
                             </div>
                         </div>
                         <div class="row services-block services-02 text-right right">
-                        <div class="number-overlay"> 02 </div>
+                        <div class="number-overlay"> 04 </div>
                             <div class="title w-100">
                                 <h2 class="pb-2">PORTFOLIO ANALYTICS <br> AND SCENARIO <br> MODELING</h2>
                             </div>
