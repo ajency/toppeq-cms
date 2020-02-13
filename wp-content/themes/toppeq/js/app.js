@@ -32,8 +32,9 @@ $(document).ready(function () {
 			$('.item-text').addClass('in-left');
 			$('.item-count').addClass('in-bottom');
 			$('.item picture').addClass('in');
-		}, 10);
-	});
+		}, 50);
+    });
+    
 	$(".homeSlider").on("beforeChange", function() {
 		$('.block').removeClass('in-left');
 		$('.img-block').removeClass('in-right');

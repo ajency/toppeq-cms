@@ -352,4 +352,9 @@
       opacity: 1;
     }
   }
+  .slick-slide[aria-hidden="true"] {
+    .item-text, .item-count, picture{ 
+      visibility: hidden;
+    }
+  }
 }
