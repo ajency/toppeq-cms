@@ -63,11 +63,13 @@ if (have_posts()) :
                                                 $class="";
                                                 $row_index = get_row_index(); 
                                                 if($row_index == 1) {
-                                                    $class = "why-toppeq";
+                                                    $class = "mb-2";
+                                                } else {
+                                                    $class = "my-2";
                                                 }
                                             ?>
                                             <div class="block">
-                                                <h3 class="block-title my-2"><?php the_sub_field('block_title');?> </h3>
+                                                <h3 class="block-title <?php echo $class;?>"><?php the_sub_field('block_title');?> </h3>
                                                 <img src="<?php the_sub_field('block_icon');?>" class="icon">
                                                 <p class="block-content"><?php the_sub_field('block_content');?></p>
                                             </div>
