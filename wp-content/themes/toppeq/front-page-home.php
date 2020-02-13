@@ -109,7 +109,7 @@ if (have_posts()) :
                                 </div>
                                 <div class="row s-content align-items-center">
                                 <div class="col-md-5">
-                                    <p>From shareholders to percentage of holding and types of securities, TOPPEQ’s cloud-based platform digitises and secures your equity data and makes it both instantly accessible and easy to understand.</p>
+                                    <p>From shareholders and percentage of holding to types of securities and rights management, TOPPEQ’s cloud-based platform digitises and secures your equity data and makes it both instantly accessible and easy to understand.</p>
                                 </div>
                                 <div class="col-md-2"></div>
                                 <div class="col-md-5">
@@ -149,7 +149,7 @@ if (have_posts()) :
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/cashflow.png">
                                 </div>
                                 <div class="col-md-5">
-                                    <p>Our intelligent voice and messaging-based digital expense ledgers make it easy to track your company’s current spends, and our AI-engineered forecasting tools enable you to create a financial road map for the rest of your journey.</p>
+                                    <p>Our intelligent messaging interface simplifies account-keeping and keeps you informed of your cashflow in real time, and our AI-based forecasting tools enable you to create a financial road map for the rest of your journey.</p>
                                 </div>
                                 
                             </div>
@@ -193,7 +193,7 @@ if (have_posts()) :
                             </div>
                             <div class="row s-content align-items-center">
                                 <div class="col-md-6">
-                                    <p>We deep-dive into big data across sectors to help deliver critical insights that optimise your funding round decisions.</p>
+                                    <p>We deep-dive into big data across sectors to help deliver critical insights that optimise your investment and capital raising decisions.</p>
                                 </div>
                                 <div class="col-md-6 pl-4">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio.png">
