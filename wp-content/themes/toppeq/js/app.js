@@ -240,7 +240,7 @@ animateHTML().init();
                       u = -36;
                       break;
                   case 13:
-                      u = -36;
+                      u = -27.5;
                       break;
                   case 12:
                       u = -36;
