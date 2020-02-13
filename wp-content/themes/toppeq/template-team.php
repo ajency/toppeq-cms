@@ -50,7 +50,7 @@ if (have_posts()) {
 	                <li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/hema-r.png" alt="Hema Radhakrishna" title="Hema Radhakrishna"></div>
 	                </li>
-	                <!-- <li class="block">
+	                <li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nitin.jpg" alt="Nitin Edate" title="Nitin Edate"></div>
 	                </li>
 	                <li class="block">
@@ -61,7 +61,7 @@ if (have_posts()) {
 	                </li>
 	                <li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nitya.jpg" alt="Nitya Prasad" title="Nitya Prasad"></div>
-	                </li> -->
+	                </li>
 	            </ul>
 	            <div class="animate-wrapper">
 	                <div class="animate">
