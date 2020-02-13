@@ -104,7 +104,10 @@
       @media (max-width: 767px) {
         bottom: 65%;
       }
-      b{
+      
+    }
+    &.b{
+      .item-text{
         @media (max-width: 1600px) {
           max-width: 630px;
           bottom: 65%;
