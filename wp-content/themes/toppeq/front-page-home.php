@@ -53,7 +53,7 @@ if (have_posts()) :
                         <div class="">
                             <h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> <?php the_field('section_title');?></h2>
                             <h5 class="sub-title pr-3"><?php the_field('sub_title');?></h5>
-                            <p class="sub-text f-18 pr-3"><?php the_field('section_description');?></p>
+                            <p class="sub-text f-18 pr-3 pb-5"><?php the_field('section_description');?></p>
                             <div class="row">
                                 <?php if( have_rows('block_section') ): ?>
                                     <div class="col-lg-6 col-md-12">
