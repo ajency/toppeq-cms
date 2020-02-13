@@ -21,7 +21,7 @@ if (have_posts()) :
                                 if($row_index == 1) {
                                     $class = "a";
                                 } else{
-                                    $class = "b"
+                                    $class = "b";
                                 }
                             ?>
                             <div class="item <?php echo $class;?>">
