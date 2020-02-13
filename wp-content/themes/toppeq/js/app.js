@@ -236,6 +236,18 @@ animateHTML().init();
                       direction: "left"
                   };
               switch (s) {
+                  case 14:
+                      u = -36;
+                      break;
+                  case 13:
+                      u = -36;
+                      break;
+                  case 12:
+                      u = -36;
+                      break;
+                  case 11:
+                      u = -36;
+                      break;
                   case 10:
                       u = -36;
                       break;

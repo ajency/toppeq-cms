@@ -59,6 +59,9 @@ if (have_posts()) {
 	                <li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nikhil.jpg" alt="Nikhil Jain" title="Nikhil Jain"></div>
 	                </li>
+	                <li class="block">
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nitya.jpg" alt="Nitya Prasad" title="Nitya Prasad"></div>
+	                </li>
 	            </ul>
 	            <div class="animate-wrapper">
 	                <div class="animate">
@@ -236,6 +239,21 @@ if (have_posts()) {
 		                        			<p class="designation">UI/UX developer</p>
 		                    			</div>
 	                                    <h4>Goes with the (task) flow. Has his own take on why Kattapa killed Baahubali. Firm believer in driving therapy</h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h3 class="name"> Nitya Prasad</h3>
+		                        			<p class="designation">CFO</p>
+		                    			</div>
+	                                    <h4>Looks for the devil in the detail. Listens to Ilayaraja. River-gazer.</h4>
 	                                </div>
 	                            </div>
 	                        </div>
