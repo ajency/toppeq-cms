@@ -63,11 +63,13 @@ if (have_posts()) :
                                                 $class="";
                                                 $row_index = get_row_index(); 
                                                 if($row_index == 1) {
-                                                    $class = "why-toppeq";
+                                                    $class = "mb-2";
+                                                } else {
+                                                    $class = "my-2";
                                                 }
                                             ?>
                                             <div class="block">
-                                                <h3 class="block-title my-2"><?php the_sub_field('block_title');?> </h3>
+                                                <h3 class="block-title <?php echo $class;?>"><?php the_sub_field('block_title');?> </h3>
                                                 <img src="<?php the_sub_field('block_icon');?>" class="icon">
                                                 <p class="block-content"><?php the_sub_field('block_content');?></p>
                                             </div>
@@ -162,7 +164,7 @@ if (have_posts()) :
                                         <p>Our integrated suite of tools provides accurate and defensible audit-ready valuations, and our relentless focus on compliance adherence  speeds up the due diligence process. </p>
                                 </div>
                                 <div class="col-md-5">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/Due.svg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/Due-svg.png">
                                 </div>
                                 
                             
@@ -176,7 +178,7 @@ if (have_posts()) :
                             </div>
                             <div class="row s-content align-items-center ml-2">
                             <div class="col-md-6 p-0 ser_img-04">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/legal-services.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/legal.png">
                             </div>
                             <div class="col-md-6">
                                 <p>Our experienced professionals handle tax, regulatory and legal compliance, so you can focus on building your company.</p>
