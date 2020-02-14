@@ -15,7 +15,7 @@ footer{
 				a{
 					color: black;
 					&:hover{
-						text-decoration: none;
+						// text-decoration: none;
 					}
 				}
 				@media(max-width: 525px){
@@ -35,6 +35,7 @@ footer{
 	.social-media{
 		display: flex;
 		justify-content: center;
+		text-align: center;
 		a{
 			color: black;
 		}

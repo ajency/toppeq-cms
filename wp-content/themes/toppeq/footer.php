@@ -2,14 +2,15 @@
 <footer>
     <div class="container-fluid mt-2 py-2">
     	<div class="row align-items-center">
-    		<div class="col-md-10">
+    		<div class="col-md-6">
 				<ul class="footer-links mb-0">	
 					<li class="nav-links pr-3 f-18"><a href="/privacy-policy">Privacy Policy</a></li>
 					<li class="nav-links pr-3 f-18"><a href="/careers">Careers at TOPPEQ</a></li>
 					<li class="nav-links pr-3 f-18"><a href="/contact">Contact us</a></li>
 				</ul>
 			</div>
-    		<div class="col-md-2 social-media">
+    		<div class="col-md-6 social-media">
+    			<p class="mb-0">Copyright © 2020. TOPPEQ. All rights reserved.</p>
 				<!-- <span class="px-1"><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></span>
 				<span class="pl-1"><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></span> -->
 			</div>	

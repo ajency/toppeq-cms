@@ -1965,10 +1965,11 @@ input[type="text"] , textarea{
         }
         h4{
             position: relative;
+            font-size: 22px;
             &:before{
                 content: '\f10d' ;
                 font-family: 'FontAwesome';
-                font-size: 40px;
+                font-size: 35px;
                 opacity: 0.27;
                 color: #f16624;
                 position: absolute;
@@ -1986,7 +1987,7 @@ input[type="text"] , textarea{
             &:after{
                 content: '\f10e' ;
                 font-family: 'FontAwesome';
-                font-size: 40px;
+                font-size: 35px;
                  opacity: 0.27; 
                 color: #f16624;
                 position: absolute;
