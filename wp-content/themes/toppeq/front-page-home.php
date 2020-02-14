@@ -210,7 +210,7 @@ if (have_posts()) :
             </div>
 
             <section class="contact-us mt-8" id="pricing-section">
-                <div class="container hidden_block">
+                <div class="container hidden_block w-780">
                     <div class="row align-items-center">
                         <div class="contact-form">
                             <h2 class="section-title f-25 text-uppercase"><?php the_field('pricing_title');?></h2>
