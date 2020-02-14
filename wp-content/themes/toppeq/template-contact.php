@@ -19,7 +19,18 @@ if (have_posts()) {
 			<div class="col-md-5 contact-title">
 				<div class="text-center py-9">
 					<h1 class="title f-45"> Let's get in touch </h1>
-					<p class="email-id f-22"><a href="mailto:info@toppeq.com" class="text-black">info@toppeq.com</a></p>
+					<p class="email-id f-22 contact-mails contact-default">
+						<a href="mailto:info@toppeq.com" class="text-black">info@toppeq.com</a>
+					</p>
+					<p class="email-id f-22 contact-mails contact-invest d-none">
+						<a href="mailto:investor@toppeq.com" class="text-black">investor@toppeq.com</a>
+					</p>
+					<p class="email-id f-22 contact-mails contact-client d-none">
+						<a href="mailto:prospect@toppeq.com" class="text-black">prospect@toppeq.com</a>
+					</p>
+					<p class="email-id f-22 contact-mails contact-hr d-none">
+						<a href="mailto:hr@toppeq.com" class="text-black">hr@toppeq.com</a>
+					</p>
 				</div>
 				<!--<div class="social-media">
 					<h2 class="f-25"> Find us at </h2>
@@ -86,3 +97,18 @@ if (have_posts()) {
 
 
 <?php get_footer(); ?>
+
+<script type="text/javascript">
+	$('a[href="#tab1"]').on('shown.bs.tab', function (e) {
+	  $('.contact-mails').addClass('d-none');
+	  $('.contact-invest').removeClass('d-none');
+	})
+	$('a[href="#tab2"]').on('shown.bs.tab', function (e) {
+	  $('.contact-mails').addClass('d-none');
+	  $('.contact-client').removeClass('d-none');
+	})
+	$('a[href="#tab3"]').on('shown.bs.tab', function (e) {
+	  $('.contact-mails').addClass('d-none');
+	  $('.contact-hr').removeClass('d-none');
+	})
+</script>
