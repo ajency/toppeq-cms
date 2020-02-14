@@ -1150,38 +1150,39 @@ hr.line-separator{
                                     }
                                 }
                             }
-                            &:before{
-                                content: "";
-                                position: absolute;
-                                width: 200px;
-                                height: 200px;
-                                border: 2px dashed $orange-3;
-                                z-index: 0;
-                                top: -22px;
-                                left: 30px;
-                                opacity: 0.46;
-                                border-width: 0px 0 0px 2px;
-                                @media (max-width: 991px){
-                                    width: 150px;
-                                    height: 150px;
-                                    display: none;
-                                }
+                        }
+                        &:before{
+                            content: "";
+                            position: absolute;
+                            width: 200px;
+                            height: 200px;
+                            border: 2px dashed #f16624;
+                            z-index: 0;
+                            top: 0;
+                            left: 6px;
+                            opacity: 0.46;
+                            border-width: 0px 0 0px 2px;
+                            @media (max-width: 991px){
+                                width: 150px;
+                                height: 150px;
+                                display: none;
                             }
-                            &:after{
-                                content: "";
-                                position: absolute;
-                                width: 200px;
-                                height: 200px;
-                                border: 2px dashed $orange-3;
-                                z-index: 0;
-                                top: -12px;
-                                left: 40px;
-                                border-width: 0px 0px 0px 2px;
-                                @media (max-width: 991px){
-                                    width: 150px;
-                                    height: 150px;
-                                    display: none;
-                                }
+                        }
+                        &:after{
+                            content: "";
+                            position: absolute;
+                            width: 200px;
+                            height: 200px;
+                            border: 2px dashed #f16624;
+                            z-index: 0;
+                            top: -12px;
+                            left: 1px;
+                            opacity: 0.46;
+                            border-width: 0px 0px 0px 2px;
+                            @media (max-width: 991px){
+                                width: 150px;
+                                height: 150px;
+                                display: none;
                             }
                         }
                     }
@@ -2427,7 +2428,7 @@ input[type="text"] , textarea{
     }
 }
 .due-diligence{
-    @media(min-width: 767px){
+    @media(min-width: 1200px){
         margin-top: -100px;
     }
 }
