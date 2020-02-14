@@ -4,7 +4,7 @@
     	<div class="row align-items-center">
     		<div class="col-md-10">
 				<ul class="footer-links mb-0">	
-					<li class="nav-links pr-3 f-18"><a href="/privacy-policy">Privacy and Policy</a></li>
+					<li class="nav-links pr-3 f-18"><a href="/privacy-policy">Privacy Policy</a></li>
 					<li class="nav-links pr-3 f-18"><a href="/careers">Careers at TOPPEQ</a></li>
 					<li class="nav-links pr-3 f-18"><a href="/contact">Contact us</a></li>
 				</ul>
