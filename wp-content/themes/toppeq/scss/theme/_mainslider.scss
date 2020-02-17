@@ -117,15 +117,15 @@
     &.a{
       h1{
         position: relative;
-        &:after{
-          content: '';
-          position: absolute;
-          bottom: -20px;
-          left: 0;
-          height: 2px;
-          width: 55%;
-          background: white
-        }
+        // &:after{
+        //   content: '';
+        //   position: absolute;
+        //   bottom: -20px;
+        //   left: 0;
+        //   height: 2px;
+        //   width: 55%;
+        //   background: white
+        // }
         @media (max-width: 1600px) {
           font-size: 36px;
         }
@@ -148,15 +148,15 @@
         h1{
           text-align: left;
           position: relative;
-          &:after{
-            content: '';
-            position: absolute;
-            bottom: -20px;
-            left: 0;
-            height: 2px;
-            width: 33%;
-            background: white;
-          }
+          // &:after{
+          //   content: '';
+          //   position: absolute;
+          //   bottom: -20px;
+          //   left: 0;
+          //   height: 2px;
+          //   width: 33%;
+          //   background: white;
+          // }
           @media (max-width: 1600px) {
             margin-bottom: 45px;
             font-size: 36px;
