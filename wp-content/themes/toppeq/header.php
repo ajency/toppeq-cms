@@ -24,12 +24,12 @@
 						<?php 
 						if ( is_page_template( 'front-page-home.php' ) ) {
 							?>
-							<img src="<?php echo get_template_directory_uri(); ?>/images/Logo_White.png" class="normal-logo">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo.png" class="sticky-logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/white-logo.png" class="normal-logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo-1.png" class="sticky-logo">
 							<?php
 						} else {
 							?>
-						    <img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo.png" class="">
+						    <img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo-1.png" class="">
 							<?php
 						}
 						?>
@@ -46,7 +46,7 @@
 	<nav>
 		<div class="site-menu">
 			<div class="menu-items">
-				<div class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo.png" class="menu-logo"></div>
+				<div class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo-1.png" class="menu-logo"></div>
 				<ul class="navbar-nav mt-4">
 					<li class="nav-item">
 						<a class="nav-link <?php if (is_front_page()) { echo "active"; }?>" href="<?php echo get_site_url(); ?>">Home</a>
