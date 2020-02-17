@@ -97,6 +97,12 @@
         bottom: auto;
         left: 80px;
       }
+      @media(min-height: 680px) and (orientation: landscape){
+        top: 160px;
+      }
+      @media(min-height: 750px) and (orientation: landscape){
+        top: 200px;
+      }
       @media (min-width: 1201px) and (max-width: 1350px) {
         bottom: 40%;
       }
