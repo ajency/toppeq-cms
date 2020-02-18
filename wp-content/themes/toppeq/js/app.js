@@ -194,7 +194,7 @@ animateHTML().init();
                   }, {
                       duration: 400,
                       step: function(t) {
-                          t >= 360 ? t -= 360 : t <= -360 && (t += 360), e(this).css("transform", "rotate(" + t + "deg)"), e(this).css("-webkit-transform", "rotate(" + t + "deg)")
+                          t >= 180 ? t -= 180 : t <= -180 && (t += 180), e(this).css("transform", "rotate(" + t + "deg)"), e(this).css("-webkit-transform", "rotate(" + t + "deg)")
                       },
                       complete: function() {
                           p.active = i.find("li.active").removeClass("active"), "right" == p.direction && p.step == d && (p.active.prev() && p.active.prev().length ? (n = p.active.prev().index(), p.active.prev().addClass("active")) : (p.active.siblings(":last-child").addClass("active"), n = 9)), "left" == p.direction && p.step == u && (p.active.next() && p.active.next().length ? (n = p.active.next().index(), p.active.next().addClass("active")) : (p.active.siblings(":first-child").addClass("active"), n = 0)), i.is(":animated"), i.removeClass("disable-hover"), t()
@@ -287,7 +287,9 @@ animateHTML().init();
                   var n = e(this).parent().index() - i.find("li.active").index();
                   i.children("li").removeClass("active"), 
                     e(this).parent().addClass("active"), 
-                    p.step = -n * d, n * d >= 288 && (p.step = -n * d + 360), 
+
+                    p.step = -n * d,
+                    n * d >= 288 && (p.step = -n * d + 360), 
                     n * d <= -288 && (p.step = -n * d - 360), 
                     r(), p.step = u, p.direction = "left", t()
               });
@@ -335,4 +337,24 @@ $(function () {
       autoHeightCircle();
   });
 });
+
+
+  $('.itemDot').click(function(){
+      
+      var dataTab= $(this).data("tab");
+      $('.itemDot').removeClass('active');
+      $(this).addClass('active');
+      i=dataTab;
+      
+      $('.circle--rotate').css({
+        "transform":"rotate("+(360-(i-1)*30)+"deg)",
+        "transition":"2s"
+      });
+      $('.itemDot').css({
+        "transform":"rotate("+((i-1)*30)+"deg)",
+        "transition":"1s"
+      });
+      
+      
+    });
 });
