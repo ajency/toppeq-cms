@@ -19,9 +19,9 @@ if (have_posts()) {
 			<div class="col-md-5 contact-title">
 				<div class="text-center py-9">
 					<h1 class="title f-45"> Let's get in touch </h1>
-					<p class="email-id f-22 contact-mails contact-default">
+<!-- 					<p class="email-id f-22 contact-mails contact-default">
 						<a href="mailto:info@toppeq.com" class="text-black">info@toppeq.com</a>
-					</p>
+					</p> -->
 					<p class="email-id f-22 contact-mails contact-invest d-none">
 						<a href="mailto:investor@toppeq.com" class="text-black">investor@toppeq.com</a>
 					</p>
@@ -44,32 +44,50 @@ if (have_posts()) {
 				  	<ul class="nav nav-tabs">
 				    	<li class="">
 					    	<a href="#tab1" data-toggle="tab">
-					    		<img src="<?php echo get_template_directory_uri(); ?>/images/Investor_White.png" class="active" alt="Invest in Toppeq" title="Invest in Toppeq">
-					    		<img src="<?php echo get_template_directory_uri(); ?>/images/Investor_Orange.png" class="not-active" alt="Invest in Toppeq" title="Invest in Toppeq">
+					    		<img src="<?php echo get_template_directory_uri(); ?>/images/Investor_White.png" class="active">
+					    		<img src="<?php echo get_template_directory_uri(); ?>/images/Investor_Orange.png" class="not-active">
 					    	</a><span class="mt-2 text-center">Considering an Investment <br> in TOPPEQ</span>
 					    </li>  
 				    	<li>
 				    		<a href="#tab2" data-toggle="tab">
-				    			<img src="<?php echo get_template_directory_uri(); ?>/images/client-white.svg" class="active" alt="Client at Toppeq" title="Client at Toppeq">
-				    			<img src="<?php echo get_template_directory_uri(); ?>/images/client-orange.svg" class="not-active" alt="Client at Toppeq" title="Client at Toppeq">
+				    			<img src="<?php echo get_template_directory_uri(); ?>/images/client-white.svg" class="active">
+				    			<img src="<?php echo get_template_directory_uri(); ?>/images/client-orange.svg" class="not-active">
 				    		</a><span class="mt-2 text-center">Interested in becoming <br> a Client</span>
 				    	</li>
 				    	<li>
 				    		<a href="#tab3" data-toggle="tab">
-				    			<img src="<?php echo get_template_directory_uri(); ?>/images/HR_White.png" class="active" alt="Careers at Toppeq" title="Careers at Toppeq">
-				    			<img src="<?php echo get_template_directory_uri(); ?>/images/HR_Orange.png" class="not-active" alt="Careers at Toppeq" title="Careers at Toppeq">
-				    		</a><span class="mt-2 text-center">Want to build a Career <br>with us</span>
+				    			<img src="<?php echo get_template_directory_uri(); ?>/images/HR_White.png" class="active">
+				    			<img src="<?php echo get_template_directory_uri(); ?>/images/HR_Orange.png" class="not-active">
+				    		</a><span class="mt-2 text-center">Want to build a Career <br> with us</span>
 				    	</li>
 				  	</ul>
 
 				  	<div class="tab-content mt-8 position-relative min-353">
 				  		<div class="rectangle"></div>
-		      			<div class="panel panel-default">
-		          			<div class="panel-body">
-							  	<?php $form_id = get_field('form_one_id');?>
-								<?php echo do_shortcode( '[formidable id="' . $form_id . '"]' );?>
-		          			</div>
-		        		</div>
+		    			<div class="tab-pane" id="tab1">
+			      			<div class="panel panel-default">
+			          			<div class="panel-body">
+								  	<?php $form_id = get_field('form_one_id');?>
+									<?php echo do_shortcode( '[formidable id="' . $form_id . '"]' );?>
+			          			</div>
+			        		</div>
+			    		</div>
+			    		<div class="tab-pane" id="tab2">
+			      			<div class="panel panel-default">
+			          			<div class="panel-body">
+								  	<?php $form_id = get_field('form_two_id');?>
+									<?php echo do_shortcode( '[formidable id="' . $form_id . '"]' );?>
+			          			</div>
+			        		</div>
+			      		</div>
+			    		<div class="tab-pane" id="tab3">
+			      			<div class="panel panel-default">
+			          			<div class="panel-body">
+								  	<?php $form_id = get_field('form_three_id');?>
+									<?php echo do_shortcode( '[formidable id="' . $form_id . '"]' );?>
+			          			</div>
+			        		</div>
+			      		</div>
 			  		</div>
 				</div>
 			</div>
