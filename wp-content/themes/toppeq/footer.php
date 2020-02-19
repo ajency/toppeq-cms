@@ -11,6 +11,7 @@
 			</div>
     		<div class="col-md-6 social-media">
     			<p class="mb-0">Copyright © 2020. TOPPEQ. All rights reserved.</p>
+    			<h3><a class="footer-link" href="https://ajency.in/website-design/" target="_blank" rel="noopener">Website Design by ajency.in</a></h3>	
 				<!-- <span class="px-1"><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></span>
 				<span class="pl-1"><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></span> -->
 			</div>	

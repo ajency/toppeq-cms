@@ -12349,6 +12349,9 @@ footer {
       /* line 35, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_footer.scss */
       footer .social-media {
         justify-content: flex-end; } }
+  /* line 46, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_footer.scss */
+  footer a.footer-link {
+    display: none; }
 
 /* line 1, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_select2.scss */
 .select2-container.select2-container--default {
