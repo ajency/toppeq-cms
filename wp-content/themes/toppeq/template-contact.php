@@ -19,9 +19,9 @@ if (have_posts()) {
 			<div class="col-md-5 contact-title">
 				<div class="text-center py-9">
 					<h1 class="title f-45"> Let's get in touch </h1>
-<!-- 					<p class="email-id f-22 contact-mails contact-default">
-						<a href="mailto:info@toppeq.com" class="text-black">info@toppeq.com</a>
-					</p> -->
+					<p class="email-id f-22 contact-mails contact-default">
+						<a href="mailto:investor@toppeq.com" class="text-black">investor@toppeq.com</a>
+					</p>
 					<p class="email-id f-22 contact-mails contact-invest d-none">
 						<a href="mailto:investor@toppeq.com" class="text-black">investor@toppeq.com</a>
 					</p>
@@ -52,7 +52,7 @@ if (have_posts()) {
 				    		<a href="#tab2" data-toggle="tab">
 				    			<img src="<?php echo get_template_directory_uri(); ?>/images/client-white.svg" class="active">
 				    			<img src="<?php echo get_template_directory_uri(); ?>/images/client-orange.svg" class="not-active">
-				    		</a><span class="mt-2 text-center">Interested in becoming <br> a Client</span>
+				    		</a><span class="mt-2 text-center">Interested in becoming  <br> a Client</span>
 				    	</li>
 				    	<li>
 				    		<a href="#tab3" data-toggle="tab">
