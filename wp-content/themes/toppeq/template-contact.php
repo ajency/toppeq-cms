@@ -64,7 +64,7 @@ if (have_posts()) {
 
 				  	<div class="tab-content mt-8 position-relative min-353">
 				  		<div class="rectangle"></div>
-		    			<div class="tab-pane" id="tab1">
+		    			<div class="tab-pane active" id="tab1" >
 			      			<div class="panel panel-default">
 			          			<div class="panel-body">
 								  	<?php $form_id = get_field('form_one_id');?>
