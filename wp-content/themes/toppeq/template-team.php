@@ -267,3 +267,4 @@ if (have_posts()) {
 </div>
 
 <?php get_footer(); ?>
+ 
