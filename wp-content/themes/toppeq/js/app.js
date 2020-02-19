@@ -163,9 +163,9 @@ animateHTML().init();
 		}
 	}
 
-	// $('.nav-tabs li:first-child').find('a').addClass('active');
-    // $('.tabcontent').hide();
-    // $('.tabcontent:first-child').show();
+	$('.nav-tabs li:first-child').find('a').addClass('active');
+    $('.tabcontent').hide();
+    $('.tabcontent:first-child').show();
 
    	// $(".navbar-nav li a").click(function () {
     //     if(!$(this).hasClass('active'))

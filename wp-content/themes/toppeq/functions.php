@@ -197,3 +197,25 @@ function tp_register_custom_post_types() {
   register_post_type( 'press', $args );
 }
 add_action( 'init', 'tp_register_custom_post_types' ); 
+
+
+ /* Custom login page logo
+================================================== */
+function my_login_logo() { ?>
+    <style type="text/css">
+        #login h1 a, .login h1 a {
+            background-image: url('./wp-content/themes/toppeq/images/orange-logo-1.png');
+            height: 38px;
+            width: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            padding-bottom: 30px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+
+function my_login_logo_url() {
+    return home_url();
+}
+add_filter( 'login_headerurl', 'my_login_logo_url' );
