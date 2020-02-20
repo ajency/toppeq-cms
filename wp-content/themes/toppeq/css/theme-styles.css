@@ -10578,7 +10578,7 @@ hr.line-separator {
       padding: 1.5rem;
       margin: 0 15px; }
       /* line 808, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
-      .contact-us .contact-form .panel-body input[type="text"], .contact-us .contact-form .panel-body input[type="email"], .contact-us .contact-form .panel-body input[type="number"], .contact-us .contact-form .panel-body input[type="tel"], .contact-us .contact-form .panel-body textarea {
+      .contact-us .contact-form .panel-body input[type="text"], .contact-us .contact-form .panel-body input[type="email"], .contact-us .contact-form .panel-body input[type="number"], .contact-us .contact-form .panel-body input[type="tel"], .contact-us .contact-form .panel-body textarea, .contact-us .contact-form .panel-body select {
         border-bottom: solid 1px #adb5bd !important;
         box-shadow: none;
         border: 0;
