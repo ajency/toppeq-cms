@@ -9753,6 +9753,14 @@ textarea {
     .form-msg {
       margin-bottom: 50px; } }
 
+@media (max-width: 475px) {
+  /* line 288, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_form.scss */
+  .frm-g-recaptcha {
+    transform: scale(0.77);
+    -webkit-transform: scale(0.77);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0; } }
+
 /* line 1, ../../../../var/www/html/toppeq-cms/wp-content/themes/toppeq/scss/theme/_layout.scss */
 .section-wrapper {
   margin-bottom: 50px; }
