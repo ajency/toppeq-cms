@@ -43,19 +43,19 @@ if (have_posts()) {
 				<div class="container">
 				  	<ul class="nav nav-tabs">
 				    	<li class="">
-					    	<a href="#tab1" data-toggle="tab">
+					    	<a href="#tab" data-toggle="tab">
 					    		<img src="<?php echo get_template_directory_uri(); ?>/images/Investor_White.png" class="active">
 					    		<img src="<?php echo get_template_directory_uri(); ?>/images/Investor_Orange.png" class="not-active">
 					    	</a><span class="mt-2 text-center">Considering an Investment <br> in TOPPEQ</span>
 					    </li>  
 				    	<li>
-				    		<a href="#tab2" data-toggle="tab">
+				    		<a href="#tab" data-toggle="tab">
 				    			<img src="<?php echo get_template_directory_uri(); ?>/images/client-white.svg" class="active">
 				    			<img src="<?php echo get_template_directory_uri(); ?>/images/client-orange.svg" class="not-active">
 				    		</a><span class="mt-2 text-center">Interested in becoming  <br> a Client</span>
 				    	</li>
 				    	<li>
-				    		<a href="#tab3" data-toggle="tab">
+				    		<a href="#tab" data-toggle="tab">
 				    			<img src="<?php echo get_template_directory_uri(); ?>/images/HR_White.png" class="active">
 				    			<img src="<?php echo get_template_directory_uri(); ?>/images/HR_Orange.png" class="not-active">
 				    		</a><span class="mt-2 text-center">Want to build a Career <br> with us</span>
@@ -64,15 +64,15 @@ if (have_posts()) {
 
 				  	<div class="tab-content mt-8 position-relative min-353">
 				  		<div class="rectangle"></div>
-		    			<div class="tab-pane active" id="tab1" >
-			      			<div class="panel panel-default">
-			          			<div class="panel-body">
-								  	<?php $form_id = get_field('form_one_id');?>
-									<?php echo do_shortcode( '[formidable id="' . $form_id . '"]' );?>
-			          			</div>
+				  			<div class="tab-pane active" id="tab">
+				      			<div class="panel panel-default">
+				          			<div class="panel-body">
+									  	<?php $form_id = get_field('form_one_id');?>
+										<?php echo do_shortcode( '[formidable id="' . $form_id . '"]' );?>
+				          			</div>
+				        		</div>
 			        		</div>
-			    		</div>
-			    		<div class="tab-pane" id="tab2">
+<!-- 			    		<div class="tab-pane" id="tab2">
 			      			<div class="panel panel-default">
 			          			<div class="panel-body">
 								  	<?php $form_id = get_field('form_two_id');?>
@@ -87,7 +87,7 @@ if (have_posts()) {
 									<?php echo do_shortcode( '[formidable id="' . $form_id . '"]' );?>
 			          			</div>
 			        		</div>
-			      		</div>
+			      		</div> -->
 			  		</div>
 				</div>
 			</div>

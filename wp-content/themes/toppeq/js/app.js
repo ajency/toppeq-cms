@@ -336,3 +336,11 @@ $(function () {
   });
 });
 });
+
+// js for dropdown
+var $select = $('#field_snxr0'),
+    $links = $('a[href="#tab"]');
+
+$links.click(function () {
+    $select.prop('selectedIndex', $links.index(this) );
+});
