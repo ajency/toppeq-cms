@@ -152,6 +152,8 @@ animateHTML().init();
         );
     });
 
+    $('.default-email-field').addClass('show-email-field');
+
 	window.onscroll = function() {stickyHeader()};
 	var header = document.getElementById("site-header");
 	var sticky = header.offsetTop;
