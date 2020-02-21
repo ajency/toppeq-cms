@@ -219,3 +219,11 @@ function my_login_logo_url() {
     return home_url();
 }
 add_filter( 'login_headerurl', 'my_login_logo_url' );
+
+
+function defer_parsing_of_js ( $url ) {
+  if ( FALSE === strpos( $url, '.js' ) ) return $url;
+  if ( strpos( $url, 'https://www.gstatic.com/recaptcha/releases/n1ZaVsRK4TYyiKxYab0h8MUD/recaptcha__en.js' ) ) return $url;
+  return "$url' defer ";
+}
+add_filter( 'clean_url', 'defer_parsing_of_js', 11, 1 );
