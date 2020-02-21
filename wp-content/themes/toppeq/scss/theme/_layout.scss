@@ -842,6 +842,9 @@ hr.line-separator{
                     text-align: left;
                 }
             }
+            @media (max-width: 767px){
+                margin: 0 0;
+            }
         }
         .rectangle{
             background: #f16624;
