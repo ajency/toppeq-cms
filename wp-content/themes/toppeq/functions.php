@@ -223,7 +223,12 @@ add_filter( 'login_headerurl', 'my_login_logo_url' );
 
 function defer_parsing_of_js ( $url ) {
   if ( FALSE === strpos( $url, '.js' ) ) return $url;
-  if ( strpos( $url, 'https://www.gstatic.com/recaptcha/releases/n1ZaVsRK4TYyiKxYab0h8MUD/recaptcha__en.js' ) ) return $url;
+  if ( strpos( $url, 'https://www.gstatic.com/recaptcha/releases/n1ZaVsRK4TYyiKxYab0h8MUD/recaptcha__en.js','https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfykNoUAAAAAOFJpS17HtVCYuWY1Oc8jo7GDbM4&co=aHR0cHM6Ly90b3BwZXEuY29tOjQ0Mw..&hl=en&v=n1ZaVsRK4TYyiKxYab0h8MUD&theme=light&size=normal&cb=gz69oendjm0s' ) ) return $url;
   return "$url' defer ";
 }
 add_filter( 'clean_url', 'defer_parsing_of_js', 11, 1 );
+
+function wpbeginner_remove_version() {
+return '';
+}
+add_filter('the_generator', 'wpbeginner_remove_version');
