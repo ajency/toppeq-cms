@@ -86,7 +86,7 @@ if (have_posts()) {
 	                                <div class="animate-title">
 	                                	<div class="text-center">
 											<h3 class="name">Bhargavi Swami</h3>
-		                        			<p class="designation">CHRO</p>
+		                        			<p class="designation">People Strategist</p>
 		                    			</div>
 	                                    <h4>Chief Happiness incharge with a penchant for people and stories. Can create a tune a minute and is taking over the world one Podcast at a time!</h4>
 	                                </div>
@@ -101,7 +101,7 @@ if (have_posts()) {
 	                                <div class="animate-title">
 	                                	<div class="text-center">
 											<h3 class="name"> Akhilesh Vyas </h3>
-		                        			<p class="designation">Lead BA – Equity Vertical</p>
+		                        			<p class="designation">Product Strategist</p>
 		                    			</div>
 	                                    <h4>Operates at the intersection of product and technology. Can whip up a mean vangi bhaat.</h4>
 	                                </div>
@@ -116,7 +116,7 @@ if (have_posts()) {
 	                                <div class="animate-title">
 	                                	<div class="text-center">
 											<h3 class="name"> Aditya Yadav </h3>
-		                        			<p class="designation">Lead BA – Cash Vertical</p>
+		                        			<p class="designation">Product Strategist</p>
 		                    			</div>
 	                                    <h4>Transforms ideas into products. Drawn to the ocean. Tom Hanks fan</h4>
 	                                </div>
@@ -131,7 +131,7 @@ if (have_posts()) {
 	                                <div class="animate-title">
 	                                	<div class="text-center">
 											<h3 class="name"> Kaartik Malhotra </h3>
-		                        			<p class="designation">UI/UX Designer</p>
+		                        			<p class="designation">UI/UX Strategist</p>
 		                    			</div>
 	                                    <h4>A potato trying to be a French fry</h4>
 	                                </div>
@@ -146,7 +146,7 @@ if (have_posts()) {
 	                                <div class="animate-title">
 	                                	<div class="text-center">
 											<h3 class="name"> Ajay Khadke </h3>
-		                        			<p class="designation">Lead Front End Tech</p>
+		                        			<p class="designation">Technology Strategist</p>
 		                    			</div>
 	                                    <h4>Talent spotter and excellent team builder. Dreams of winning a PGA tournament. Recommends The Seventh Secret by Irving Wallace to all and sundry.</h4>
 	                                </div>
@@ -176,7 +176,7 @@ if (have_posts()) {
 	                                <div class="animate-title">
 	                                	<div class="text-center">
 											<h3 class="name"> Urmi Mehta </h3>
-		                        			<p class="designation">Lead Business and Product Strategist</p>
+		                        			<p class="designation">Business and Product Strategist</p>
 		                    			</div>
 	                                    <h4>Hard taskmaster; always finds a way. Can solve Rubik’s Cube faster than making Maggi. Comedy movie buff.</h4>
 	                                </div>
@@ -191,7 +191,7 @@ if (have_posts()) {
 	                                <div class="animate-title">
 	                                	<div class="text-center">
 											<h3 class="name"> Hema Radhakrishna</h3>
-		                        			<p class="designation">Lead Product &amp; Tech Strategist</p>
+		                        			<p class="designation">Technology &amp; Product Strategist</p>
 		                    			</div>
 	                                    <h4>Discerns patterns in data. Global Citizen. Cruciverbalist. Wodehouse fan</h4>
 	                                </div>
@@ -206,7 +206,7 @@ if (have_posts()) {
 	                                <div class="animate-title">
 	                                	<div class="text-center">
 											<h3 class="name"> Nitin Edate</h3>
-		                        			<p class="designation">Back-end developer</p>
+		                        			<p class="designation">Technology Strategist</p>
 		                    			</div>
 	                                    <h4>Always up for a challenge. Eats, breathes, and sleeps movies. Also loves Chicken Chilly</h4>
 	                                </div>
@@ -221,7 +221,7 @@ if (have_posts()) {
 	                                <div class="animate-title">
 	                                	<div class="text-center">
 											<h3 class="name"> Sujit Karunakaran</h3>
-		                        			<p class="designation">Back-end developer</p>
+		                        			<p class="designation">Technology Strategist</p>
 		                    			</div>
 	                                    <h4>Product person. Loves movies with twists and turns. Brings knights into action before bishops.</h4>
 	                                </div>
@@ -236,7 +236,7 @@ if (have_posts()) {
 	                                <div class="animate-title">
 	                                	<div class="text-center">
 											<h3 class="name"> Nikhil Jain</h3>
-		                        			<p class="designation">UI/UX developer</p>
+		                        			<p class="designation">Technology Strategist</p>
 		                    			</div>
 	                                    <h4>Goes with the (task) flow. Has his own take on why Kattapa killed Baahubali. Firm believer in driving therapy</h4>
 	                                </div>
@@ -251,7 +251,7 @@ if (have_posts()) {
 	                                <div class="animate-title">
 	                                	<div class="text-center">
 											<h3 class="name"> Nitya Prasad</h3>
-		                        			<p class="designation">CFO</p>
+		                        			<p class="designation">Finance Strategist</p>
 		                    			</div>
 	                                    <h4>Looks for the devil in the detail. Listens to Ilayaraja. River-gazer.</h4>
 	                                </div>
