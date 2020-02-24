@@ -169,7 +169,7 @@ if (have_posts()) :
                                 </div>
                                 <div class="col-md-2"></div>
                                 <div class="col-md-5">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/Due-svg.png" title="Due Deligence and Valuations" alt="equity management">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/due-digilence.png" title="Due Deligence and Valuations" alt="equity management">
                                 </div>
                                 
                             
