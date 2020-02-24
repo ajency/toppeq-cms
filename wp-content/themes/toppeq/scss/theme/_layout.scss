@@ -1418,6 +1418,9 @@ input[type="text"] , textarea{
                 right: -10px;
                 top: 10px;
             }
+            @media (max-width: 767px){
+                right: 0px;
+            }
             @media (max-width: 425px){
                 padding-left: 40px;
             }
@@ -2437,7 +2440,7 @@ input[type="text"] , textarea{
 }
 .due-diligence{
     @media(min-width: 1200px){
-        margin-top: -100px;
+        margin-top: -80px;
     }
 }
  
