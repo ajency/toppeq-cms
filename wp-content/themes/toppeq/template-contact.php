@@ -97,18 +97,3 @@ if (have_posts()) {
 
 
 <?php get_footer(); ?>
-
-<script type="text/javascript">
-	$('a[href="#tab1"]').on('shown.bs.tab', function (e) {
-	  $('.contact-mails').addClass('d-none');
-	  $('.contact-invest').removeClass('d-none');
-	})
-	$('a[href="#tab2"]').on('shown.bs.tab', function (e) {
-	  $('.contact-mails').addClass('d-none');
-	  $('.contact-client').removeClass('d-none');
-	})
-	$('a[href="#tab3"]').on('shown.bs.tab', function (e) {
-	  $('.contact-mails').addClass('d-none');
-	  $('.contact-hr').removeClass('d-none');
-	})
-</script>
