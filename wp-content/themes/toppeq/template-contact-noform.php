@@ -47,8 +47,8 @@ if (have_posts()) {
 
 							<h5 class="mb-1 font-weight-bold">WeWork at Thane</h5>
 							<p class="mb-4">
-								Zeina Building, Hiranandini Circle,<br>
-								Hiranandini Business Park,<br>
+								Zenia Building, Hiranandani Circle,<br>
+								Hiranandani Business Park,<br>
 								Thane - 400 607
 							</p>
 						</div>
