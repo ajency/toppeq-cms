@@ -8731,11 +8731,8 @@ input[type="text"], textarea {
           position: relative;
           margin-top: 39px;
           padding-right: 15px;
-          right: -10px;
+          right: 0px;
           top: 10px; } }
-      @media (max-width: 767px) {
-        .toppeq-section .detailed-page .why-toppeq-img {
-          right: 0px; } }
       @media (max-width: 425px) {
         .toppeq-section .detailed-page .why-toppeq-img {
           padding-left: 40px; } }

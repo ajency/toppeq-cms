@@ -1415,11 +1415,8 @@ input[type="text"] , textarea{
                 position: relative;
                 margin-top: 39px;
                 padding-right: 15px;
-                right: -10px;
-                top: 10px;
-            }
-            @media (max-width: 767px){
                 right: 0px;
+                top: 10px;
             }
             @media (max-width: 425px){
                 padding-left: 40px;
