@@ -2039,7 +2039,7 @@ input[type="text"] , textarea{
       transform: rotate3d(0, 0, 0, 0deg) scale(.85);
       transition: .55s ease-in-out;
       width: 100%;
-      height: 100%;
+      height: 0%;
       opacity: 0;
       background-size: cover;
     }
@@ -2077,6 +2077,15 @@ input[type="text"] , textarea{
     .animate-img  .animate-img__in {
       opacity: 1;
       transform: scale(1);
+    }
+  }
+  a.linkedin-link{
+    img{
+        margin-bottom: 5px;
+        @media (max-width: 575px){
+            width: 12px;
+            height: 12px;
+        }
     }
   }
 }

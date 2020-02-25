@@ -70,7 +70,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
         								<div class="text-center">
-											<h3 class="name"> Nandini Sankar</h3>
+											<h3 class="name"> Nandini Sankar <a href="https://www.linkedin.com/in/nandini-toppeq/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Founder</p>
 		                    			</div>
 	                                    <h4>Big picture person. Insomniac. Seahawks 12th Woman. Design fiend</h4>
@@ -85,7 +85,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name">Bhargavi Swami</h3>
+											<h3 class="name">Bhargavi Swami <a href="https://www.linkedin.com/in/bhswami/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">People Strategist</p>
 		                    			</div>
 	                                    <h4>Chief Happiness incharge with a penchant for people and stories. Can create a tune a minute and is taking over the world one Podcast at a time!</h4>
@@ -100,7 +100,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Akhilesh Vyas </h3>
+											<h3 class="name"> Akhilesh Vyas <a href="https://www.linkedin.com/in/akhileshvyas/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Product Strategist</p>
 		                    			</div>
 	                                    <h4>Operates at the intersection of product and technology. Can whip up a mean vangi bhaat.</h4>
@@ -115,7 +115,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Aditya Yadav </h3>
+											<h3 class="name"> Aditya Yadav <a href="https://www.linkedin.com/in/aditya-yadav-12a8453b/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Product Strategist</p>
 		                    			</div>
 	                                    <h4>Transforms ideas into products. Drawn to the ocean. Tom Hanks fan</h4>
@@ -130,7 +130,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Kaartik Malhotra </h3>
+											<h3 class="name"> Kaartik Malhotra <a href="https://www.linkedin.com/in/kaartikmalhotra14/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">UI/UX Strategist</p>
 		                    			</div>
 	                                    <h4>A potato trying to be a French fry</h4>
@@ -145,7 +145,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Ajay Khadke </h3>
+											<h3 class="name"> Ajay Khadke <a href="#" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Technology Strategist</p>
 		                    			</div>
 	                                    <h4>Talent spotter and excellent team builder. Dreams of winning a PGA tournament. Recommends The Seventh Secret by Irving Wallace to all and sundry.</h4>
@@ -160,7 +160,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Aayush Tainwala </h3>
+											<h3 class="name"> Aayush Tainwala <a href="https://www.linkedin.com/in/aayush-tainwala-38b41a25/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Legal Strategist</p>
 		                    			</div>
 	                                    <h4>Gets down to the nitty gritty.  Pianist. Never tires of watching The Big Short</h4>
@@ -175,7 +175,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Urmi Mehta </h3>
+											<h3 class="name"> Urmi Mehta <a href="https://www.linkedin.com/in/urmi-mehta-a3090715/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Business and Product Strategist</p>
 		                    			</div>
 	                                    <h4>Hard taskmaster; always finds a way. Can solve Rubik’s Cube faster than making Maggi. Comedy movie buff.</h4>
@@ -190,7 +190,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Hema Radhakrishna</h3>
+											<h3 class="name"> Hema Radhakrishna <a href="https://www.linkedin.com/in/hema-radhakrishna-3510664/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Technology &amp; Product Strategist</p>
 		                    			</div>
 	                                    <h4>Discerns patterns in data. Global Citizen. Cruciverbalist. Wodehouse fan</h4>
@@ -205,7 +205,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Nitin Edate</h3>
+											<h3 class="name"> Nitin Edate <a href=" https://www.linkedin.com/in/nitin-edate-a91b1821/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Technology Strategist</p>
 		                    			</div>
 	                                    <h4>Always up for a challenge. Eats, breathes, and sleeps movies. Also loves Chicken Chilly</h4>
@@ -220,7 +220,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Sujit Karunakaran</h3>
+											<h3 class="name"> Sujit Karunakaran <a href="https://www.linkedin.com/in/sujit-karunakaran-882b3821/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Technology Strategist</p>
 		                    			</div>
 	                                    <h4>Product person. Loves movies with twists and turns. Brings knights into action before bishops.</h4>
@@ -235,7 +235,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Nikhil Jain</h3>
+											<h3 class="name"> Nikhil Jain <a href="#" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Technology Strategist</p>
 		                    			</div>
 	                                    <h4>Goes with the (task) flow. Has his own take on why Kattapa killed Baahubali. Firm believer in driving therapy</h4>
@@ -250,7 +250,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Nitya Prasad</h3>
+											<h3 class="name"> Nitya Prasad <a href="https://www.linkedin.com/in/nitya-prasad-b68934a0/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Finance Strategist</p>
 		                    			</div>
 	                                    <h4>Looks for the devil in the detail. Listens to Ilayaraja. River-gazer.</h4>
