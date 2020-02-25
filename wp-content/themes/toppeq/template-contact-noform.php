@@ -41,7 +41,7 @@ if (have_posts()) {
 
 							<h5 class="mb-1 font-weight-bold">Plug N Work at Vile-Parle</h5>
 							<p class="mb-4">
-								1st Floor, Man House, S.V. Road,<br>
+								102, Man House, S.V. Road,<br>
 								Vile-Parle(W) Mumbai - 400 056
 							</p>
 

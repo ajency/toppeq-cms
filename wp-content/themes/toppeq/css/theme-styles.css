@@ -8729,10 +8729,13 @@ input[type="text"], textarea {
       @media (max-width: 991px) {
         .toppeq-section .detailed-page .why-toppeq-img {
           position: relative;
-          margin-top: 39px;
+          margin: 20px 0;
           padding-right: 15px;
           right: 0px;
           top: 10px; } }
+      @media (max-width: 767px) {
+        .toppeq-section .detailed-page .why-toppeq-img {
+          margin: 20px 0 30px; } }
       @media (max-width: 425px) {
         .toppeq-section .detailed-page .why-toppeq-img {
           padding-left: 40px; } }
