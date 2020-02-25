@@ -15,7 +15,7 @@ if (have_posts()) {
 <div class="team">
 	<h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> Meet The Team </h2>
 	<div class="row team-image container w-980">
-		<div class="col-sm-6"><div class="rectangle-left"></div><img src="<?php echo get_template_directory_uri(); ?>/images/team-img1.jpg" alt="Team at Toppeq" title="Team at Toppeq" class="w-100"></div>
+		<div class="col-sm-6"><div class="rectangle-left"></div><img src="<?php echo get_template_directory_uri(); ?>/images/team-img1.png" alt="Team at Toppeq" title="Team at Toppeq" class="w-100"></div>
 		<div class="col-sm-6"><div class="rectangle-right"></div><img src="<?php echo get_template_directory_uri(); ?>/images/team-img2.png" alt="Team at Toppeq" title="Team at Toppeq" class="w-100"></div>
 	</div>
 
