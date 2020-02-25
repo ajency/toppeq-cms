@@ -15,7 +15,7 @@ if (have_posts()) {
 <div class="team">
 	<h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> Meet The Team </h2>
 	<div class="row team-image container w-980">
-		<div class="col-sm-6"><div class="rectangle-left"></div><img src="<?php echo get_template_directory_uri(); ?>/images/team-img1.png" alt="Team at Toppeq" title="Team at Toppeq" class="w-100"></div>
+		<div class="col-sm-6"><div class="rectangle-left"></div><img src="<?php echo get_template_directory_uri(); ?>/images/team-img1.jpg" alt="Team at Toppeq" title="Team at Toppeq" class="w-100"></div>
 		<div class="col-sm-6"><div class="rectangle-right"></div><img src="<?php echo get_template_directory_uri(); ?>/images/team-img2.png" alt="Team at Toppeq" title="Team at Toppeq" class="w-100"></div>
 	</div>
 
@@ -24,31 +24,31 @@ if (have_posts()) {
 	        <div class="rotate--circle">
 	            <ul class="circle--rotate" id="circle--rotate">
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/large-img.png" alt="Nandini Sankar" title="Nandini Sankar"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/large-img.jpg" alt="Nandini Sankar" title="Nandini Sankar"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/bhargavi-s.png" alt="Bhargavi Swami" title="Bhargavi Swami"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/bhargavi-s.jpg" alt="Bhargavi Swami" title="Bhargavi Swami"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/av.png" alt="Akhilesh Vyas" title="Akhilesh Vyas"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/av.jpg" alt="Akhilesh Vyas" title="Akhilesh Vyas"></div>
 	                </li>
 					<li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/akhilesh.png" alt="Aditya Yadav" title="Aditya Yadav"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/akhilesh.jpg" alt="Aditya Yadav" title="Aditya Yadav"></div>
 	                </li>
 					<li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/kaartik.png" alt="Kaartik Malhotra" title="Kaartik Malhotra"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/kaartik.jpg" alt="Kaartik Malhotra" title="Kaartik Malhotra"></div>
 	                </li>
 					<li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/ajay.png" alt="Ajay Khadke" title="Ajay Khadke"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/ajay.jpg" alt="Ajay Khadke" title="Ajay Khadke"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/aayush.png" alt="Aayush Tainwala" title="Aayush Tainwala"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/aayush.jpg" alt="Aayush Tainwala" title="Aayush Tainwala"></div>
 	                </li>
 	                <li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/urmi_mehta_new.jpg" alt="Urmi Mehta" title="Urmi Mehta"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/hema-r.png" alt="Hema Radhakrishna" title="Hema Radhakrishna"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/hema-r.jpg" alt="Hema Radhakrishna" title="Hema Radhakrishna"></div>
 	                </li>
 	                <li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nitin.jpg" alt="Nitin Edate" title="Nitin Edate"></div>
@@ -60,7 +60,7 @@ if (have_posts()) {
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nikhil.jpg" alt="Nikhil Jain" title="Nikhil Jain"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nitya.png" alt="Nitya Prasad" title="Nitya Prasad"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nitya.jpg" alt="Nitya Prasad" title="Nitya Prasad"></div>
 	                </li>
 	            </ul>
 	            <div class="animate-wrapper">
