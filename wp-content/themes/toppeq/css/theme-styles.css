@@ -7806,7 +7806,7 @@ hr.line-separator {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s; }
+  animation-delay: 0.3s; }
 
 .in-right {
   -webkit-animation-name: fadeInRight;
@@ -7825,8 +7825,8 @@ hr.line-separator {
   animation-fill-mode: both;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s; }
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
 
 .in-bottom {
   -webkit-animation-name: fadeInBottom;
@@ -7835,8 +7835,8 @@ hr.line-separator {
   animation-fill-mode: both;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s; }
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
 
 .in {
   -webkit-animation-name: fadeIn;
@@ -8549,36 +8549,38 @@ hr.line-separator {
         vertical-align: middle; }
       .services-page .detailed-page .services-block .s-content .ser_img-04 {
         position: relative;
-        margin-top: 30px; }
-        .services-page .detailed-page .services-block .s-content .ser_img-04:before {
-          content: "";
-          position: absolute;
-          width: 200px;
-          height: 200px;
-          border: 2px dashed #f16624;
-          z-index: 0;
-          top: -22px;
-          right: -22px;
-          opacity: 0.46;
-          border-width: 2px 2px 0px 0; }
-          @media (max-width: 991px) {
-            .services-page .detailed-page .services-block .s-content .ser_img-04:before {
-              width: 150px;
-              height: 150px; } }
-        .services-page .detailed-page .services-block .s-content .ser_img-04:after {
-          content: "";
-          position: absolute;
-          width: 200px;
-          height: 200px;
-          border: 2px dashed #f16624;
-          z-index: 0;
-          top: -12px;
-          right: -12px;
-          border-width: 2px 2px 0px 0; }
-          @media (max-width: 991px) {
-            .services-page .detailed-page .services-block .s-content .ser_img-04:after {
-              width: 150px;
-              height: 150px; } }
+        margin-top: 30px;
+        /*                    &:before{
+                        content: "";
+                        position: absolute;
+                        width: 200px;
+                        height: 200px;
+                        border: 2px dashed $orange-3;
+                        z-index: 0;
+                        top: -22px;
+                        right: -22px;
+                        opacity: 0.46;
+                        border-width: 2px 2px 0px 0;
+                        @media (max-width: 991px){
+                            width: 150px;
+                            height: 150px;
+                        }
+                    }
+                    &:after{
+                        content: "";
+                        position: absolute;
+                        width: 200px;
+                        height: 200px;
+                        border: 2px dashed $orange-3;
+                        z-index: 0;
+                        top: -12px;
+                        right: -12px;
+                        border-width: 2px 2px 0px 0;
+                        @media (max-width: 991px){
+                            width: 150px;
+                            height: 150px;
+                        }
+                    }*/ }
   @media (max-width: 767px) {
     .services-page {
       background-position: top 30% right -90px; } }
