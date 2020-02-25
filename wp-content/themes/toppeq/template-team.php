@@ -235,7 +235,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Nikhil Jain <a href="#" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
+											<h3 class="name"> Nikhil Jain <a href="https://www.linkedin.com/in/nikhil-jain-050775169/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Technology Strategist</p>
 		                    			</div>
 	                                    <h4>Goes with the (task) flow. Has his own take on why Kattapa killed Baahubali. Firm believer in driving therapy</h4>
