@@ -1024,13 +1024,14 @@ hr.line-separator{
                         position: relative;
                         font-size: 40px;
                         &:after{
-                            content:'';
+                            content: '';
                             position: absolute;
-                            width: 24%;
-                            left: 0;
                             bottom: 0;
-                            border-bottom: solid 5px $orange-3;
-                            padding-bottom: 40px;
+                            width: 24%;
+                            height: 5px;
+                            background: #f16624;
+                            left: 0;
+                            border-radius: 8px;
                         }
                         @media (max-width: 767px){
                             font-size: 25px;
@@ -1073,13 +1074,14 @@ hr.line-separator{
                     h2{
                         position: relative;
                         &:after{
-                            content:'';
+                            content: '';
                             position: absolute;
-                            width: 24%;
-                            right: 0;
                             bottom: 0;
-                            border-bottom: solid 5px $orange-3;
-                            padding-bottom: 40px;
+                            width: 24%;
+                            height: 5px;
+                            background: #f16624;
+                            right: 0;
+                            border-radius: 8px;
                         }
                         @media (max-width: 767px){
                             font-size: 25px;

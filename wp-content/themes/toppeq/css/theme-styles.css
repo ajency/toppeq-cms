@@ -8422,11 +8422,12 @@ hr.line-separator {
             .services-page .detailed-page .services-block.left .title h2:after {
               content: '';
               position: absolute;
-              width: 24%;
-              left: 0;
               bottom: 0;
-              border-bottom: solid 5px #f16624;
-              padding-bottom: 40px; }
+              width: 24%;
+              height: 5px;
+              background: #f16624;
+              left: 0;
+              border-radius: 8px; }
             @media (max-width: 767px) {
               .services-page .detailed-page .services-block.left .title h2 {
                 font-size: 25px; } }
@@ -8466,11 +8467,12 @@ hr.line-separator {
             .services-page .detailed-page .services-block.right .title h2:after {
               content: '';
               position: absolute;
-              width: 24%;
-              right: 0;
               bottom: 0;
-              border-bottom: solid 5px #f16624;
-              padding-bottom: 40px; }
+              width: 24%;
+              height: 5px;
+              background: #f16624;
+              right: 0;
+              border-radius: 8px; }
             @media (max-width: 767px) {
               .services-page .detailed-page .services-block.right .title h2 {
                 font-size: 25px; } }
