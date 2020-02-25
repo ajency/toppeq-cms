@@ -998,10 +998,10 @@ hr.line-separator{
             width: 100%;
             .number-overlay{
                 color: black;
-                font-size: 150px;
+                font-size: 180px;
                 position: absolute;
                 opacity: 0.07;
-                top: -25px;
+                top: -38px;
                 z-index: 0;
                 @media (max-width: 767px){
                     font-size: 120px;
@@ -1013,7 +1013,7 @@ hr.line-separator{
                 padding-bottom: 80px;
                 padding-top: 80px;
                 .number-overlay{
-                    left: 85px;
+                    left: 145px;
                     @media (max-width: 767px){
                         left: 20px;
                     }
@@ -1040,7 +1040,7 @@ hr.line-separator{
                         content: '';
                         position: absolute;
                         top: -50px;
-                        left: 169px;
+                        left: 250px;
                         background-image: url(../images/dashedlines.png);
                         background-size: 160px;
                         background-repeat: no-repeat;
@@ -1063,7 +1063,7 @@ hr.line-separator{
                 padding-bottom: 80px;
                 padding-top: 80px;
                 .number-overlay{
-                    right: 60px;
+                    right: 140px;
                     @media (max-width: 767px){
                         right: 20px;
                     }
@@ -1098,7 +1098,7 @@ hr.line-separator{
                         opacity: 0.08;
                         @media (max-width: 767px){
                             width: 100px;
-                            right: 120px;
+                            right: 140px;
                         }
                     }
                 }

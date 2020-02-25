@@ -8380,10 +8380,10 @@ hr.line-separator {
       width: 100%; }
       .services-page .detailed-page .services-block .number-overlay {
         color: black;
-        font-size: 150px;
+        font-size: 180px;
         position: absolute;
         opacity: 0.07;
-        top: -25px;
+        top: -38px;
         z-index: 0; }
         @media (max-width: 767px) {
           .services-page .detailed-page .services-block .number-overlay {
@@ -8394,7 +8394,7 @@ hr.line-separator {
         padding-bottom: 80px;
         padding-top: 80px; }
         .services-page .detailed-page .services-block.left .number-overlay {
-          left: 85px; }
+          left: 145px; }
           @media (max-width: 767px) {
             .services-page .detailed-page .services-block.left .number-overlay {
               left: 20px; } }
@@ -8418,7 +8418,7 @@ hr.line-separator {
             content: '';
             position: absolute;
             top: -50px;
-            left: 169px;
+            left: 250px;
             background-image: url(../images/dashedlines.png);
             background-size: 160px;
             background-repeat: no-repeat;
@@ -8438,7 +8438,7 @@ hr.line-separator {
         padding-bottom: 80px;
         padding-top: 80px; }
         .services-page .detailed-page .services-block.right .number-overlay {
-          right: 60px; }
+          right: 140px; }
           @media (max-width: 767px) {
             .services-page .detailed-page .services-block.right .number-overlay {
               right: 20px; } }
@@ -8471,7 +8471,7 @@ hr.line-separator {
             @media (max-width: 767px) {
               .services-page .detailed-page .services-block.right .title:after {
                 width: 100px;
-                right: 120px; } }
+                right: 140px; } }
         @media (max-width: 767px) {
           .services-page .detailed-page .services-block.right {
             padding-right: 30px;
@@ -8729,7 +8729,7 @@ input[type="text"], textarea {
       @media (max-width: 991px) {
         .toppeq-section .detailed-page .why-toppeq-img {
           position: relative;
-          margin: 20px 0;
+          margin: 30px 0;
           padding-right: 15px;
           right: 0px;
           top: 10px; } }
