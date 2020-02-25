@@ -60,7 +60,7 @@ if (have_posts()) {
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nikhil.jpg" alt="Nikhil Jain" title="Nikhil Jain"></div>
 	                </li>
 	                <li class="block">
-	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nitya.jpg" alt="Nitya Prasad" title="Nitya Prasad"></div>
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nitya.png" alt="Nitya Prasad" title="Nitya Prasad"></div>
 	                </li>
 	            </ul>
 	            <div class="animate-wrapper">
