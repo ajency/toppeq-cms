@@ -307,13 +307,25 @@ body:not(.page-template-front-page-home){
     z-index: 1;
     img{
         width: 30px;
+        position: absolute;
+        right: 0;
+        &.no-hover{
+            z-index: 9999;
+            transition: opacity .2s linear;
+            cursor: pointer;
+        }
         @media (max-width: 767px){
             width: 18px;
         }
     }
     @media (max-width: 768px) {
-        top: 40px;
+        top: 44px;
         right: 60px;
+    }
+    &:hover{
+        img.no-hover{
+            opacity: 0;
+        }
     }
 }
 

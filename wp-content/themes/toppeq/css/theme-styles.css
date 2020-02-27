@@ -9523,6 +9523,13 @@ input[type="text"], textarea {
   .due-diligence {
     margin-top: -80px; } }
 
+.about .sub-title {
+  font-size: 34px;
+  font-weight: normal;
+  color: #505050;
+  text-align: center;
+  margin: auto; }
+
 .logo {
   width: 200px; }
   .logo a {
@@ -9752,14 +9759,22 @@ body:not(.page-template-front-page-home) header {
   margin-right: -9px;
   z-index: 1; }
   .menu-close-btn img {
-    width: 30px; }
+    width: 30px;
+    position: absolute;
+    right: 0; }
+    .menu-close-btn img.no-hover {
+      z-index: 9999;
+      transition: opacity .2s linear;
+      cursor: pointer; }
     @media (max-width: 767px) {
       .menu-close-btn img {
         width: 18px; } }
   @media (max-width: 768px) {
     .menu-close-btn {
-      top: 40px;
+      top: 44px;
       right: 60px; } }
+  .menu-close-btn:hover img.no-hover {
+    opacity: 0; }
 
 .header-bg, .header-bg-post {
   background: url("../images/slider-img.png") no-repeat;

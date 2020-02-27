@@ -98,7 +98,10 @@
 						<a class="nav-link <?php if (is_page('contact')) { echo "active"; }?>" href="/contact">Contact Us</a>
 					</li>
 				</ul>
-				<button class="btn-reset menu-close-btn"><img class="" width="35" src="<?php echo get_template_directory_uri(); ?>/images/cancel.svg"></button>
+				<button class="btn-reset menu-close-btn">
+					<img class="no-hover" width="35" src="<?php echo get_template_directory_uri(); ?>/images/cross-icon.svg">
+					<img class="hover" width="35" src="<?php echo get_template_directory_uri(); ?>/images/cross-on-hover.svg">
+				</button>
 				<!-- <div class="rectangle-black"></div> -->
 				<div class="rectangle-orange"></div>
 			</div>
