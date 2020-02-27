@@ -9523,13 +9523,17 @@ input[type="text"], textarea {
   .due-diligence {
     margin-top: -80px; } }
 
-.about .sub-title {
-  font-size: 34px;
-  font-weight: normal;
-  color: #505050;
-  text-align: center;
-  margin: auto;
-  margin-bottom: 40px; }
+.about {
+  box-shadow: 0 2px 40px 0 rgba(235, 235, 235, 0.5);
+  background-color: #ffffff;
+  padding: 0 50px; }
+  .about .sub-title {
+    font-size: 34px;
+    font-weight: normal;
+    color: #505050;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px; }
 
 .logo {
   width: 200px; }
