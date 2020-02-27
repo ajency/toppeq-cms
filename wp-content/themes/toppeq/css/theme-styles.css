@@ -8837,17 +8837,17 @@ input[type="text"], textarea {
     .circle--rotate > li.active + .block + .block + .block + .block + .block + .block + .block img {
       transform: rotate(-190deg); }
     .circle--rotate > li.active + .block + .block + .block + .block + .block + .block + .block + .block img {
-      transform: rotate(-220deg); }
+      transform: rotate(-215deg); }
     .circle--rotate > li.active + .block + .block + .block + .block + .block + .block + .block + .block + .block img {
-      transform: rotate(-240deg); }
+      transform: rotate(-232deg); }
     .circle--rotate > li.active + .block + .block + .block + .block + .block + .block + .block + .block + .block + .block img {
-      transform: rotate(-270deg); }
+      transform: rotate(-264deg); }
     .circle--rotate > li.active + .block + .block + .block + .block + .block + .block + .block + .block + .block + .block + .block img {
-      transform: rotate(-300deg); }
+      transform: rotate(-290deg); }
     .circle--rotate > li.active + .block + .block + .block + .block + .block + .block + .block + .block + .block + .block + .block + .block img {
-      transform: rotate(-330deg); }
+      transform: rotate(-308deg); }
     .circle--rotate > li.active + .block + .block + .block + .block + .block + .block + .block + .block + .block + .block + .block + .block + .block img {
-      transform: rotate(-350deg); }
+      transform: rotate(-332deg); }
   @media (max-width: 475px) {
     .circle--rotate {
       height: 50vh !important;
