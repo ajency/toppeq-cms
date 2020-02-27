@@ -9528,7 +9528,8 @@ input[type="text"], textarea {
   font-weight: normal;
   color: #505050;
   text-align: center;
-  margin: auto; }
+  margin: auto;
+  margin-bottom: 24px; }
 
 .logo {
   width: 200px; }
