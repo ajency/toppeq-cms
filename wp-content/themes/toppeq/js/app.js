@@ -237,7 +237,7 @@ animateHTML().init();
                   };
               switch (s) {
                   case 14:
-                      u = -36;
+                      u = -26;
                       break;
                   case 13:
                       u = -27.5;

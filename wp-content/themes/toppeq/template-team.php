@@ -62,6 +62,9 @@ if (have_posts()) {
 	                <li class="block">
 	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Nitya.jpg" alt="Nitya Prasad" title="Nitya Prasad"></div>
 	                </li>
+	                <li class="block">
+	                    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/Smitha-Satish.jpg" alt="Nitya Prasad" title="Nitya Prasad"></div>
+	                </li>
 	            </ul>
 	            <div class="animate-wrapper">
 	                <div class="animate">
@@ -254,6 +257,21 @@ if (have_posts()) {
 		                        			<p class="designation">Finance Strategist</p>
 		                    			</div>
 	                                    <h4>Looks for the devil in the detail. Listens to Ilayaraja. River-gazer.</h4>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="animate">
+	                    <div class="animate-img">
+	                        <div class="animate-img__in">
+	                            <div class="animate-more">
+	                                <div class="animate-title">
+	                                	<div class="text-center">
+											<h3 class="name"> Smitha Satish  <a href="#" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
+		                        			<p class="designation"> Brand Liaison </p>
+		                    			</div>
+	                                    <h4>Connects people and dots. Current Candy Crush level : 1567. Always seeking a portal into a parallel universe</h4>
 	                                </div>
 	                            </div>
 	                        </div>
