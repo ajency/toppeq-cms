@@ -15,8 +15,11 @@ if (have_posts()) {
 <div class="team">
 	<h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> Meet The Team </h2>
 	<div class="row team-image container w-980">
-		<div class="col-sm-6"><!-- <div class="rectangle-left"></div> --><img src="<?php echo get_template_directory_uri(); ?>/images/team-img1.jpg" alt="Team at Toppeq" title="Team at Toppeq" class="w-100"></div>
-		<div class="col-sm-6"><!-- <div class="rectangle-right"></div> --><img src="<?php echo get_template_directory_uri(); ?>/images/team-img2.jpg" alt="Team at Toppeq" title="Team at Toppeq" class="w-100"></div>
+<!-- 		<div class="col-sm-6"><div class="rectangle-left"></div><img src="<?php echo get_template_directory_uri(); ?>/images/team-img1.jpg" alt="Team at Toppeq" title="Team at Toppeq" class="w-100"></div>
+		<div class="col-sm-6"><div class="rectangle-right"></div><img src="<?php echo get_template_directory_uri(); ?>/images/team-img2.jpg" alt="Team at Toppeq" title="Team at Toppeq" class="w-100"></div> -->
+        <div class="page-content">
+            <?php the_content();?>
+        </div>
 	</div>
 
 	<section class="services">
@@ -268,7 +271,7 @@ if (have_posts()) {
 	                            <div class="animate-more">
 	                                <div class="animate-title">
 	                                	<div class="text-center">
-											<h3 class="name"> Smitha Satish  <a href="#" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
+											<h3 class="name"> Smitha Satish  <a href="https://www.linkedin.com/in/smitha-satish-2149071a3/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation"> Brand Liaison </p>
 		                    			</div>
 	                                    <h4>Connects people and dots. Current Candy Crush level : 1567. Always seeking a portal into a parallel universe</h4>
