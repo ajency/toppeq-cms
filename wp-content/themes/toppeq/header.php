@@ -72,7 +72,7 @@
 						<a class="nav-link" href="<?php echo $urlP;?>">Pricing</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">About Us</a>
+						<a class="nav-link" href="/team#aboutUs">About Us</a>
 						<ul class="dropdown">
 							<li class="nav-item">
 								<a class="nav-link <?php if (is_page('team')) { echo "active"; }?>" href="/team">Team</a>
