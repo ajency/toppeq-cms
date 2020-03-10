@@ -20,7 +20,7 @@ if (have_posts()) {
 				<div class="contact-title">
 					<div class="text-center pb-6">
 						<h2 class="section-title f-25 text-uppercase pt-md-5 pb-md-2 pt-2 pr-3"> Contact Us</h2>
-						<h5 class="sub-title pr-3 font-weight-light">Curious about us? Say <a href="mailto:hello@toppeq.com" class="text-body">hello@toppeq.com</a> or call us at <a href="tel:00919137768403" class="text-body">+91-9137768403</a></h5>
+						<h5 class="sub-title pr-3 font-weight-light">Curious about us? Say <a href="mailto:hello@toppeq.com" class="highlight">hello@toppeq.com</a> or call us at <a href="tel:00919137768403" class="text-body">+91-9137768403</a></h5>
 					</div>
 				</div>
 
