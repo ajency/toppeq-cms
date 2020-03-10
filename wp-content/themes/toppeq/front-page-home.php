@@ -25,12 +25,12 @@ if (have_posts()) :
                                 }
                             ?>
                             <div class="item <?php echo $class;?>">
-                                <picture class="in">
+                                <picture class="in-left">
                                     <source media="(orientation: landscape)" srcset="<?php the_sub_field('slide_image');?>">
                                     <source media="(orientation: portrait)" srcset="<?php the_sub_field('slide_mobile_image');?>">
                                     <img src="<?php the_sub_field('slide_image');?>">
                                 </picture>
-                                <div class="item-text in-left">
+                                <div class="item-text in">
                                     <h1 class=""><?php the_sub_field('slide_title');?></h1>
                                 </div>
                                 <!-- <div class="item-count in-bottom">

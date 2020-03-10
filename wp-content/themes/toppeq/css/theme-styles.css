@@ -7566,6 +7566,9 @@ hr.line-separator {
   margin-top: 36px;
   margin-bottom: 36px; }
 
+a.highlight {
+  color: #f26624; }
+
 .title h1 {
   padding: 20px;
   text-align: center;
@@ -9591,7 +9594,7 @@ body:not(.page-template-front-page-home) header {
 .home header, .page-template-front-page-home header, .page-template-front-page-version1-php header {
   position: absolute;
   background: transparent;
-  padding: 50px 65px;
+  padding: 25px 65px;
   z-index: 10;
   width: 100%;
   transition: all .3s ease-in-out; }
