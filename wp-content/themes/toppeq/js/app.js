@@ -155,6 +155,10 @@ animateHTML().init();
         );
     });
 
+    if(window.location.hash.substr(1)=== "services-section") {
+        $('.detailed-page').removeClass('hidden_block').addClass('in-top');
+    }
+
 	window.onscroll = function() {stickyHeader()};
 	var header = document.getElementById("site-header");
 	var sticky = header.offsetTop;
