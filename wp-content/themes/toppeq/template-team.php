@@ -10,7 +10,7 @@ if (have_posts()) {
 	while (have_posts()) {
 	the_post(); ?>
 	<?php }
-}
+	}
 ?>
 <div class="team">
 	<h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> Meet The Team </h2>
@@ -22,7 +22,7 @@ if (have_posts()) {
         </div>
 	</div>
 
-	<section class="services1 pb-5">
+	<section class="overflow-hidden pb-5">
 	    <div class="circle--slider py-8">
 	        <div class="rotate--circle">
 	            <ul class="circle--rotate" id="circle--rotate">
