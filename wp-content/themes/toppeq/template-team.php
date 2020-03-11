@@ -22,7 +22,7 @@ if (have_posts()) {
         </div>
 	</div>
 
-	<section class="services">
+	<section class="services1 pb-5">
 	    <div class="circle--slider py-8">
 	        <div class="rotate--circle">
 	            <ul class="circle--rotate" id="circle--rotate">

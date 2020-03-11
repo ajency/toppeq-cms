@@ -82,6 +82,9 @@ body {
     font-family: "Avenir LT Std";
     background-color: var(--bg-color);
     color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     @media (min-width: 1200px) {
         // padding: 0 25px;
     }
@@ -97,4 +100,12 @@ body {
     .fixed-bottom-button{
         //box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
     }
+}
+
+html {
+    height: 100%;
+}
+
+#content {
+    flex: 1;
 }
