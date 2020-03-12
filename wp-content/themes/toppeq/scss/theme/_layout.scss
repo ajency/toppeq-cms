@@ -1031,7 +1031,7 @@ a.highlight{
                             content: '';
                             position: absolute;
                             bottom: 0;
-                            width: 24%;
+                            width: 175px;
                             height: 5px;
                             background: #f16624;
                             left: 0;
@@ -1081,7 +1081,7 @@ a.highlight{
                             content: '';
                             position: absolute;
                             bottom: 0;
-                            width: 24%;
+                            width: 175px;
                             height: 5px;
                             background: #f16624;
                             right: 0;
@@ -1310,7 +1310,7 @@ input[type="text"] , textarea{
         box-shadow: 0 2px 40px 0 rgba(235, 235, 235, 0.5);
         background-color: white;
         position: relative;
-        padding: 0px 0 35px 30px;
+        padding: 0px 0 5px 30px;
         .sub-title{
             color: $gray-700;
             text-align: center;
