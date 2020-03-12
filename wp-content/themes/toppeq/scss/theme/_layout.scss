@@ -345,9 +345,9 @@ a.highlight{
     animation-fill-mode: both;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-    
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+
 }
 .why-toppeq{
     background: url('../images/why-toppeq.png') no-repeat;
@@ -1365,6 +1365,10 @@ input[type="text"] , textarea{
         img{
             max-width: 100%;
             width: 100%;
+            &.why-toppeq-logo{
+                display: inline-block;
+                max-width: 100px;                
+            }
         }
         .why-toppeq-img{
             // position: absolute;
@@ -1414,7 +1418,7 @@ input[type="text"] , textarea{
             }*/
             @media (min-width: 992px) {
                 position: relative;
-                top: 20px;
+                top: 3px;
                 left: 0px;
             }
             @media (max-width: 991px){

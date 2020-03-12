@@ -53,7 +53,10 @@ if (have_posts()) :
                 <div class="container mt-8 mb-8 hidden_block">
                     <div class="detailed-page">
                         <div class="">
-                            <h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> <?php the_field('section_title');?></h2>
+                            <h2 class="section-title f-25 text-uppercase py-md-4 py-2 pr-3"> 
+                                <?php the_field('section_title');?> 
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/orange-logo.png" title="Toppeq" alt="Toppeq" class="why-toppeq-logo">
+                            </h2>
                             <h5 class="sub-title pr-3"><?php the_field('sub_title');?></h5>
                             <p class="sub-text f-18 pr-3 pb-8"><?php the_field('section_description');?></p>
                             <div class="row">
@@ -88,7 +91,7 @@ if (have_posts()) :
                                     <picture>
                                             <source media="(orientation: landscape)" srcset="<?php the_field('main_img_desk');?>">
                                             <source media="(orientation: portrait)" srcset="<?php the_field('main_img_mob');?>">
-                                            <img src="<?php the_field('main_img_desk');?>" class="block-img w-100">
+                                            <img src="<?php the_field('main_img_desk');?>" class="block-img w-100 image-shadow">
                                     </picture>  
                                 </div>
                             </div>
