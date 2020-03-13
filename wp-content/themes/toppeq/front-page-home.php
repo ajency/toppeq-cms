@@ -151,10 +151,11 @@ if (have_posts()) :
                                 <h2 class="pb-2">CASHFLOW <br> MANAGEMENT</h2>
                             </div>
                             <div class="row s-content align-items-center">
-                                <div class="col-md-2"></div>
-                                 <div class="col-md-5">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/cashflow.png" title="cashflow management" alt="cashflow management">
+                                <div class="col-md-1"></div>
+                                 <div class="col-md-5 pt-sm-2">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/cash_flow_manage.png" title="cashflow management" alt="cashflow management">
                                 </div>
+                                <div class="col-md-1"></div>
                                 <div class="col-md-5">
                                     <p>Our intelligent voice and messaging-based digital expense ledgers make it easy to track your company’s current spends, and our AI-engineered forecasting tools enable you to create a financial road map for the rest of your journey.</p>
                                 </div>
