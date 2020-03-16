@@ -116,8 +116,8 @@ if (have_posts()) :
                                 <div class="col-md-5">
                                     <p>From shareholders details of holding and types of securities, TOPPEQ’s cloud-based platform digitises and secures your equity data and makes it both instantly accessible and easy to understand.</p>
                                 </div>
-                                <div class="col-md-2"></div>
-                                <div class="col-md-5">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-6">
                                <div class="outer-box-shares">
                                    <!--   <table>
                                         <thead>
@@ -137,8 +137,11 @@ if (have_posts()) :
                                             </tr>
                                         </tbody>
                                     </table>-->
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/cap-table-management.png" title="cap table mangement" alt="cap table management">
-
+                                    <picture>
+                                       <source srcset="<?php echo get_template_directory_uri(); ?>/images/1.png ?>" media="(min-width: 768px)">
+                                       <source srcset="<?php echo get_template_directory_uri(); ?>/images/1a.png ?>" media="(max-width: 767px)">
+                                       <img src="<?php echo get_template_directory_uri(); ?>/images/1.png"  class="block-img w-100" alt="">
+                                    </picture>
                                 </div> 
                                 </div>
                                 </div>
