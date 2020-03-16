@@ -105,7 +105,7 @@ if (have_posts()) :
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="detailed-page hidden_block">
-                        <h2 class="section-title f-25 text-uppercase py-4"> Our Services</h2>
+                        <h2 class="section-title f-25 text-uppercase py-4"> Our Services </h2>
                         <div class="row services-block services-01 left">
                             <div class="number-overlay"> 01 </div>
                             <div class="d-block">
