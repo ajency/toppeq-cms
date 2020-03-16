@@ -108,7 +108,7 @@
 		</div>
 	</nav>
 
-	<div class="header-bg">
+<!-- 	<div class="header-bg">
 		<div class="breadcrumbs-wrapper">
 			<?php
 				if(is_archive()) {
@@ -135,6 +135,6 @@
 		        </ul>
 	        </div>
         </div>
-	</div>
+	</div> -->
 
 	<div id="content">
