@@ -61,7 +61,7 @@ if (have_posts()) :
                             <p class="sub-text f-18 pr-3 pb-8"><?php the_field('section_description');?></p>
                             <div class="row">
                                 <?php if( have_rows('block_section') ): ?>
-                                    <div class="col-lg-6 col-md-12 pl-2 pr-2">
+                                    <div class="col-lg-6 col-md-12">
                                         <?php
                                         while ( have_rows('block_section') ) : the_row();?>
                                             <?php 
@@ -86,8 +86,8 @@ if (have_posts()) :
                                 else :
                                     endif; 
                                 ?>
-                                <!-- <div class="col-lg-1 col-md-12"></div> -->
-                                <div class="col-lg-6 col-md-12 why-toppeq-img">
+                                <div class="col-lg-1 col-md-12"></div>
+                                <div class="col-lg-5 col-md-12 why-toppeq-img">
                                     <picture>
                                             <source media="(orientation: landscape)" srcset="<?php the_field('main_img_desk');?>">
                                             <source media="(orientation: portrait)" srcset="<?php the_field('main_img_mob');?>">
