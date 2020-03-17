@@ -138,9 +138,9 @@ if (have_posts()) :
                                         </tbody>
                                     </table>-->
                                     <picture>
-                                       <source srcset="<?php echo get_template_directory_uri(); ?>/images/1.png ?>" media="(min-width: 768px)">
-                                       <source srcset="<?php echo get_template_directory_uri(); ?>/images/1a.png ?>" media="(max-width: 767px)">
-                                       <img src="<?php echo get_template_directory_uri(); ?>/images/1.png"  class="block-img w-100" alt="">
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/1.png ?>" media="(min-width: 768px)">
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/1a.png ?>" media="(max-width: 767px)">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/1.png"  class="block-img w-100" alt="">
                                     </picture>
                                 </div> 
                                 </div>
@@ -174,9 +174,13 @@ if (have_posts()) :
                                 <div class="col-md-5">
                                         <p>Our integrated suite of tools provides accurate and defensible audit-ready valuations, and our relentless focus on compliance adherence  speeds up the due diligence process.  </p>
                                 </div>
-                                <div class="col-md-2"></div>
-                                <div class="col-md-5">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/due-digilence.png" title="Due Deligence and Valuations" alt="equity management">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-6">
+                                    <picture>
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/due-digilence.png ?>" media="(min-width: 768px)">
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/due-digilence.png ?>" media="(max-width: 767px)">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/due-digilence.png"  class="block-img w-100" alt="">
+                                    </picture>
                                 </div>
                                 
                             
@@ -190,7 +194,22 @@ if (have_posts()) :
                             </div>
                             <div class="row s-content align-items-center ml-2">
                             <div class="col-md-6 p-0 ser_img-04">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/legal.jpg" alt="Toppeq" title="Legal and Secretarial services">
+                                 <picture>
+                                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/4a.jpg ?>" media="(min-width: 768px)">
+                                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/4b.jpg ?>" media="(max-width: 767px)">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/4a.jpg"  class="block-img w-100" alt="">
+                                </picture> 
+                                <!--
+                                <picture>
+                                     <source media="(max-width: 767px)"
+                                             srcset="<?php echo get_template_directory_uri(); ?>/images/4b.jpg 600w"
+                                             sizes="(min-width: 700px) 500px,100vw">
+                                     <source media="(min-width: 768px)"
+                                             srcset="<?php echo get_template_directory_uri(); ?>/images/4a.jpg 1200w"
+                                             sizes="(min-width: 1024px) 600px, 500px">
+                                     <img src="<?php echo get_template_directory_uri(); ?>/images/4a.jpg" alt="Munster Dom"">
+                                    </picture> 
+                                -->
                             </div>
                             <div class="col-md-1"></div>
                             <div class="col-md-5">
@@ -205,11 +224,16 @@ if (have_posts()) :
                                 <h2 class="pb-2">PORTFOLIO ANALYTICS <br> AND SCENARIO <br> MODELING</h2>
                             </div>
                             <div class="row s-content align-items-center">
-                                <div class="col-md-6">
+                                <div class="col-md-5">
                                     <p>We deep-dive into big data across sectors to help deliver critical insights that optimise your funding round decisions. </p>
                                 </div>
+                                 <div class="col-md-1"></div>
                                 <div class="col-md-6 pl-4">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio.png" title="Portfolio Analytics and Scenario Modeling"  alt="equity management">
+                                    <picture>
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/5a.jpg ?>" media="(min-width: 768px)">
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/5b.jpg ?>" media="(max-width: 767px)">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/5a.jpg"  class="block-img w-100" alt="">
+                                    </picture>
                                 </div>
                             </div>
                         </div>
