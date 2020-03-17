@@ -138,12 +138,15 @@ if (have_posts()) :
                                         </tbody>
                                     </table>-->
                                     <picture>
-                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/cap_table_management_600.jpg 2x"
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/cap_table_management_600.jpg , <?php echo get_template_directory_uri(); ?>/images/cap_table_management_600.jpg 2x"
                                               media="(max-width: 639px)">
-                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/cap_table_management_800.jpg 2x"
+                                        
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/cap_table_management_800.jpg , <?php echo get_template_directory_uri(); ?>/images/cap_table_management_800.jpg 2x"
                                               media="(min-width: 640px) and (max-width: 1299px)">
+                                        
                                         <source srcset="<?php echo get_template_directory_uri(); ?>/images/cap_table_management.jpg"
                                               media="(min-width: 1300px)">
+                                        
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/cap_table_management_800.jpg" title="cap table management" alt="cap table management">
                                     </picture>
                                 </div> 
@@ -162,7 +165,7 @@ if (have_posts()) :
                                  <div class="col-md-5 pt-sm-2">
                                     <picture>
                                         <source srcset="<?php echo get_template_directory_uri(); ?>/images/cash_flow_manage.png ?>" media="(min-width: 768px)">
-                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/cash_flow_manage.png.png ?>" media="(max-width: 767px)">
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/cash_flow_manage_s.png ?>" media="(max-width: 767px)">
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/cash_flow_manage.png"  class="block-img w-100" title="cashflow management" alt="cashflow management">
                                     </picture>
                                 </div>
@@ -186,7 +189,7 @@ if (have_posts()) :
                                 <div class="col-md-5">
                                     <picture>
                                         <source srcset="<?php echo get_template_directory_uri(); ?>/images/due-digilence.png ?>" media="(min-width: 768px)">
-                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/due-digilence.png ?>" media="(max-width: 767px)">
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/due-digilence_s.png ?>" media="(max-width: 767px)">
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/due-digilence.png"  class="block-img w-100" title="Due Deligence" alt="Due Deligence">
                                     </picture>
                                 </div>
@@ -203,12 +206,15 @@ if (have_posts()) :
                             <div class="row s-content align-items-center ml-2">
                             <div class="col-md-6 p-0 ser_img-04">
                                 <picture>
-                                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/legal_service-600.jpg 2x"
+                                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/legal_service-600.jpg , <?php echo get_template_directory_uri(); ?>/images/legal_service-600.jpg 2x"
                                           media="(max-width: 639px)">
-                                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/legal_services-800.jpg 2x"
+                                    
+                                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/legal_services-800.jpg , <?php echo get_template_directory_uri(); ?>/images/legal_services-800.jpg 2x"
                                           media="(min-width: 640px) and (max-width: 1299px)">
+                                    
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/images/legal_service-1300.jpg"
                                           media="(min-width: 1300px)">
+                                    
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/legal_services-800.jpg" title="Legal and Secretarial services" alt="Legal and Secretarial services">
                                 </picture>
                             </div>
@@ -232,12 +238,13 @@ if (have_posts()) :
                                 <div class="col-md-6 pl-4">
 
                                     <picture>
-                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/portfolio-analytics-600.jpg 2x"
-                                              media="(max-width: 639px)">
-                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/portfolio-analytics-800.jpg 2x"
-                                              media="(min-width: 640px) and (max-width: 1299px)">
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/portfolio-analytics-600.jpg , <?php echo get_template_directory_uri(); ?>/images/portfolio-analytics-600.jpg 2x" media="(max-width: 639px)">
+
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/portfolio-analytics-800.jpg , <?php echo get_template_directory_uri(); ?>/images/portfolio-analytics-800.jpg 2x" media="(min-width: 640px) and (max-width: 1299px)">
+                                        
                                         <source srcset="<?php echo get_template_directory_uri(); ?>/images/portfolio-analytics.jpg"
-                                              media="(min-width: 1300px)">
+                                        media="(min-width: 1300px)">
+                                        
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio-analytics-800.jpg" title="Portfolio Analytics" alt="Portfolio Analytics">
                                     </picture>
                                 </div>
