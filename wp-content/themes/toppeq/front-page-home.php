@@ -164,8 +164,8 @@ if (have_posts()) :
                                 <div class="col-md-1"></div>
                                  <div class="col-md-5 pt-sm-2">
                                     <picture>
-                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/cash_flow_manage.png ?>" media="(min-width: 768px)">
-                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/cash_flow_manage_s.png ?>" media="(max-width: 767px)">
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/cash_flow_manage.png" media="(min-width: 768px)">
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/cash_flow_manage_s.png" media="(max-width: 767px)">
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/cash_flow_manage.png"  class="block-img w-100" title="cashflow management" alt="cashflow management">
                                     </picture>
                                 </div>
@@ -188,8 +188,8 @@ if (have_posts()) :
                                 <div class="col-md-2"></div>
                                 <div class="col-md-5">
                                     <picture>
-                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/due-digilence.png ?>" media="(min-width: 768px)">
-                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/due-digilence_s.png ?>" media="(max-width: 767px)">
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/due-digilence.png" media="(min-width: 768px)">
+                                        <source srcset="<?php echo get_template_directory_uri(); ?>/images/due-digilence_s.png" media="(max-width: 767px)">
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/due-digilence.png"  class="block-img w-100" title="Due Deligence" alt="Due Deligence">
                                     </picture>
                                 </div>
