@@ -2538,7 +2538,7 @@ input[type="text"] , textarea{
         position: relative;
         margin-bottom: 70px;
         &-title{
-            border-bottom: 1px solid #000;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
             padding-bottom: 20px;
         }
     }
@@ -2549,6 +2549,9 @@ input[type="text"] , textarea{
     }
     &-right{
         padding-left: 60px;
+        @media (max-width: 767px) {
+            padding-left: 50px;
+        }
     }
 }
 
@@ -2567,6 +2570,7 @@ input[type="text"] , textarea{
         h5{
             font-weight: bold;
             margin-bottom: 20px;
+            font-size: 18px;
             @media (max-width: 768px) {
                 margin-bottom: 15px;
             }

@@ -31,7 +31,7 @@ get_header(); ?>
                 <div class="openings">
                     <div class="openings-row">
                         <div class="openings-left">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/bgimg1.png" title="" alt="" width="30">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/bgimg1.png" title="" alt="" width="32">
                         </div>
                         <div class="openings-right">
                             <div class="openings-row-title">
@@ -48,17 +48,17 @@ get_header(); ?>
                                                 <div class="mb-5">
                                                     <h5>What we are looking for</h5>
                                                     <ul class="custom-list">
-                                                        <li>qweqeqwewqeqweqwe qweqwe </li>
-                                                        <li>qweqweweqweqwe  ewerfefrwef </li>
-                                                        <li>ljfpjijfpsdifjpi isdjpifjisdjfi</li>
-                                                        <li>qweqweweqweqwe  ewerfefrwef </li>
-                                                        <li>ljfpjijfpsdifjpi isdjpifjisdjfi</li>
+                                                        <li>3+ Year Experience in Ul development</li>
+                                                        <li>Proficient understanding of web markup, including HTML5, CSS3, client-side scripting and JavaScript frameworks, including React & jQuery</li>
+                                                        <li>Strong JavaScript framework experience - React (required), jQuery, Bootstrap, Node.Js Proficient understanding of cross-browser compatibility issues and ways to work around them</li>
+                                                        <li>Experience with client- or server-side MVC and MVVM patterns, AJAX, JSON, Restful services</li>
+                                                        <li>Good understanding of asynchronous request handling, partial page updates, and AJAX Basic knowledge of image authoring tools, to be able to crop, resize, or perform small adjustments on an image. Familiarity with tools such as Gimp or Photoshop is a plus.</li>
                                                     </ul>
                                                 </div>
                                                 <div class="">
                                                     <h5>Qualifications Required</h5>
                                                     <ul class="custom-list">
-                                                        <li>BE/B.Tech with relevent experience in above</li>
+                                                        <li>BE/ B. Tech with relevant experience mentioned above</li>
                                                     </ul>
                                                     <button class="btn btn-sm btn-outline-primary mt-2">Apply Now</button>
                                                 </div>
@@ -72,7 +72,7 @@ get_header(); ?>
                     </div>
                     <div class="openings-row">
                         <div class="openings-left">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/bgimg1.png" title="" alt="" width="30">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/bgimg1.png" title="" alt="" width="32">
                         </div>
                         <div class="openings-right">
                             <div class="openings-row-title">
@@ -89,17 +89,16 @@ get_header(); ?>
                                                 <div class="mb-5">
                                                     <h5>What we are looking for</h5>
                                                     <ul class="custom-list">
-                                                        <li>qweqeqwewqeqweqwe qweqwe </li>
-                                                        <li>qweqweweqweqwe  ewerfefrwef </li>
-                                                        <li>ljfpjijfpsdifjpi isdjpifjisdjfi</li>
-                                                        <li>qweqweweqweqwe  ewerfefrwef </li>
-                                                        <li>ljfpjijfpsdifjpi isdjpifjisdjfi</li>
+                                                        <li>Person with a legal background, experience with Private Equity or VC firms a MUST, comfort in reading and deciphering shareholder / Investor agreements, experience of deal participation an added advantage.</li>
+                                                        <li>Extracting and recording specified data from investment documents.</li>
+                                                        <li>Representing said data in such form as may be most useful for developing the product by the team.</li>
+                                                        <li>Summarising contractual provisions in simple terms and conducting legal research, primarily on corporate, foreign investment and securities laws.</li>
                                                     </ul>
                                                 </div>
                                                 <div class="">
                                                     <h5>Office Locations</h5>
                                                     <ul class="custom-list">
-                                                        <li>Goregaon/ Vile Parle/ Thane</li>
+                                                        <li>Goregaon/ Vile Parle/ Thane.</li>
                                                     </ul>
                                                     <button class="btn btn-sm btn-outline-primary mt-2">Apply Now</button>
                                                 </div>
@@ -117,17 +116,14 @@ get_header(); ?>
                                                 <div class="mb-5">
                                                     <h5>What we are looking for</h5>
                                                     <ul class="custom-list">
-                                                        <li>qweqeqwewqeqweqwe qweqwe </li>
-                                                        <li>qweqweweqweqwe  ewerfefrwef </li>
-                                                        <li>ljfpjijfpsdifjpi isdjpifjisdjfi</li>
-                                                        <li>qweqweweqweqwe  ewerfefrwef </li>
-                                                        <li>ljfpjijfpsdifjpi isdjpifjisdjfi</li>
+                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
                                                     </ul>
                                                 </div>
                                                 <div class="">
                                                     <h5>Office Locations</h5>
                                                     <ul class="custom-list">
-                                                        <li>Goregaon/ Vile Parle/ Thane</li>
+                                                        <li>Lorem ipsum</li>
                                                     </ul>
                                                     <button class="btn btn-sm btn-outline-primary mt-2">Apply Now</button>
                                                 </div>
