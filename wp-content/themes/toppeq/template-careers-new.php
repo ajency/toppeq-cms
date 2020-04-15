@@ -44,7 +44,7 @@ get_header(); ?>
                                                                 <div id="collapse-<?php echo $j;?>-<?php echo $i;?>" class="collapse" aria-labelledby="headingOne" data-parent="#accordionOpenings-<?php echo $j;?>">
                                                                     <div class="card-body">
                                                                         <?php echo the_sub_field('job_content');?>
-                                                                        <button class="btn btn-sm btn-outline-primary mt-2 rounded-0" data-toggle="modal" data-target="#exampleModalCenter">Apply Now</button>
+                                                                        <button class="btn btn-sm btn-outline-primary mt-2 rounded-0" data-target="#exampleModalCenter" data-title="<?php echo the_sub_field('job_title');?>" >Apply Now</button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -69,7 +69,9 @@ get_header(); ?>
                     <div class="modal-dialog modal-dialog-centered modal-lg modal-careers" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h4 class="modal-title fot-weight-light" id="exampleModalLongTitle">Position for </h4>
+                                <h4 class="modal-title fot-weight-light" id="exampleModalLongTitle">
+                                    Position for <span class="c-title"></span>
+                                </h4>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                    <img width="20" src="<?php echo get_template_directory_uri(); ?>/images/cross-on-hover.svg" class="img-fluid" />
                                 </button>
