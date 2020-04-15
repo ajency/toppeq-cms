@@ -2660,7 +2660,7 @@ input[type="text"] , textarea{
 
 
 .modal-white{
-    background: #fff;
+    background: transparent;
     .modal-dialog{
         .modal-content{
             border: 0;
@@ -2668,5 +2668,11 @@ input[type="text"] , textarea{
             box-shadow: none;
             box-shadow: 0 0 8px -2px rgba(193, 193, 193, 0.85);
         }   
+    }
+}
+
+.page-template-template-careers-new{
+    .modal-backdrop{
+        background-color: transparent;
     }
 }
