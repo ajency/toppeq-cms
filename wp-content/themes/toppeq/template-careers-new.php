@@ -75,7 +75,8 @@ get_header(); ?>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <?php echo do_shortcode( '[formidable id=4 title=false description=false]' );?>
+                                <?php //echo do_shortcode( '[formidable id=4 title=false description=false]' );?>
+                                <?php echo do_shortcode( '[formidable id=8 title=false description=false]' );?>
                             </div>
                         </div>
                     </div>
