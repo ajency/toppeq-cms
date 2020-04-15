@@ -2556,6 +2556,7 @@ input[type="text"] , textarea{
 }
 
 .card{
+    margin-bottom: 20px;
     &-header{
         h5{
             color: #f16624;
@@ -2578,6 +2579,9 @@ input[type="text"] , textarea{
         p{
             font-size: 18px;
         }
+    }
+    &:last-child{
+        margin-bottom: 0;
     }
 }
 
