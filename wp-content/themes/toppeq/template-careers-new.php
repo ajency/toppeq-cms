@@ -108,22 +108,36 @@ get_header(); ?>
                                     <div class="card">
                                         <div class="card-header" id="headingthree">
                                             <h5 class="mb-0" data-toggle="collapse" data-target="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
-                                                Accounting Associate
+                                                Lead Conversion
                                             </h5>
                                         </div>
                                         <div id="collapsethree" class="collapse" aria-labelledby="headingthree" data-parent="#accordionOpeningsTwo">
                                             <div class="card-body">
                                                 <div class="mb-5">
                                                     <h5>What we are looking for</h5>
+                                                    <p>The profile involves seamless on-boarding of clients, which includes Conversion of financial data from client’s platform on to our applications.</p>
                                                     <ul class="custom-list">
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                                                        <li>Hands on experience of at least 3-4 years in Conversion a MUST, Total experience could be 7 - 12 years.</li>
+                                                        <li>Should possess sound accounting knowledge and be well versed with the conversion process.</li>
+                                                        <li>Should be comfortable reconciling the books between the two platforms as on the conversion date and the parallel period.</li>
+                                                        <li>Ability to navigate through the open breaks and close them down.</li>
+                                                        <li>Funds set up as per Fund offering documents.</li>
+                                                        <li>Set up new accounts in accordance with the Client needs and Product specifications.</li>
+                                                        <li>Hands-on experience in driving complex financial analysis for a global business processes, involving consolidation & analysis of financial data and presentation of conclusions using tools like Excel, VBA, Access, Macros & Pivot Tables.</li>
+                                                        <li>Adopting new process strategies to the regular data conversion</li>
+                                                        <li>Verifiable strength in designing and improving work procedures in providing systems support. Strong in taking a holistic approach to problem solving, able to deal with all levels solution from high level business requirements and objectives</li>
+                                                        <li>Excellent process orientation in performing project scoping, business process re-engineering, fit/gap analysis, requirements gathering, functional design, application configuration, user interactions, testing and production support.</li>
                                                     </ul>
                                                 </div>
                                                 <div class="">
-                                                    <h5>Office Locations</h5>
+                                                    <h5>Pre-requisites:</h5>
                                                     <ul class="custom-list">
-                                                        <li>Lorem ipsum</li>
+                                                        <li>Chartered accountant preferred.</li>
+                                                        <li>Highly energetic & approachable with excellent interpersonal, analytical, proactive problem solving, communication, people management and facilitation skills.</li>
+                                                        <li>Experience in working in a global team environment & coordinating with onsite businesses.</li>
+                                                        <li>Reconciliations with historical records.</li>
+                                                        <li>Funds set up as per Fund offering documents.</li>
+                                                        <li>Set up new accounts in accordance with the Client needs and Product specifications.</li>
                                                     </ul>
                                                     <button class="btn btn-sm btn-outline-primary mt-2">Apply Now</button>
                                                 </div>
