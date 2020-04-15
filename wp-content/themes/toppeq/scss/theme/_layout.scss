@@ -2580,9 +2580,6 @@ input[type="text"] , textarea{
             font-size: 18px;
         }
     }
-    &:last-child{
-        margin-bottom: 0;
-    }
 }
 
 .custom-list{
@@ -2605,6 +2602,54 @@ input[type="text"] , textarea{
         }
         @media (max-width: 768px) {
             margin-bottom: 15px;
+        }
+    }
+}
+
+.accordion{
+    &:last-child{
+        .card{
+            margin-bottom: 0;
+        }
+    }
+}
+
+.modal-careers{
+    .modal-header{
+        padding-top: 50px;
+        padding-bottom: 45px;
+        position: relative;
+        .close{
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            opacity: 1;
+        }
+        @media (min-width: 768px) {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
+    .modal-body{
+        .pr-25{
+            @media (min-width: 992px) {
+                padding-right: 25px;
+            }
+        }
+        .pl-25{
+            @media (min-width: 992px) {
+                padding-left: 25px;
+            }
+        }
+        .frm_submit{
+            padding-top: 10px;
+            padding-top: 20px;
+        }
+        @media (min-width: 768px) {
+            padding-top: 0;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-bottom: 25px;
         }
     }
 }
