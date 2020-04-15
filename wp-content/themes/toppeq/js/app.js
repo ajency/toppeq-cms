@@ -16,8 +16,6 @@ $(document).ready(function () {
         var myBookId = $(this).data('title');
         console.log(myBookId);
         $(".modal-careers .modal-header .modal-title .c-title").text(myBookId);
-        // As pointed out in comments, 
-        // it is unnecessary to have to manually call the modal.
         $('#exampleModalCenter').modal('show');
         $("#exampleModalCenter .modal-body #field_hidden_title").val(myBookId);
    });

@@ -297,6 +297,9 @@ textarea {
     .frm_fields_container{
         .form-field {
             margin-bottom: 20px;
+            .frm_error{
+                margin-top: 5px;
+            }
         }
         .frm_primary_label{
             color: #CFCFCF;
@@ -342,6 +345,38 @@ textarea {
             border: 0 !important;
             border-bottom: 1px solid #f89ea6!important;
             box-shadow: none!important;
+        }
+        .frm_style_formidable-style.with_frm_style .frm_form_field :invalid{
+            border: 0;
+            border-bottom: 1px solid #B94A48 !important;
+        }
+    }
+}
+
+.file-upload{
+    .frm_dropzone{
+        .dz-message{
+            .frm_upload_icon{
+                display: none;
+            }
+            .frm_upload_text{
+                button{
+                    background: transparent;
+                    border: 0;
+                    border-radius: 0;
+                    outline: 0;
+                    box-shadow: none;
+                    border-bottom: 1px solid #f89ea6;
+                    width: 100%;
+                    text-align: left;
+                    padding-left: 0;
+                    padding-bottom: 3px;
+                    padding-top: 3px;
+                }
+            }
+            .frm_compact_text{
+                display: none;
+            }
         }
     }
 }
