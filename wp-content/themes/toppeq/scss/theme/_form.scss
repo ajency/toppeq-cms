@@ -361,6 +361,7 @@ textarea {
             }
             .frm_upload_text{
                 button{
+                    color: var(--select-text-color);
                     background: transparent;
                     border: 0;
                     border-radius: 0;
@@ -374,8 +375,17 @@ textarea {
                     padding-top: 3px;
                 }
             }
-            .frm_compact_text{
+            .frm_compact_text, .frm_small_text{
                 display: none;
+            }
+            
+        }
+        .dz-preview{
+            .dz-column{
+                .dz-details{
+                    font-size: 14px;
+                    margin-top: 5px;
+                }
             }
         }
     }
