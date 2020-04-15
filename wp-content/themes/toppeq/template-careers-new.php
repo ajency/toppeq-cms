@@ -65,7 +65,7 @@ get_header(); ?>
                         endif;
                     ?>
                 </div>
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal fade modal-white" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal-lg modal-careers" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
