@@ -12,6 +12,10 @@ $(document).ready(function () {
         $(".frm_message").remove();
     });
 
+    $('#exampleModalCenter').on('hidden.bs.modal', function () {
+        $(".frm_message").remove();
+    });
+
     $(document).on("click", ".card-body .btn", function () {
         var myBookId = $(this).data('title');
         console.log(myBookId);
