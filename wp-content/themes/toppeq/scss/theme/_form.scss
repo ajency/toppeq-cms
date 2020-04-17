@@ -356,6 +356,13 @@ textarea {
 .file-upload{
     .frm_dropzone{
         .dz-message{
+            padding: 0;
+            border: 0;
+            border-bottom: 1px solid grey;
+            border-radius: 0;
+            margin-bottom: 0;
+            padding-bottom: 7px;
+            padding-top: 9px;
             .frm_upload_icon{
                 display: none;
             }
@@ -381,12 +388,21 @@ textarea {
             
         }
         .dz-preview{
+            padding: 0;
+            .dz-image{
+                display: none;
+            }
             .dz-column{
+                float: none;
+                width: 100%;
                 .dz-details{
                     font-size: 14px;
                     margin-top: 5px;
                 }
             }
+        }
+        &.frm_single_upload{
+            max-width: 100% !important;
         }
     }
 }
