@@ -358,7 +358,7 @@ textarea {
         .dz-message{
             padding: 0;
             border: 0;
-            border-bottom: 1px solid grey;
+            border-bottom: solid 1px #adb5bd !important;
             border-radius: 0;
             margin-bottom: 0;
             padding-bottom: 7px;
@@ -368,6 +368,7 @@ textarea {
             }
             .frm_upload_text{
                 button{
+                    font-size: 16px !important;
                     color: var(--select-text-color);
                     background: transparent;
                     border: 0;
