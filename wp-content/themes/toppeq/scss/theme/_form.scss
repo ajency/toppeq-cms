@@ -346,10 +346,13 @@ textarea {
             border-bottom: 1px solid #f89ea6!important;
             box-shadow: none!important;
         }
-        .frm_style_formidable-style.with_frm_style .frm_form_field :invalid{
-            border: 0;
-            border-bottom: 1px solid #B94A48 !important;
-        }
+    }
+}
+
+.modal-body{
+    .frm_style_formidable-style.with_frm_style .frm_blank_field input[type=text], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type=password], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type=url], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type=tel], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type=number], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type=email], .frm_style_formidable-style.with_frm_style .frm_blank_field textarea, .frm_style_formidable-style.with_frm_style .frm_blank_field .mce-edit-area iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field select, .frm_form_fields_error_style, .frm_style_formidable-style.with_frm_style .frm_blank_field .frm-g-recaptcha iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field .g-recaptcha iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field .frm-card-element.StripeElement, .frm_style_formidable-style.with_frm_style .frm_blank_field .chosen-container-multi .chosen-choices, .frm_style_formidable-style.with_frm_style .frm_blank_field .chosen-container-single .chosen-single, .frm_style_formidable-style.with_frm_style .frm_form_field :invalid{
+        border: 0;
+        border-bottom: 1px solid #B94A48 !important;
     }
 }
 
@@ -375,12 +378,11 @@ textarea {
                     border-radius: 0;
                     outline: 0;
                     box-shadow: none;
-                    border-bottom: 1px solid #f89ea6;
                     width: 100%;
                     text-align: left;
                     padding-left: 0;
-                    padding-bottom: 3px;
-                    padding-top: 3px;
+                    padding-bottom: 0;
+                    padding-top: 0;
                 }
             }
             .frm_compact_text, .frm_small_text{
