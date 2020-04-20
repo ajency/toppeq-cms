@@ -363,7 +363,7 @@ textarea {
             border: 0;
             border-bottom: solid 1px #adb5bd !important;
             border-radius: 0;
-            margin-bottom: 0;
+            margin-bottom: 0 !important;
             padding-bottom: 7px;
             padding-top: 9px;
             .frm_upload_icon{
@@ -406,6 +406,7 @@ textarea {
         }
         &.frm_single_upload{
             max-width: 100% !important;
+            min-height: auto;
         }
     }
 }
