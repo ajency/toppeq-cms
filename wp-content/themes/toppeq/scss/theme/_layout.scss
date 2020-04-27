@@ -2676,3 +2676,44 @@ input[type="text"] , textarea{
         background-color: transparent;
     }
 }
+
+.page-template-template-privacypolicy{
+    .wpsm_counter_b_row{
+        .wpsm_row{
+            .wpsm_counterbox{
+                width: 280px;
+                height: 280px;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                border: 5px solid #f16624;
+                border-radius: 50%;
+                .wpsm_number{
+                    margin-top: 0;
+                    order: 1;
+                    letter-spacing: 1px;
+                    @media (max-width: 400px) {
+                        font-size: 32px;
+                    }
+                }
+                .wpsm_count-title{
+                    margin-top: 0;
+                    min-height: auto;
+                    font-size: 16px;
+                    order: 0;
+                    @media (max-width: 400px) {
+                        font-size: 14px;
+                    }
+                }
+                @media (max-width: 400px) {
+                    width: 225px;
+                    height: 225px;
+                }
+            }
+        }
+    }
+}
