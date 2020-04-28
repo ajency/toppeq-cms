@@ -97,6 +97,9 @@
 					<li class="nav-item ">
 						<a class="nav-link <?php if (is_page('contact')) { echo "active"; }?>" href="/contact">Contact Us</a>
 					</li>
+					<li class="nav-item ">
+						<a class="nav-link <?php if (is_page('toppeqs-response-to-covid-19')) { echo "active"; }?>" href="/toppeqs-response-to-covid-19/">Toppeq’s Response To COVID-19</a>
+					</li>
 				</ul>
 				<button class="btn-reset menu-close-btn">
 					<img class="no-hover" width="35" src="<?php echo get_template_directory_uri(); ?>/images/cross-icon.svg">
