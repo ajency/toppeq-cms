@@ -2681,6 +2681,7 @@ input[type="text"] , textarea{
     .wpsm_counter_b_row{
         .wpsm_row{
             .wpsm_counterbox{
+                font-family: "Avenir LT Std";
                 width: 280px;
                 height: 280px;
                 text-align: center;
@@ -2696,6 +2697,7 @@ input[type="text"] , textarea{
                     margin-top: 0 !important;
                     order: 1;
                     letter-spacing: 1px !important;
+                    font-family: "Avenir LT Std";
                     @media (max-width: 400px) {
                         font-size: 32px !important;
                     }
@@ -2705,6 +2707,7 @@ input[type="text"] , textarea{
                     min-height: auto !important;
                     font-size: 16px !important;
                     order: 0;
+                    font-family: "Avenir LT Std";
                     @media (max-width: 400px) {
                         font-size: 14px !important;
                     }
