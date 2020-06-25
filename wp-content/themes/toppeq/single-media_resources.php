@@ -67,19 +67,34 @@ get_header();
                         <h3 class="section-title f-25 text-left mb-2 text-dark-grey">Latest Articles</h3>
                         <div class="article-slider">
                             <?php 
-                            $args = array( 'post_type' => 'media_resources', 'posts_per_page' => 3 );
+
+                            $args = array(
+                                'post_type' => 'media_resources',
+                                'post_status' => 'publish',
+                                'posts_per_page' => 3,
+                                'tax_query' => array(
+                                    array(
+                                        'taxonomy' => 'media_category',
+                                        'field' => 'slug',
+                                        'terms' => $project[0]
+                                    )
+                                ),
+                                'post__not_in' => array ($post->ID),
+                            );
+
                             $loop = new WP_Query( $args );
+
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                 <div class="m-wrap-outer">
                                     <div class="m-wrap">
                                         <div class="m-image">
                                         <?php 
-                                            $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'medium');
+                                            $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'large');
                                         ?>
                                             <img src="<?php echo $post_thumbnail_url ?>" />
                                         </div> 
                                         <div class="m-data">
-                                            <h6 class="m-data-title font-weight-bold">Business World</h6>
+                                            <h6 class="m-data-title font-weight-bold"><?php echo $project[0];?></h6>
                                             <h2 class="m-data-post-title f-25 font-weight-bold mb-0"><?php the_title();?></h2>
                                         </div> 
                                     </div>

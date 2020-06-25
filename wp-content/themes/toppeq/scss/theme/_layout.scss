@@ -2772,7 +2772,16 @@ input[type="text"] , textarea{
         width: 60%;
         display: flex;
         flex-direction: column;
+        padding-bottom: 35%;
+        height: 0;
+        position: relative;
+        overflow: hidden;
         img{
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
             width: 100%;
             height: auto;
         }
@@ -2841,7 +2850,7 @@ input[type="text"] , textarea{
             display: none;
         }
         &.slick-disabled{
-            display: none;
+            display: none !important;
         }
         @media (min-width: 1200px) {
             width: 70px;
