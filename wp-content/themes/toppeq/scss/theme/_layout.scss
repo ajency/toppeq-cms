@@ -2859,13 +2859,25 @@ input[type="text"] , textarea{
     }
 }
 
-
-.article-slider .m-wrap-outer {
-    display: none;
-}
-.article-slider .m-wrap-outer:first-child {
+.resources-block{
     display: flex;
-}
-.article-slider.slick-initialized .m-wrap-outer {
-    display: flex;
+    background: #f16624;
+    > div{
+        width: 50%;
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+    &-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        // padding-bottom: 70px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    @media (max-width: 767px) {
+        flex-wrap: wrap;
+    }
 }

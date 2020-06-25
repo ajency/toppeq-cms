@@ -39,6 +39,21 @@
             box-shadow: none;
         }
     }
+    &-white{
+        background: #fff;
+        color: #f16624;
+        padding: 15px;
+        min-width: 280px;
+        text-align: center;
+        text-decoration: none;
+        &:hover{
+            color: #f16624;
+            text-decoration: none;
+        }
+        @media (max-width: 767px) {
+            padding: 8px;
+        }
+    }
     @media (min-width: 768px) {
         min-width: 380px;
         padding: 20px 20px;
