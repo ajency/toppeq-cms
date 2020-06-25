@@ -178,6 +178,18 @@ function create_posttype() {
           'rewrite' => array('slug' => 'services'),
       )
   );
+  register_post_type( 'media_resources',
+      array(
+          'labels' => array(
+              'name' => __( 'Media & Resources' ),
+              'singular_name' => __( 'Media & Resources' )
+          ),
+          'public' => true,
+          'has_archive' => true,
+          'supports'      => array( 'title', 'editor', 'thumbnail'),
+          'rewrite' => array('slug' => 'media_resources'),
+      )
+  );
 }
 // Hooking up our function to theme setup
 add_action( 'init', 'create_posttype' );
@@ -224,3 +236,26 @@ function wpbeginner_remove_version() {
 return '';
 }
 add_filter('the_generator', 'wpbeginner_remove_version');
+
+
+function my_taxonomies_product() {
+    $labels = array(
+      'name'              => _x( 'Media & Resources Categories', 'taxonomy general name' ),
+      'singular_name'     => _x( 'Media & Resources Category', 'taxonomy singular name' ),
+      'search_items'      => __( 'Search Media & Resources Categories' ),
+      'all_items'         => __( 'All Media & Resources Categories' ),
+      'parent_item'       => __( 'Parent Media & Resources Category' ),
+      'parent_item_colon' => __( 'Parent Media & Resources Category:' ),
+      'edit_item'         => __( 'Edit Media & Resources Category' ), 
+      'update_item'       => __( 'Update Media & Resources Category' ),
+      'add_new_item'      => __( 'Add New Media & Resources Category' ),
+      'new_item_name'     => __( 'New Media & Resources Category' ),
+      'menu_name'         => __( 'Media & Resources Categories' ),
+    );
+    $args = array(
+      'labels' => $labels,
+      'hierarchical' => true,
+    );
+    register_taxonomy( 'media_category', 'media_resources', $args );
+  }
+  add_action( 'init', 'my_taxonomies_product', 0 );

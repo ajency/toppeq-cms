@@ -366,6 +366,17 @@ $('a[href="#tab2"]').on('shown.bs.tab', function (e) {
 $('a[href="#tab3"]').on('shown.bs.tab', function (e) {
   $('.contact-mails').addClass('d-none');
   $('.contact-hr').removeClass('d-none');
-})
+});
 
+    $('.article-slider').slick({
+        dots: false,
+        infinite: false,
+        speed: 500,
+        slidesToShow:1,
+        slidesToScroll: 1,
+        arrows: true,
+        adaptiveHeight: true,
+        prevArrow:'<button type="button" class="slick-prev"><i class="fa fa-angle-left"></i></button>',
+        nextArrow:'<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
+    });
 });

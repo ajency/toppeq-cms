@@ -37,11 +37,23 @@
     &-25{
         font-size: 25px !important;
     }
+    &-28{
+        font-size: 28px !important;
+    }
+    &-30{
+        font-size: 30px !important;
+    }
     &-35{
         font-size: 35px !important;
     }
     &-45{
         font-size: 45px !important;
+    }
+}
+
+.font-weight{
+    &-600{
+        font-weight: 600;
     }
 }
 
@@ -79,6 +91,10 @@
     margin-right: auto;
 }
 
+.max-800{
+    max-width: 800px;
+}
+
 .min-353{
     min-height: 353px;
 }
@@ -99,6 +115,10 @@
         color: #f16624;
         text-decoration: none;
     }
+}
+
+.text-dark-grey{
+    color: #505050;
 }
 
 .image-shadow{
