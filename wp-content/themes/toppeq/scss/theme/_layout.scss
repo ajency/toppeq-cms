@@ -2881,3 +2881,20 @@ input[type="text"] , textarea{
         flex-wrap: wrap;
     }
 }
+
+.media-list{
+    margin-left: -10px;
+    margin-right: -10px;
+    .m-wrap-outer{
+        padding: 0 10px;
+        .m-wrap{
+            .m-bg-image {
+                height: 300px;
+                padding-bottom: 0;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+}

@@ -379,4 +379,66 @@ $('a[href="#tab3"]').on('shown.bs.tab', function (e) {
         prevArrow:'<button type="button" class="slick-prev"><i class="fa fa-angle-left"></i></button>',
         nextArrow:'<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
     });
+
+
+    jQuery(document).on('click', '#more_posts', function () {
+        load_posts();
+    });
+
+    // var pageNumber = 1;
+
+    var post_pagenumber = 0;
+
+    function load_posts(){
+        post_pagenumber++;
+        post_type = jQuery('#more_posts').data('post_type');
+        post_terms = jQuery('#more_posts').data('post_terms');
+        post_exclude = jQuery('#more_posts').data('posts_exclude');
+        // post_pagenumber = parseInt(jQuery('#more_posts').data('posts_pagenumber'));
+        console.log(post_pagenumber);
+        jQuery.ajax({
+            type: "post",
+            dataType: "json",
+            url: myAjax.ajaxurl,
+            data: {action: "more_post_ajax", pageNumber: post_pagenumber, post_type: post_type, post_terms: post_terms, post_exclude: post_exclude},
+            success: function (response) {
+                jQuery("#ajax-posts").append(response.html);
+                // post_pagenumber++;
+                // console.log(post_pagenumber);
+                jQuery('#more_posts').attr('data-posts_pagenumber', post_pagenumber);
+                if(response.last == true){
+                    jQuery('.center').hide();
+                    jQuery('.center').addClass("done");
+                }
+            }
+        });
+        return false;
+    }
+
+    jQuery(document).on('click', '#more_posts_full', function () {
+        load_posts_full();
+    });
+
+    var pageNumberF = 1;
+
+    function load_posts_full(){
+        pageNumberF++;
+        post_type = jQuery('#more_posts_full').data('post_type');
+        post_terms = jQuery('#more_posts_full').data('post_terms');
+        jQuery.ajax({
+            type: "post",
+            dataType: "json",
+            url: myAjax.ajaxurl,
+            data: {action: "more_post_fullstack_ajax", pageNumber: pageNumberF, post_type: post_type, post_terms: post_terms},
+            success: function (response) {
+                jQuery("#ajax-posts-full").append(response.html);
+                if(response.last == true){
+                    jQuery('.centerF').hide();
+                    jQuery('.centerF').addClass("done");
+                }
+            }
+        });
+        return false;
+    }
+    
 });

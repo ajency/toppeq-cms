@@ -257,5 +257,116 @@ function my_taxonomies_product() {
       'hierarchical' => true,
     );
     register_taxonomy( 'media_category', 'media_resources', $args );
-  }
-  add_action( 'init', 'my_taxonomies_product', 0 );
+}
+add_action( 'init', 'my_taxonomies_product', 0 );
+
+
+
+
+add_action('wp_ajax_nopriv_more_post_ajax', 'more_post_ajax');
+add_action('wp_ajax_more_post_ajax', 'more_post_ajax');
+ 
+function more_post_ajax(){
+	$page = $_POST['pageNumber'];
+    $post_type = (isset($_POST['post_type'])) ? $_POST['post_type'] : 'media_resources';
+    $post_terms = (isset($_POST['post_terms'])) ? $_POST['post_terms'] : 'media-resources';
+    $postsPerPage = 3;
+    $post_excludes = $_POST['post_exclude'];
+	$args = array(
+        'post_type' => $post_type,
+        'paged' => $page,
+        'posts_per_page' => $postsPerPage,
+        'post_status' => 'publish',
+        'post__not_in' => $post_excludes,
+        'tax_query' => array(
+            array(
+                'taxonomy' => 'media_category',
+                'field' => 'slug',
+                'terms' => $post_terms
+            )
+        ),
+    );
+    $last = false;    
+	$loop = new WP_Query($args);
+	ob_start();
+	while ( $loop->have_posts() ) : $loop->the_post();?>
+		
+        <div class="m-wrap-outer d-flex w-33">
+            <a href="<?php the_permalink(); ?>" class="m-wrap flex-wrap mb-3 text-black text-decoration-none">
+                <?php 
+                    $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'large');
+                ?>
+                <div class="m-image w-100 m-bg-image" style="background-image: url('<?php echo $post_thumbnail_url;?>');">
+                    <!-- <img src="<?php //echo $post_thumbnail_url ?>" /> -->
+                </div> 
+                <div class="m-data w-100 p-3">
+                    <h6 class="m-data-title font-weight-bold position-static text-uppercase"><?php the_field('media_name');?></h6>
+                    <h2 class="m-data-post-title f-25 font-weight-600 mb-0"><?php the_title();?></h2>
+                </div> 
+            </a>
+        </div>	
+		
+        <?php    
+        $loopPages = $loop; 
+        if ($loop->max_num_pages <= $page) {
+            $last = true;
+        }
+    endwhile;
+	$html = ob_get_clean();    
+    echo json_encode(array('last' => $last, 'html' => $html, 'last20' => $loopPages));
+	die(0);
+}
+
+
+
+add_action('wp_ajax_nopriv_more_post_fullstack_ajax', 'more_post_fullstack_ajax');
+add_action('wp_ajax_more_post_fullstack_ajax', 'more_post_fullstack_ajax');
+ 
+function more_post_fullstack_ajax(){
+	$page = (isset($_POST['pageNumber'])) ? $_POST['pageNumber'] : 1;
+    $post_type = (isset($_POST['post_type'])) ? $_POST['post_type'] : 'media_resources';
+    $post_terms = 'fullstack';
+	$postsPerPage = 7;
+	$args = array(
+			'post_type' => $post_type,
+			'paged' => $page,
+			'posts_per_page' => $postsPerPage,
+            'post_status' => 'publish',
+            'tax_query' => array(
+                array(
+                    'taxonomy' => 'media_category',
+                    'field' => 'slug',
+                    'terms' => $post_terms
+                )
+            ),
+        );
+    $last = false;
+	$loop = new WP_Query($args);
+	ob_start();
+	while ( $loop->have_posts() ) : $loop->the_post();?>
+		
+        <div class="m-wrap-outer d-flex w-33">
+            <a href="<?php the_permalink(); ?>" class="m-wrap flex-wrap mb-3 text-black text-decoration-none">
+                <?php 
+                    $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'large');
+                ?>
+                <div class="m-image w-100 m-bg-image" style="background-image: url('<?php echo $post_thumbnail_url;?>');">
+                    <!-- <img src="<?php //echo $post_thumbnail_url ?>" /> -->
+                </div> 
+                <div class="m-data w-100 p-3">
+                    <h6 class="m-data-title font-weight-bold position-static text-uppercase"><?php the_field('media_name');?></h6>
+                    <h2 class="m-data-post-title f-25 font-weight-600 mb-0"><?php the_title();?></h2>
+                </div> 
+            </a>
+        </div>	
+		
+        <?php    
+        $loopPages = $loop; 
+        if ($loop->max_num_pages <= $page) {
+            $last = true;
+        }
+    endwhile;
+	$html = ob_get_clean();    
+    echo json_encode(array('last' => $last, 'html' => $html, 'last20' => $loopPages));
+	die(0);
+}
