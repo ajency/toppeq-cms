@@ -160,3 +160,9 @@
         width: 33.33%;
     }
 }
+
+.mb-sm-15{
+    @media (min-width: 576px) {
+        margin-bottom: 150px !important;
+    }
+}
