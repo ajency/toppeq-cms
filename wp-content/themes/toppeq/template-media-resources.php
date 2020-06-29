@@ -9,8 +9,11 @@ get_header(); ?>
 if (have_posts()) {
 	while (have_posts()) {
     the_post(); ?>
-        <div class="container">
-            <div class="mb-3 mb-md-7">
+        <div class="custom-container">
+        <div class="bg-post-image">
+        </div>
+        <div class="container position-relative">
+            <div class="mb-3 mb-md-7 bg-white">
                 <h3 class="section-title f-25 mb-2 font-weight-light mt-2 mt-sm-6 mb-4 text-uppercase"><?php the_title();?></h3>
                 <h1 class="section-title mt-0 text-dark-grey font-weight-600 mb-4 mb-sm-9">View TOPPEQ’s latest updates in the Media.</h1>
                 <div class="media-list d-flex flex-wrap " id="ajax-posts">
@@ -50,7 +53,7 @@ if (have_posts()) {
                         
                         if($index == 0) { ?> 
                             <div class="m-wrap-outer w-100 mb-3">
-                                <a href="<?php the_permalink(); ?>" class="m-wrap text-black text-decoration-none">
+                                <a href="<?php the_permalink(); ?>" class="m-wrap text-black text-decoration-none flex-row">
                                     <div class="m-image">
                                     <?php 
                                         $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'large');
@@ -58,7 +61,7 @@ if (have_posts()) {
                                         <img src="<?php echo $post_thumbnail_url ?>" />
                                     </div> 
                                     <div class="m-data">
-                                        <h6 class="m-data-title font-weight-bold text-uppercase f-15"><?php the_field('media_name');?></h6>
+                                        <h6 class="m-data-title font-weight-bold text-uppercase f-15" style="color: <?php the_field('media_name_color');?>"><?php the_field('media_name');?></h6>
                                         <h2 class="m-data-post-title f-25 font-weight-600 mb-0 f-30"><?php the_title();?></h2>
                                     </div> 
                                 </a>
@@ -73,7 +76,7 @@ if (have_posts()) {
                                         <!-- <img src="<?php //echo $post_thumbnail_url ?>" /> -->
                                     </div> 
                                     <div class="m-data w-100 p-3">
-                                        <h6 class="m-data-title font-weight-bold position-static text-uppercase f-15"><?php the_field('media_name');?></h6>
+                                        <h6 class="m-data-title font-weight-bold position-static text-uppercase f-15" style="color: <?php the_field('media_name_color');?>"><?php the_field('media_name');?></h6>
                                         <h2 class="m-data-post-title f-25 font-weight-600 mb-0 f-30"><?php the_title();?></h2>
                                     </div> 
                                 </a>
@@ -88,7 +91,7 @@ if (have_posts()) {
                 </div>
 
             </div>
-            <div class="resources-block pt-3 pt-md-7 mb-3 mb-sm-9">
+            <div class="resources-block pt-3 pt-md-7 mb-3 mb-sm-15">
                 <div class="resources-block-left pb-3 pb-md-7">
                     <h3 class="m-0 text-white mb-2 mb-md-0 f-25"><?php the_field('r_section_title');?></h3>
                     <h1 class="m-0 text-white mb-2 mb-md-0"><?php the_field('r_section_sub_title');?></h1>
@@ -98,7 +101,7 @@ if (have_posts()) {
                     <img src="<?php the_field('section_image');?>" class="img-fluid"/>
                 </div>
             </div>
-            <div class="mb-3 mb-md-7">
+            <div class="mb-3 mb-md-7 bg-white">
                 <h3 class="section-title f-25 mb-2 font-weight-light mt-2 mt-sm-6 mb-4 text-uppercase">FULL STACK</h3>
                 <h1 class="section-title mt-0 text-dark-grey font-weight-600 mb-4 mb-sm-9">Please check out our blog, <span class="text-orange">FULL STACK</span>, for more news and views from our end</h1>
                 <div class="media-list d-flex flex-wrap" id="ajax-posts-full">
@@ -137,7 +140,7 @@ if (have_posts()) {
                         
                         if($index == 0) { ?> 
                             <div class="m-wrap-outer w-100 mb-3">
-                                <a href="<?php the_permalink(); ?>" class="m-wrap text-black text-decoration-none">
+                                <a href="<?php the_permalink(); ?>" class="m-wrap text-black text-decoration-none flex-row">
                                     <div class="m-image">
                                     <?php 
                                         $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'large');
@@ -145,7 +148,7 @@ if (have_posts()) {
                                         <img src="<?php echo $post_thumbnail_url ?>" />
                                     </div> 
                                     <div class="m-data">
-                                        <h6 class="m-data-title font-weight-bold text-uppercase f-15"><?php the_field('media_name');?></h6>
+                                        <h6 class="m-data-title font-weight-bold text-uppercase f-15" style="color: <?php the_field('media_name_color');?>"><?php the_field('media_name');?></h6>
                                         <h2 class="m-data-post-title f-25 font-weight-600 mb-0 f-30"><?php the_title();?></h2>
                                     </div> 
                                 </a>
@@ -160,7 +163,7 @@ if (have_posts()) {
                                         <!-- <img src="<?php //echo $post_thumbnail_url ?>" /> -->
                                     </div> 
                                     <div class="m-data w-100 p-3">
-                                        <h6 class="m-data-title font-weight-bold position-static text-uppercase f-15"><?php the_field('media_name');?></h6>
+                                        <h6 class="m-data-title font-weight-bold position-static text-uppercase f-15" style="color: <?php the_field('media_name_color');?>"><?php the_field('media_name');?></h6>
                                         <h2 class="m-data-post-title f-25 font-weight-600 mb-0 f-30"><?php the_title();?></h2>
                                     </div> 
                                 </a>
@@ -176,6 +179,7 @@ if (have_posts()) {
                     </div>
                 <?php }  ?>
             </div>
+        </div>
         </div>
 	<?php }
 }
