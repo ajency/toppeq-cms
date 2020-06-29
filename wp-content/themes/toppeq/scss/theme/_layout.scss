@@ -2521,6 +2521,7 @@ input[type="text"] , textarea{
 }
 
 .single-post-content{
+    word-break: break-word;
     @media (max-width: 768px) {
         margin-bottom: 35px;
     }
