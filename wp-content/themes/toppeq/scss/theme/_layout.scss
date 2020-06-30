@@ -2748,12 +2748,15 @@ input[type="text"] , textarea{
     &.page-content{
         max-width: 100%;
         p{
-            color: #505050;
+            // color: #505050;
             text-align: justify;
+            @media (max-width: 767px) {
+                text-align: left;
+            }
         }
         ul, ol{
             li{
-                color: #505050;
+                // color: #505050;
             }
         }
     }
@@ -2795,6 +2798,15 @@ input[type="text"] , textarea{
             bottom: 0;
             width: 100%;
             height: auto;
+        }
+        &-slider{
+            @media (max-width: 575px) {
+                padding-bottom: 0;
+                height: auto;
+                img{
+                    position: static;
+                }
+            }
         }
         @media (max-width: 575px) {
             width: 100%;
@@ -2846,6 +2858,9 @@ input[type="text"] , textarea{
             @media (min-width: 1200px) {
                 left: -80px;
             }
+            @media (max-width: 800px) {
+                left: 0;
+            }
         }
         &.slick-next{
             right: -35px;
@@ -2855,6 +2870,9 @@ input[type="text"] , textarea{
             background-size: contain;
             @media (min-width: 1200px) {
                 right: -80px;
+            }
+            @media (max-width: 800px) {
+                right: 0;
             }
         }
         i{
@@ -2920,8 +2938,9 @@ input[type="text"] , textarea{
     background-position: top 1% right -90px;
     background-size: auto;
     background-repeat: no-repeat;
-
-
+    @media (max-width: 768px) {
+        background-image: none;
+    }
 }
 
 .bg-post-image{
@@ -2941,7 +2960,7 @@ input[type="text"] , textarea{
         padding: 0 70px;
     }
     @media (max-width: 767px) {
-        padding: 0 25px !important;
+        padding: 0 !important;
     }
 }
 
@@ -2956,4 +2975,14 @@ input[type="text"] , textarea{
             font-size: 30px !important;
         }
     }
+}
+
+.article-slider .m-wrap-outer {
+    display: none;
+}
+.article-slider .m-wrap-outer:first-child {
+    display: flex;
+}
+.article-slider.slick-initialized .m-wrap-outer {
+    display: flex;
 }

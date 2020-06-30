@@ -11,7 +11,7 @@ get_header();
         <div class="custom-container">
             <div class="bg-post-image">
             </div>
-            <div class="container position-relative">
+            <div class="container position-relative max-1020">
                 <div class="bg-white">
                     <?php if ( have_posts() ) : ?>
                         <?php           
@@ -104,7 +104,7 @@ get_header();
                                     while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                         <div class="m-wrap-outer">
                                             <a href="<?php the_permalink(); ?>" class="m-wrap text-black text-decoration-none flex-row">
-                                                <div class="m-image">
+                                                <div class="m-image m-image-slider">
                                                 <?php 
                                                     $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'large');
                                                 ?>
