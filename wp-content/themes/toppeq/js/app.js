@@ -378,6 +378,15 @@ $('a[href="#tab3"]').on('shown.bs.tab', function (e) {
         adaptiveHeight: true,
         prevArrow:'<button type="button" class="slick-prev"><i class="fa fa-angle-left"></i></button>',
         nextArrow:'<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
+        responsive: [
+		    {
+		      breakpoint: 767,
+		      settings: {
+                dots: true,
+                arrows: false,
+		      }
+		    }
+		]
     });
 
 

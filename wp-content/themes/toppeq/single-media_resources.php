@@ -11,7 +11,7 @@ get_header();
         <div class="custom-container">
             <div class="bg-post-image">
             </div>
-            <div class="container position-relative max-1020">
+            <div class="container position-relative max-1210">
                 <div class="bg-white">
                     <?php if ( have_posts() ) : ?>
                         <?php           
@@ -80,7 +80,7 @@ get_header();
                                 <hr class="grey-separator"></hr>
                             </div>  
 
-                            <div class="latest-articles mb-3 mb-sm-10">
+                            <div class="latest-articles mb-8 mb-sm-10">
                                 <h3 class="section-title f-30 text-left mb-2 text-dark-grey">Latest Articles</h3>
                                 <div class="article-slider">
                                     <?php 

@@ -9,7 +9,7 @@ get_header(); ?>
 if (have_posts()) {
 	while (have_posts()) {
     the_post(); ?>
-        <div class="custom-container">
+        <div class="custom-container with-bg">
         <div class="bg-post-image">
         </div>
         <div class="container position-relative">

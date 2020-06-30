@@ -2886,6 +2886,21 @@ input[type="text"] , textarea{
             height: 40px;
         }
     }
+    .slick-dots{
+        bottom: -45px;
+        li{
+            button{
+                background-color: #00000066;
+            }
+            &.slick-active{
+                button{
+                    background-color: #000000;
+                    width: 9px;
+                    height: 9px;
+                }
+            }
+        }
+    }
 }
 
 .resources-block{
@@ -2934,10 +2949,13 @@ input[type="text"] , textarea{
     margin-left: auto;
     position: relative;
     // box-shadow: 0 2px 40px 0 rgba(235, 235, 235, 0.5);
-    background-image: url(../images/bgimg1.png);
+    // background-image: url(../images/bgimg1.png);
     background-position: top 1% right -90px;
     background-size: auto;
     background-repeat: no-repeat;
+    &.with-bg{
+        background-image: url(../images/bgimg1.png);
+    }
     @media (max-width: 768px) {
         background-image: none;
     }
