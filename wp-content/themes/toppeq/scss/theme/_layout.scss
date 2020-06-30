@@ -2748,6 +2748,7 @@ input[type="text"] , textarea{
     &.page-content{
         p{
             color: #505050;
+            text-align: justify;
         }
         ul, ol{
             li{
@@ -2932,4 +2933,23 @@ input[type="text"] , textarea{
     background-color: rgba(255,255,255,0.82);
     z-index: 0;
     cursor: pointer;
+}
+
+.latest-articles{
+    @media (max-width: 767px) {
+        padding: 0 25px !important;
+    }
+}
+
+.page-template-template-media-resources, .single-post{
+    .f-25{
+        @media (max-width: 767px) {
+            font-size: 20px !important;
+        }
+    }   
+    h1.section-title{
+        @media (max-width: 767px) {
+            font-size: 30px !important;
+        }
+    }
 }
