@@ -2746,6 +2746,7 @@ input[type="text"] , textarea{
 
 .single-media{
     &.page-content{
+        max-width: 100%;
         p{
             color: #505050;
             text-align: justify;
