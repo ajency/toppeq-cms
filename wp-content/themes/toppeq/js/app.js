@@ -375,7 +375,7 @@ $('a[href="#tab3"]').on('shown.bs.tab', function (e) {
         slidesToShow:1,
         slidesToScroll: 1,
         arrows: true,
-        adaptiveHeight: true,
+        adaptiveHeight: false,
         prevArrow:'<button type="button" class="slick-prev"><i class="fa fa-angle-left"></i></button>',
         nextArrow:'<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
         responsive: [
