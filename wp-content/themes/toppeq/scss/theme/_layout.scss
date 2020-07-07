@@ -2776,6 +2776,15 @@ input[type="text"] , textarea{
             &.slick-slide {
                 height: auto !important; 
                 padding: 2px;
+                @media (max-width: 575px) {
+                    flex-direction: column !important;
+                    align-items: unset !important;
+                    justify-content: unset !important;
+                    .m-wrap{
+                        height: 100%;
+                        flex-direction: column !important;
+                    }
+                }
             }
         }
         @media (max-width: 575px) {
@@ -2805,6 +2814,8 @@ input[type="text"] , textarea{
                 height: auto;
                 img{
                     position: static;
+                    height: 300px;
+                    object-fit: cover;
                 }
             }
         }
@@ -2861,7 +2872,7 @@ input[type="text"] , textarea{
             @media (min-width: 1200px) and (max-width: 1400px) {
                 left: 0;
             }
-            @media (max-width: 800px) {
+            @media (max-width: 991px) {
                 left: 0;
             }
         }
@@ -2877,7 +2888,7 @@ input[type="text"] , textarea{
             @media (min-width: 1200px) and (max-width: 1400px) {
                 right: 0;
             }
-            @media (max-width: 800px) {
+            @media (max-width: 991px) {
                 right: 0;
             }
         }
@@ -2905,6 +2916,11 @@ input[type="text"] , textarea{
                     height: 9px;
                 }
             }
+        }
+    }
+    .slick-track{
+        @media (max-width: 575px) {
+            display: flex;
         }
     }
 }
@@ -2956,7 +2972,6 @@ input[type="text"] , textarea{
         }
     }
 }
-
 .custom-container{
     // max-width: 1500px;
     margin-right: auto;
