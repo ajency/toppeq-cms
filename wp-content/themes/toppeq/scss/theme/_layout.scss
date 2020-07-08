@@ -3046,6 +3046,9 @@ input[type="text"] , textarea{
     color: #f16624;
     display: inline-block;
     margin-bottom: 5px;
+    @media (max-width: 767px) {
+        font-size: 25px;
+    }
 }
 
 .res_sub {
@@ -3054,6 +3057,9 @@ input[type="text"] , textarea{
     line-height: normal;
     letter-spacing: normal;
     color: #505050;
+    @media (max-width: 767px) {
+        font-size: 18px;
+    }
 }
 
 .res_img {
@@ -3073,11 +3079,32 @@ input[type="text"] , textarea{
                 img{
                     height: 340px;
                     object-fit: cover;
+                    width: 100%;
                 }
             }
         }
         &.ml-15{
             margin-left: 15px !important;
         }
+    }
+}
+
+.page-content{
+    .wm-60{
+        @media (max-width: 599px) {
+            flex-basis: 65% !important;
+        }
+    }
+    .wm-40{
+        @media (max-width: 599px) {
+            flex-basis: 35% !important;
+        }
+    }
+}
+
+.flex-nowrap-mb{
+    @media (max-width: 599px) {
+        flex-wrap: nowrap;
+        margin-bottom: 15px !important;
     }
 }
