@@ -84,14 +84,14 @@ if (have_posts()) {
                         <?php } ?>
                     <?php $index ++; endwhile;  wp_reset_postdata();?>
                 </div>
-                <div class="center text-center">
+                <!-- <div class="center text-center">
                     <button id="more_posts" class="btn btn-sm btn-outline-primary py-1 mt-md-4 text-center" data-post_type = "media_resources" data-post_terms = "media-resources" data-posts_exclude='<?php echo json_encode($ids);?>' data-posts_pagenumber = "1">
                         View more
                     </button>
-                </div>
+                </div> -->
 
             </div>
-            <div class="resources-block pt-3 pt-md-7 mb-3 mb-sm-15">
+            <div class="resources-block pt-3 pt-md-7 mb-3 mb-sm-2">
                 <div class="resources-block-left pb-3 pb-md-7">
                     <h3 class="m-0 text-white mb-2 mb-md-0 f-25"><?php the_field('r_section_title');?></h3>
                     <h1 class="m-0 text-white mb-2 mb-md-0"><?php the_field('r_section_sub_title');?></h1>
@@ -102,8 +102,8 @@ if (have_posts()) {
                 </div>
             </div>
             <div class="mb-3 mb-md-7 bg-white">
-                <h3 class="section-title f-25 mb-2 font-weight-light mt-2 mt-sm-6 mb-3 text-uppercase">FULL STACK</h3>
-                <h1 class="section-title mt-0 text-dark-grey font-weight-600 mb-4 mb-sm-9">Please check out our blog, <span class="text-orange">FULL STACK</span>, for more news and views from our end</h1>
+                <!-- <h3 class="section-title f-25 mb-2 font-weight-light mt-2 mt-sm-6 mb-3 text-uppercase">FULL STACK</h3>
+                <h1 class="section-title mt-0 text-dark-grey font-weight-600 mb-4 mb-sm-9">Please check out our blog, <span class="text-orange">FULL STACK</span>, for more news and views from our end</h1> -->
                 <div class="media-list d-flex flex-wrap" id="ajax-posts-full">
                     <?php 
                     $args = array(

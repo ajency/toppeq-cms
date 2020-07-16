@@ -100,6 +100,9 @@
 					<li class="nav-item">
 						<a class="nav-link <?php if (is_page('careers')) { echo "active"; }?>" href="/careers">Careers</a>
 					</li>
+					<li class="nav-item">
+						<a class="nav-link <?php if (is_page('media-resources')) { echo "active"; }?>" href="/media-resources">Media</a>
+					</li>
 					<li class="nav-item ">
 						<a class="nav-link <?php if (is_page('toppeqs-response-to-covid-19')) { echo "active"; }?>" href="/toppeqs-response-to-covid-19/">COVID-19</a>
 					</li>
