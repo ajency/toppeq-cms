@@ -292,7 +292,7 @@ function more_post_ajax(){
 	while ( $loop->have_posts() ) : $loop->the_post();?>
 		
         <div class="m-wrap-outer d-flex w-33">
-            <a href="<?php the_permalink(); ?>" class="m-wrap flex-wrap mb-3 text-black text-decoration-none">
+            <a href="<?php the_field('source_link');?>" class="m-wrap flex-wrap mb-3 text-black text-decoration-none" target="_blank">
                 <?php 
                     $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'large');
                 ?>
@@ -346,7 +346,7 @@ function more_post_fullstack_ajax(){
 	while ( $loop->have_posts() ) : $loop->the_post();?>
 		
         <div class="m-wrap-outer d-flex w-33">
-            <a href="<?php the_permalink(); ?>" class="m-wrap flex-wrap mb-3 text-black text-decoration-none">
+            <a href="<?php the_field('source_link');?>" class="m-wrap flex-wrap mb-3 text-black text-decoration-none" target="_blank">
                 <?php 
                     $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'large');
                 ?>
