@@ -53,7 +53,7 @@ if (have_posts()) {
                         
                         if($index == 0) { ?> 
                             <div class="m-wrap-outer w-100 mb-3">
-                                <a href="<?php the_permalink(); ?>" class="m-wrap text-black text-decoration-none flex-row">
+                                <a href="<?php the_field('source_link');?>" class="m-wrap text-black text-decoration-none flex-row">
                                     <div class="m-image">
                                     <?php 
                                         $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'large');
@@ -68,7 +68,7 @@ if (have_posts()) {
                             </div>
                         <?php } else { ?>
                             <div class="m-wrap-outer d-flex <?php echo $classW; ?>">
-                                <a href="<?php the_permalink(); ?>" class="m-wrap flex-wrap mb-3 text-black text-decoration-none">
+                                <a href="<?php the_field('source_link');?>" class="m-wrap flex-wrap mb-3 text-black text-decoration-none">
                                     <?php 
                                         $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'large');
                                     ?>
@@ -140,7 +140,7 @@ if (have_posts()) {
                         
                         if($index == 0) { ?> 
                             <div class="m-wrap-outer w-100 mb-3">
-                                <a href="<?php the_permalink(); ?>" class="m-wrap text-black text-decoration-none flex-row">
+                                <a href="<?php the_field('source_link');?>" class="m-wrap text-black text-decoration-none flex-row">
                                     <div class="m-image">
                                     <?php 
                                         $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'large');
@@ -155,7 +155,7 @@ if (have_posts()) {
                             </div>
                         <?php } else { ?>
                             <div class="m-wrap-outer d-flex <?php echo $classW; ?>">
-                                <a href="<?php the_permalink(); ?>" class="m-wrap flex-wrap mb-3 text-black text-decoration-none">
+                                <a href="<?php the_field('source_link');?>" class="m-wrap flex-wrap mb-3 text-black text-decoration-none">
                                     <?php 
                                         $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'large');
                                     ?>
