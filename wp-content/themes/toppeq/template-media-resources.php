@@ -84,11 +84,11 @@ if (have_posts()) {
                         <?php } ?>
                     <?php $index ++; endwhile;  wp_reset_postdata();?>
                 </div>
-                <div class="center text-center">
+                <!-- <div class="center text-center">
                     <button id="more_posts" class="btn btn-sm btn-outline-primary py-1 mt-md-4 text-center" data-post_type = "media_resources" data-post_terms = "media-resources" data-posts_exclude='<?php echo json_encode($ids);?>' data-posts_pagenumber = "1">
                         View more
                     </button>
-                </div>
+                </div> -->
 
             </div>
             <div class="resources-block pt-3 pt-md-7 mb-3 mb-sm-2">
