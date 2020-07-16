@@ -71,7 +71,7 @@
 					<li class="nav-item click">
 						<a class="nav-link" href="<?php echo $urlP;?>">Pricing</a>
 					</li>
-					<li class="nav-item">
+					<!-- <li class="nav-item">
 						<a class="nav-link" href="/team">About Us</a>
 						<ul class="dropdown">
 							<li class="nav-item">
@@ -81,7 +81,7 @@
 								<a class="nav-link <?php if (is_page('careers')) { echo "active"; }?>" href="/careers">Careers</a>
 							</li>
 						</ul>
-					</li>
+					</li> -->
 					
 					<!-- <li class="nav-item">
 						<a class="nav-link" href="#">Media</a>
@@ -94,13 +94,23 @@
 							</li>
 						</ul>
 					</li> -->
+					<li class="nav-item">
+						<a class="nav-link <?php if (is_page('team')) { echo "active"; }?>" href="/team">Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link <?php if (is_page('careers')) { echo "active"; }?>" href="/careers">Careers</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link <?php if (is_page('toppeqs-response-to-covid-19')) { echo "active"; }?>" href="/toppeqs-response-to-covid-19/">COVID-19</a>
+					</li>
 					<li class="nav-item ">
 						<a class="nav-link <?php if (is_page('contact')) { echo "active"; }?>" href="/contact">Contact Us</a>
 					</li>
-					<li class="nav-item ">
-						<a class="nav-link <?php if (is_page('toppeqs-response-to-covid-19')) { echo "active"; }?>" href="/toppeqs-response-to-covid-19/">Toppeq’s Response To COVID-19</a>
-					</li>
 				</ul>
+                <div class="social-icons">
+                    <a href="https://twitter.com/toppeqx" class="text-orange mr-2 f-28" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/company/toppeq/" class="text-orange mr-2 f-28" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
 				<button class="btn-reset menu-close-btn">
 					<img class="no-hover" width="35" src="<?php echo get_template_directory_uri(); ?>/images/cross-icon.svg">
 					<img class="hover" width="35" src="<?php echo get_template_directory_uri(); ?>/images/cross-on-hover.svg">
