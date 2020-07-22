@@ -96,7 +96,7 @@ if (have_posts()) {
                 <div class="resources-block-left pb-3 pb-md-7">
                     <h3 class="m-0 text-white mb-2 mb-md-0 f-25"><?php the_field('r_section_title');?></h3>
                     <h1 class="m-0 text-white mb-2 mb-md-0"><?php the_field('r_section_sub_title');?></h1>
-                    <a href="<?php the_field('view_link');?>" target="_blank" class="btn-reset btn-white f-20">View Resources</a>
+                    <a href="<?php the_field('view_link');?>" target="_blank" class="btn-reset btn-white f-20">View</a>
                 </div>
                 <div class="resources-block-right">
                     <img src="<?php the_field('section_image');?>" class="img-fluid"/>
