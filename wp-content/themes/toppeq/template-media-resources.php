@@ -54,7 +54,7 @@ if (have_posts()) {
                         if($index == 0) { ?> 
                             <div class="m-wrap-outer w-100 mb-3">
                                 <a href="<?php the_field('source_link');?>" class="m-wrap text-black text-decoration-none flex-row" target="_blank">
-                                    <div class="m-image">
+                                    <div class="m-image pb-m-100">
                                     <?php 
                                         $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'large');
                                     ?>
@@ -142,7 +142,7 @@ if (have_posts()) {
                         if($index == 0) { ?> 
                             <div class="m-wrap-outer w-100 mb-3">
                                 <a href="<?php the_field('source_link');?>" class="m-wrap text-black text-decoration-none flex-row" target="_blank">
-                                    <div class="m-image">
+                                    <div class="m-image pb-m-100">
                                     <?php 
                                         $post_thumbnail_url = get_the_post_thumbnail_url($attachment_id,'large');
                                     ?>
