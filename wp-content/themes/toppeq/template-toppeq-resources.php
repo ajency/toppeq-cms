@@ -3,7 +3,7 @@
  * Template Name: Toppeq resources
  */
 if (isset($_GET["file"]) && !empty($_GET["file"])) {
-    $file = $_GET["file"];
+    $file = urldecode($_GET["file"]);
     $uploads = wp_upload_dir();
     $base_url = $uploads['baseurl'];
     if(is_ssl()){
