@@ -164,3 +164,9 @@
         margin-bottom: 150px !important;
     }
 }
+
+.pb-m-100{
+    @media (max-width: 575px) {
+        padding-bottom: 100%;
+    }
+}
