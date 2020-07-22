@@ -84,12 +84,13 @@ if (have_posts()) {
                         <?php } ?>
                     <?php $index ++; endwhile;  wp_reset_postdata();?>
                 </div>
-                <!-- <div class="center text-center">
-                    <button id="more_posts" class="btn btn-sm btn-outline-primary py-1 mt-md-4 text-center" data-post_type = "media_resources" data-post_terms = "media-resources" data-posts_exclude='<?php echo json_encode($ids);?>' data-posts_pagenumber = "1">
-                        View more
-                    </button>
-                </div> -->
-
+                <?php if($loop->max_num_pages > 1) { ?>
+                    <div class="center text-center">
+                        <button id="more_posts" class="btn btn-sm btn-outline-primary py-1 mt-md-4 text-center" data-post_type = "media_resources" data-post_terms = "media-resources" data-posts_exclude='<?php echo json_encode($ids);?>' data-posts_pagenumber = "1">
+                            View more
+                        </button>
+                    </div>
+                <?php } ?>
             </div>
             <div class="resources-block pt-3 pt-md-7 mb-3 mb-sm-2">
                 <div class="resources-block-left pb-3 pb-md-7">
@@ -171,7 +172,7 @@ if (have_posts()) {
                         <?php } ?>
                     <?php $index ++; endwhile;  wp_reset_postdata();?>
                 </div>
-                <?php if($loopF->post_count > 6) { ?>
+                <?php if($loopF->max_num_pages > 1) { ?>
                     <div class="centerF text-center">
                         <button id="more_posts_full" class="btn btn-sm btn-outline-primary py-1 mt-md-4 text-center" data-post_type = "media_resources" data-post_terms = "fullstack">
                             View more
