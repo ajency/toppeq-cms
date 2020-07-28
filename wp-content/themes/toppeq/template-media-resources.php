@@ -15,7 +15,7 @@ if (have_posts()) {
         <div class="container position-relative">
             <div class="mb-3 mb-md-7 bg-white">
                 <h3 class="section-title f-25 mb-2 font-weight-light mt-2 mt-sm-6 mb-3 text-uppercase"><?php the_title();?></h3>
-                <h1 class="section-title mt-0 text-dark-grey font-weight-600 mb-4 mb-sm-9">View TOPPEQ’s latest updates in the media</h1>
+                <h2 class="section-title mt-0 text-dark-grey font-weight-600 mb-4 mb-sm-9">View TOPPEQ’s latest updates in the media</h2>
                 <div class="media-list d-flex flex-wrap " id="ajax-posts">
                     <?php 
                     $args = array(
