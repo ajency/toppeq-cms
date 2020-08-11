@@ -45,13 +45,16 @@ get_header();
                             <h5 class="section-title text-left mb-2 font-weight-light mt-2 mt-sm-6 f-25 text-uppercase"><?php echo $project[0];?></h5>
 
                             <h1 class="section-title text-left mb-3 ml-0 mt-2 text-dark-grey font-weight-600"><?php the_title(); ?></h1>
-                            <h6 class="m-data-title font-weight-bold text-uppercase f-15" style="color: <?php the_field('media_name_color');?>"><?php the_field('media_name');?><?php the_field('profile_link');?></h6>
                             <?php 
                                 $postUrl = 'http' . ( isset( $_SERVER['HTTPS'] ) ? 's' : '' ) . '://' . "{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}"; 
                                 $title = urlencode(html_entity_decode(get_the_title(), ENT_COMPAT, 'UTF-8'));
                             ?>
 
-                            <div class="post-social-share ">
+                            <a href="<?php the_field('profile_link');?>">
+                                <h6 class="font-weight-bold position-static text-uppercase f-15" style="color: <?php the_field('media_name_color');?>"><?php the_field('media_name');?></h6>
+                            </a>
+
+                            <div class="post-social-share mt-2">
                                 <a href="https://twitter.com/intent/tweet?text=<?php echo $title; ?>&amp;url=<?php echo $postUrl; ?>&amp;via=WPCrumbs" class="text-orange mr-2 f-28" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                 <a href="https://www.linkedin.com/cws/share?url=<?php echo $postUrl; ?>" class="text-orange mr-2 f-28" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                 <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $postUrl; ?>" class="text-orange f-28" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
