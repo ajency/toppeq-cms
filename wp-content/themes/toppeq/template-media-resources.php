@@ -106,7 +106,9 @@ if (have_posts()) {
             </div>
             <div class="mb-3 mb-md-7 bg-white">
                 <h3 class="section-title f-25 mb-2 font-weight-light mt-2 mt-sm-6 mb-3 text-uppercase">FULL STACK</h3>
-                <h1 class="section-title mt-0 text-dark-grey font-weight-600 mb-4 mb-sm-9">Please check out our blog, <span class="text-orange">FULL STACK</span>, for more news and views from our end</h1>
+                <div class="page-content mb-0 pb-2">
+                    <h2 class="">Please check out our blog, <span class="text-orange">FULL STACK</span>, for more news and views from our end</h1>
+                </div>
                 <div class="media-list d-flex flex-wrap" id="ajax-posts-full">
                     <?php 
                     $args = array(

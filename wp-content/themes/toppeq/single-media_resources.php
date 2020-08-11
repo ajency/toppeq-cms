@@ -69,7 +69,10 @@ get_header();
                         
                             <div class="page-content single-post-content single-media mb-4 text-left ml-0">
                                 <?php the_content(); ?>
-
+                                <div class="author-details">
+                                    <p><?php the_field('author_name');?></p>
+                                    <p><?php the_field('author_designation');?></p>
+                                </div>
                                 <div class="post-social-share mt-3 mt-sm-9">
                                     <h3 class="section-title f-30 text-left mb-2 ">Share this article</h3>
                                     <a href="https://twitter.com/intent/tweet?text=<?php echo $title; ?>&amp;url=<?php echo $postUrl; ?>&amp;via=WPCrumbs" class="text-orange mr-2 f-28" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
