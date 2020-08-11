@@ -3111,4 +3111,17 @@ input[type="text"] , textarea{
 .social-icons{
     position: absolute;
     bottom: 10px;
+    @media (max-width: 425px){
+        bottom: 0;
+    }
+}
+.author-details{
+    .post-content{
+        p{
+            margin-bottom: 10px;
+            span{
+                color: #f16624;
+            }
+        }
+    }
 }
