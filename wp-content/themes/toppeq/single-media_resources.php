@@ -50,7 +50,7 @@ get_header();
                                 $title = urlencode(html_entity_decode(get_the_title(), ENT_COMPAT, 'UTF-8'));
                             ?>
 
-                            <a href="<?php the_field('profile_link');?>">
+                            <a href="<?php the_field('profile_link');?>" target="_blank" class="text-decoration-none">
                                 <h6 class="font-weight-bold position-static text-uppercase f-15" style="color: <?php the_field('media_name_color');?>"><?php the_field('media_name');?></h6>
                             </a>
 
