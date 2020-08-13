@@ -57,7 +57,7 @@ get_header();
                             <div class="post-social-share mt-2">
                                 <a href="https://twitter.com/intent/tweet?text=<?php echo $title; ?>&amp;url=<?php echo $postUrl; ?>&amp;via=WPCrumbs" class="text-orange mr-2 f-28" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                 <a href="https://www.linkedin.com/cws/share?url=<?php echo $postUrl; ?>" class="text-orange mr-2 f-28" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $postUrl; ?>" class="text-orange f-28" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <!-- <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $postUrl; ?>" class="text-orange f-28" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> -->
                             </div>
                             
                             <hr class="grey-separator mb-4"></hr>
@@ -76,7 +76,7 @@ get_header();
                                     <h3 class="section-title f-30 text-left mb-2 ">Share this article</h3>
                                     <a href="https://twitter.com/intent/tweet?text=<?php echo $title; ?>&amp;url=<?php echo $postUrl; ?>&amp;via=WPCrumbs" class="text-orange mr-2 f-28" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                     <a href="https://www.linkedin.com/cws/share?url=<?php echo $postUrl; ?>" class="text-orange mr-2 f-28" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                    <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $postUrl; ?>" class="text-orange f-28" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <!-- <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $postUrl; ?>" class="text-orange f-28" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> -->
                                 </div>
 
                                 <!-- <hr class="grey-separator"></hr> -->
