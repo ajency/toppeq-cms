@@ -153,7 +153,7 @@ if (have_posts()) {
                                         <img src="<?php echo $post_thumbnail_url ?>" />
                                     </div> 
                                     <div class="m-data">
-                                        <h6 class="m-data-title font-weight-bold text-uppercase f-15" style="color: <?php the_field('media_name_color');?>"><?php the_field('media_name');?></h6>
+                                        <h6 class="m-data-title font-weight-bold text-uppercase f-15" style="color: <?php the_field('media_name_color');?>">INSIGHTS</h6>
                                         <h2 class="m-data-post-title f-25 font-weight-600 mb-0 f-30"><?php the_title();?></h2>
                                     </div> 
                                 </a>
