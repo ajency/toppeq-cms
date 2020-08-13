@@ -105,9 +105,9 @@ if (have_posts()) {
                 </div>
             </div>
             <div class="mb-3 mb-md-7 bg-white">
-                <h3 class="section-title f-25 mb-2 font-weight-light mt-2 mt-sm-6 mb-3 text-uppercase">FULL STACK</h3>
+                <h3 class="section-title f-25 mb-2 font-weight-light mt-2 mt-sm-6 mb-3 text-uppercase">The Toppeq Blog</h3>
                 <div class="page-content mb-0 pb-2">
-                    <h2 class="">Please check out our blog, <span class="text-orange">FULL STACK</span>, for more news and views from our end</h1>
+                    <h2 class="">Please check out our blog, <span class="text-orange">FULLSTACK</span>, for more news and views from our end</h1>
                 </div>
                 <div class="media-list d-flex flex-wrap" id="ajax-posts-full">
                     <?php 
@@ -168,7 +168,7 @@ if (have_posts()) {
                                         <!-- <img src="<?php //echo $post_thumbnail_url ?>" /> -->
                                     </div> 
                                     <div class="m-data w-100 p-3">
-                                        <h6 class="m-data-title font-weight-bold position-static text-uppercase f-15" style="color: <?php the_field('media_name_color');?>"><?php the_field('media_name');?></h6>
+                                        <h6 class="m-data-title font-weight-bold position-static text-uppercase f-15" style="color: <?php the_field('media_name_color');?>">INSIGHTS</h6>
                                         <h2 class="m-data-post-title f-25 font-weight-600 mb-0 f-30"><?php the_title();?></h2>
                                     </div> 
                                 </a>
