@@ -107,7 +107,7 @@ if (have_posts()) {
             <div class="mb-3 mb-md-7 bg-white">
                 <h3 class="section-title f-25 mb-2 font-weight-light mt-2 mt-sm-6 mb-3 text-uppercase">The Toppeq Blog</h3>
                 <div class="page-content mb-0 pb-2">
-                    <h2 class="">Please check out our blog, <span class="text-orange">FULLSTACK</span>, for more news and views from our end</h1>
+                    <h2 class="">Please check out our blog, <span class="text-orange">FULL STACK</span>, for more news and views from our end</h1>
                 </div>
                 <div class="media-list d-flex flex-wrap" id="ajax-posts-full">
                     <?php 
