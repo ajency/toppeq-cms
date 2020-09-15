@@ -83,7 +83,7 @@ get_header();
                             </div>  
 
                             <div class="latest-articles mb-8 mb-sm-10">
-                                <!-- <h3 class="section-title f-30 text-left mb-2 text-dark-grey">Latest Articles</h3> -->
+                                <h3 class="section-title f-30 text-left mb-2 text-dark-grey">Latest Articles</h3>
                                 <div class="article-slider">
                                     <?php 
 
