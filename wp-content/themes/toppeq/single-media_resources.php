@@ -23,12 +23,12 @@ get_header();
                                 $terms = get_the_terms( $post->ID , array( 'media_category') );
                                     if ( !empty( $terms ) ) :
                                     $project = array();
+                                    $project_1 = array();
                                     foreach ( $terms as $term ) {
                                         $project[] = $term->slug;
+                                        $project_1[] = $term->name;
                                 }
                                 endif;
-
-                                var_dump($project[0]);
                         
                                 // $terms = get_the_terms( $post->ID , array( 'media_category') );
                                 // var_dump($terms);
@@ -44,7 +44,7 @@ get_header();
                                 //     $i++;
                                 // }
                             ?>
-                            <h5 class="section-title text-left mb-2 font-weight-light mt-2 mt-sm-6 f-25 text-uppercase"><?php echo $project[0];?></h5>
+                            <h5 class="section-title text-left mb-2 font-weight-light mt-2 mt-sm-6 f-25 text-uppercase"><?php echo $project_1[0];?></h5>
 
                             <h1 class="section-title text-left mb-3 ml-0 mt-2 text-dark-grey font-weight-600"><?php the_title(); ?></h1>
                             <?php 
