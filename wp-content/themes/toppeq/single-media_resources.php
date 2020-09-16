@@ -24,9 +24,11 @@ get_header();
                                     if ( !empty( $terms ) ) :
                                     $project = array();
                                     foreach ( $terms as $term ) {
-                                        $project[] = $term->name;
+                                        $project[] = $term->slug;
                                 }
                                 endif;
+
+                                var_dump($project[0]);
                         
                                 // $terms = get_the_terms( $post->ID , array( 'media_category') );
                                 // var_dump($terms);
