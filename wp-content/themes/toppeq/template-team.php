@@ -80,7 +80,7 @@ if (have_posts()) {
 											<h3 class="name"> Nandini Sankar <a href="https://www.linkedin.com/in/nandini-toppeq/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Founder</p>
 		                    			</div>
-	                                    <h4>Big picture person. Insomniac. Seahawks 12th Woman. Design fiend</h4>
+	                                    <h4>Big picture person. Insomniac. Seahawks 12th Woman. Design fiend.</h4>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -125,7 +125,7 @@ if (have_posts()) {
 											<h3 class="name"> Aditya Yadav <a href="https://www.linkedin.com/in/aditya-yadav-12a8453b/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Product Strategist</p>
 		                    			</div>
-	                                    <h4>Transforms ideas into products. Drawn to the ocean. Tom Hanks fan</h4>
+	                                    <h4>Transforms ideas into products. Drawn to the ocean. Tom Hanks fan.</h4>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -140,7 +140,7 @@ if (have_posts()) {
 											<h3 class="name"> Kaartik Malhotra <a href="https://www.linkedin.com/in/kaartikmalhotra14/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">UI/UX Strategist</p>
 		                    			</div>
-	                                    <h4>A potato trying to be a French fry</h4>
+	                                    <h4>A potato trying to be a French fry.</h4>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -170,7 +170,7 @@ if (have_posts()) {
 											<h3 class="name"> Aayush Tainwala <a href="https://www.linkedin.com/in/aayush-tainwala-38b41a25/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Legal Strategist</p>
 		                    			</div>
-	                                    <h4>Gets down to the nitty gritty.  Pianist. Never tires of watching The Big Short</h4>
+	                                    <h4>Gets down to the nitty gritty.  Pianist. Never tires of watching The Big Short.</h4>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -200,7 +200,7 @@ if (have_posts()) {
 											<h3 class="name"> Hema Radhakrishna <a href="https://www.linkedin.com/in/hema-radhakrishna-3510664/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Technology &amp; Product Strategist</p>
 		                    			</div>
-	                                    <h4>Discerns patterns in data. Global Citizen. Cruciverbalist. Wodehouse fan</h4>
+	                                    <h4>Discerns patterns in data. Global Citizen. Cruciverbalist. Wodehouse fan.</h4>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -215,7 +215,7 @@ if (have_posts()) {
 											<h3 class="name"> Nitin Edate <a href=" https://www.linkedin.com/in/nitin-edate-a91b1821/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Technology Strategist</p>
 		                    			</div>
-	                                    <h4>Always up for a challenge. Eats, breathes, and sleeps movies. Also loves Chicken Chilly</h4>
+	                                    <h4>Always up for a challenge. Eats, breathes, and sleeps movies. Also loves Chicken Chilly.</h4>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -245,7 +245,7 @@ if (have_posts()) {
 											<h3 class="name"> Nikhil Jain <a href="https://www.linkedin.com/in/nikhil-jain-050775169/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation">Technology Strategist</p>
 		                    			</div>
-	                                    <h4>Goes with the (task) flow. Has his own take on why Kattapa killed Baahubali. Firm believer in driving therapy</h4>
+	                                    <h4>Goes with the (task) flow. Has his own take on why Kattapa killed Baahubali. Firm believer in driving therapy.</h4>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -275,7 +275,7 @@ if (have_posts()) {
 											<h3 class="name"> Smitha Satish  <a href="https://www.linkedin.com/in/smitha-satish-2149071a3/" target="_blank" class="linkedin-link"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin" title="linkedin"></a></h3>
 		                        			<p class="designation"> Brand Liaison </p>
 		                    			</div>
-	                                    <h4>Connects people and dots. Current Candy Crush level : 1567. Always seeking a portal into a parallel universe</h4>
+	                                    <h4>Connects people and dots. Current Candy Crush level : 1567. Always seeking a portal into a parallel universe.</h4>
 	                                </div>
 	                            </div>
 	                        </div>
